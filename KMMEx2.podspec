@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name = 'KMMEx2'
   spec.version = '1.0.0'
-  spec.homepage = 'https://www.cocoapods.org'
+  spec.homepage = 'https://github.com/Advanced-Jewish-Technologies/KMMEx2'
   spec.source = { :git => 'https://github.com/Advanced-Jewish-Technologies/KMMEx2', :tag => s.version.to_s }
   spec.authors = 'DarkSatyr'
   spec.license = ''
