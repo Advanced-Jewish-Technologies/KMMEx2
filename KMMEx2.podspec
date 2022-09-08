@@ -7,6 +7,6 @@ Pod::Spec.new do |spec|
   spec.license = ''
   spec.summary = 'An example project'
   spec.static_framework = true
-  spec.vendored_frameworks = "ExampleProject.framework"
+  spec.vendored_frameworks = "ExampleProject.xcframework"
   spec.ios.deployment_target = '12.1'
 end

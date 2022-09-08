@@ -3,4 +3,6 @@ framework module ExampleProject {
 
     export *
     module * { export * }
+
+    use Foundation
 }
