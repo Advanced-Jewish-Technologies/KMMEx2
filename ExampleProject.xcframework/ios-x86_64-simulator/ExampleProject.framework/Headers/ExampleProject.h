@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class ExampleProjectServiceLocator, ExampleProjectTickerCompanion, ExampleProjectTicker, ExampleProjectWallet, ExampleProjectKotlinThrowable, ExampleProjectKotlinArray<T>, ExampleProjectKotlinException, ExampleProjectKotlinRuntimeException, ExampleProjectKotlinIllegalStateException, ExampleProjectKotlinx_serialization_coreSerializersModule, ExampleProjectKotlinx_serialization_coreSerialKind, ExampleProjectKotlinNothing;
+@class ExampleProjectWallet, ExampleProjectServiceLocator, ExampleProjectTickerCompanion, ExampleProjectTicker, ExampleProjectKotlinThrowable, ExampleProjectKotlinArray<T>, ExampleProjectKotlinException, ExampleProjectKotlinRuntimeException, ExampleProjectKotlinIllegalStateException, ExampleProjectKotlinx_serialization_coreSerializersModule, ExampleProjectKotlinx_serialization_coreSerialKind, ExampleProjectKotlinNothing;
 
 @protocol ExampleProjectKotlinKClassifier, ExampleProjectKotlinx_serialization_coreKSerializer, ExampleProjectKotlinx_serialization_coreEncoder, ExampleProjectKotlinx_serialization_coreSerialDescriptor, ExampleProjectKotlinx_serialization_coreSerializationStrategy, ExampleProjectKotlinx_serialization_coreDecoder, ExampleProjectKotlinx_serialization_coreDeserializationStrategy, ExampleProjectKotlinx_serialization_coreCompositeEncoder, ExampleProjectKotlinAnnotation, ExampleProjectKotlinx_serialization_coreCompositeDecoder, ExampleProjectKotlinIterator, ExampleProjectKotlinx_serialization_coreSerializersModuleCollector, ExampleProjectKotlinKClass, ExampleProjectKotlinKDeclarationContainer, ExampleProjectKotlinKAnnotatedElement;
 
@@ -150,6 +150,7 @@ __attribute__((swift_name("Greeting")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (NSString *)greeting __attribute__((swift_name("greeting()")));
+- (ExampleProjectWallet *)wallet __attribute__((swift_name("wallet()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -226,8 +227,8 @@ __attribute__((swift_name("Wallet")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("WalletKt")))
-@interface ExampleProjectWalletKt : ExampleProjectBase
+__attribute__((swift_name("GreetingKt")))
+@interface ExampleProjectGreetingKt : ExampleProjectBase
 + (ExampleProjectWallet *)WalletFn:(void (^)(ExampleProjectWallet *))fn __attribute__((swift_name("Wallet(fn:)")));
 @end;
 
