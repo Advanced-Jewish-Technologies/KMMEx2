@@ -205,7 +205,7 @@ __attribute__((swift_name("TickerNProvider")))
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 
 /**
- @note This method converts instances of CancellationException to errors.
+ @note This method converts instances of Exception to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getNetworkResponseWithCompletionHandler:(void (^)(ExampleProjectTicker * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getNetworkResponse(completionHandler:)")));
