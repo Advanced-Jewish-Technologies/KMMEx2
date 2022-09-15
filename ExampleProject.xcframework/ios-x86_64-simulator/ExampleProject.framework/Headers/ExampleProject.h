@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class ExampleProjectServiceLocator, ExampleProjectTickerCompanion, ExampleProjectTicker, ExampleProjectWallet, ExampleProjectKotlinThrowable, ExampleProjectKotlinArray<T>, ExampleProjectKotlinException, ExampleProjectKotlinRuntimeException, ExampleProjectKotlinIllegalStateException, ExampleProjectKotlinx_serialization_coreSerializersModule, ExampleProjectKotlinx_serialization_coreSerialKind, ExampleProjectKotlinNothing;
+@class ExampleProjectKotlinError, ExampleProjectServiceLocator, ExampleProjectTickerCompanion, ExampleProjectTicker, ExampleProjectWallet, ExampleProjectKotlinThrowable, ExampleProjectKotlinArray<T>, ExampleProjectKotlinException, ExampleProjectKotlinRuntimeException, ExampleProjectKotlinIllegalStateException, ExampleProjectKotlinx_serialization_coreSerializersModule, ExampleProjectKotlinx_serialization_coreSerialKind, ExampleProjectKotlinNothing;
 
-@protocol ExampleProjectKotlinKClassifier, ExampleProjectKotlinx_serialization_coreKSerializer, ExampleProjectKotlinx_serialization_coreEncoder, ExampleProjectKotlinx_serialization_coreSerialDescriptor, ExampleProjectKotlinx_serialization_coreSerializationStrategy, ExampleProjectKotlinx_serialization_coreDecoder, ExampleProjectKotlinx_serialization_coreDeserializationStrategy, ExampleProjectKotlinx_serialization_coreCompositeEncoder, ExampleProjectKotlinAnnotation, ExampleProjectKotlinx_serialization_coreCompositeDecoder, ExampleProjectKotlinIterator, ExampleProjectKotlinx_serialization_coreSerializersModuleCollector, ExampleProjectKotlinKClass, ExampleProjectKotlinKDeclarationContainer, ExampleProjectKotlinKAnnotatedElement;
+@protocol ExampleProjectResult, ExampleProjectKotlinKClassifier, ExampleProjectKotlinx_serialization_coreKSerializer, ExampleProjectKotlinx_serialization_coreEncoder, ExampleProjectKotlinx_serialization_coreSerialDescriptor, ExampleProjectKotlinx_serialization_coreSerializationStrategy, ExampleProjectKotlinx_serialization_coreDecoder, ExampleProjectKotlinx_serialization_coreDeserializationStrategy, ExampleProjectKotlinIterator, ExampleProjectKotlinx_serialization_coreCompositeEncoder, ExampleProjectKotlinAnnotation, ExampleProjectKotlinx_serialization_coreCompositeDecoder, ExampleProjectKotlinx_serialization_coreSerializersModuleCollector, ExampleProjectKotlinKClass, ExampleProjectKotlinKDeclarationContainer, ExampleProjectKotlinKAnnotatedElement;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -160,6 +160,23 @@ __attribute__((swift_name("Platform")))
 @property (readonly) NSString *platform __attribute__((swift_name("platform")));
 @end;
 
+__attribute__((swift_name("Result")))
+@protocol ExampleProjectResult
+@required
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ResultError")))
+@interface ExampleProjectResultError : ExampleProjectBase <ExampleProjectResult>
+- (instancetype)initWithReason:(ExampleProjectKotlinError *)reason __attribute__((swift_name("init(reason:)"))) __attribute__((objc_designated_initializer));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ResultSuccess")))
+@interface ExampleProjectResultSuccess<T> : ExampleProjectBase <ExampleProjectResult>
+- (instancetype)initWithData:(T _Nullable)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+@end;
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ServiceLocator")))
 @interface ExampleProjectServiceLocator : ExampleProjectBase
@@ -208,7 +225,7 @@ __attribute__((swift_name("TickerNProvider")))
  @note This method converts instances of Exception to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getNetworkResponseWithCompletionHandler:(void (^)(ExampleProjectTicker * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getNetworkResponse(completionHandler:)")));
+- (void)getNetworkResponseWithCompletionHandler:(void (^)(id<ExampleProjectResult> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getNetworkResponse(completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -221,7 +238,7 @@ __attribute__((swift_name("Wallet")))
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)fetchTickerWithCompletionHandler:(void (^)(ExampleProjectTicker * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("fetchTicker(completionHandler:)")));
+- (void)fetchTickerWithCompletionHandler:(void (^)(id<ExampleProjectResult> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("fetchTicker(completionHandler:)")));
 @property NSString *baseUrl __attribute__((swift_name("baseUrl")));
 @end;
 
@@ -229,6 +246,30 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("WalletKt")))
 @interface ExampleProjectWalletKt : ExampleProjectBase
 + (ExampleProjectWallet *)WalletFn:(void (^)(ExampleProjectWallet *))fn __attribute__((swift_name("Wallet(fn:)")));
+@end;
+
+__attribute__((swift_name("KotlinThrowable")))
+@interface ExampleProjectKotlinThrowable : ExampleProjectBase
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(ExampleProjectKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(ExampleProjectKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (ExampleProjectKotlinArray<NSString *> *)getStackTrace __attribute__((swift_name("getStackTrace()")));
+- (void)printStackTrace __attribute__((swift_name("printStackTrace()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) ExampleProjectKotlinThrowable * _Nullable cause __attribute__((swift_name("cause")));
+@property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
+- (NSError *)asError __attribute__((swift_name("asError()")));
+@end;
+
+__attribute__((swift_name("KotlinError")))
+@interface ExampleProjectKotlinError : ExampleProjectKotlinThrowable
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(ExampleProjectKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(ExampleProjectKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
 @end;
 
 __attribute__((swift_name("KotlinKClassifier")))
@@ -253,21 +294,6 @@ __attribute__((swift_name("Kotlinx_serialization_coreDeserializationStrategy")))
 __attribute__((swift_name("Kotlinx_serialization_coreKSerializer")))
 @protocol ExampleProjectKotlinx_serialization_coreKSerializer <ExampleProjectKotlinx_serialization_coreSerializationStrategy, ExampleProjectKotlinx_serialization_coreDeserializationStrategy>
 @required
-@end;
-
-__attribute__((swift_name("KotlinThrowable")))
-@interface ExampleProjectKotlinThrowable : ExampleProjectBase
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(ExampleProjectKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(ExampleProjectKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (ExampleProjectKotlinArray<NSString *> *)getStackTrace __attribute__((swift_name("getStackTrace()")));
-- (void)printStackTrace __attribute__((swift_name("printStackTrace()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) ExampleProjectKotlinThrowable * _Nullable cause __attribute__((swift_name("cause")));
-@property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
-- (NSError *)asError __attribute__((swift_name("asError()")));
 @end;
 
 __attribute__((swift_name("KotlinException")))
@@ -304,6 +330,18 @@ __attribute__((swift_name("KotlinCancellationException")))
 - (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithMessage:(NSString * _Nullable)message cause:(ExampleProjectKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithCause:(ExampleProjectKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinArray")))
+@interface ExampleProjectKotlinArray<T> : ExampleProjectBase
++ (instancetype)arrayWithSize:(int32_t)size init:(T _Nullable (^)(ExampleProjectInt *))init __attribute__((swift_name("init(size:init:)")));
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (T _Nullable)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (id<ExampleProjectKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
+- (void)setIndex:(int32_t)index value:(T _Nullable)value __attribute__((swift_name("set(index:value:)")));
+@property (readonly) int32_t size __attribute__((swift_name("size")));
 @end;
 
 __attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
@@ -367,16 +405,11 @@ __attribute__((swift_name("Kotlinx_serialization_coreDecoder")))
 @property (readonly) ExampleProjectKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
 @end;
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinArray")))
-@interface ExampleProjectKotlinArray<T> : ExampleProjectBase
-+ (instancetype)arrayWithSize:(int32_t)size init:(T _Nullable (^)(ExampleProjectInt *))init __attribute__((swift_name("init(size:init:)")));
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (T _Nullable)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
-- (id<ExampleProjectKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
-- (void)setIndex:(int32_t)index value:(T _Nullable)value __attribute__((swift_name("set(index:value:)")));
-@property (readonly) int32_t size __attribute__((swift_name("size")));
+__attribute__((swift_name("KotlinIterator")))
+@protocol ExampleProjectKotlinIterator
+@required
+- (BOOL)hasNext __attribute__((swift_name("hasNext()")));
+- (id _Nullable)next __attribute__((swift_name("next()")));
 @end;
 
 __attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
@@ -443,13 +476,6 @@ __attribute__((swift_name("Kotlinx_serialization_coreCompositeDecoder")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinNothing")))
 @interface ExampleProjectKotlinNothing : ExampleProjectBase
-@end;
-
-__attribute__((swift_name("KotlinIterator")))
-@protocol ExampleProjectKotlinIterator
-@required
-- (BOOL)hasNext __attribute__((swift_name("hasNext()")));
-- (id _Nullable)next __attribute__((swift_name("next()")));
 @end;
 
 __attribute__((swift_name("Kotlinx_serialization_coreSerializersModuleCollector")))
