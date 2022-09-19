@@ -183,6 +183,14 @@ __attribute__((swift_name("Deposit")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Greeting")))
+@interface ExampleProjectGreeting : ExampleProjectBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (NSString *)greeting __attribute__((swift_name("greeting()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ServiceLocator")))
 @interface ExampleProjectServiceLocator : ExampleProjectBase
 + (instancetype)alloc __attribute__((unavailable));
