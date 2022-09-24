@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class ExampleProjectAccessKey, ExampleProjectAccount, ExampleProjectFlowWrapper<T>, ExampleProjectPortfolio, ExampleProjectPortfolio_, ExampleProjectServiceLocator, ExampleProjectKtor_client_coreHttpClient, ExampleProjectAccountCompanion, ExampleProjectPortfolio_Companion, ExampleProjectWallet, ExampleProjectKotlinThrowable, ExampleProjectKotlinArray<T>, ExampleProjectKotlinException, ExampleProjectKotlinRuntimeException, ExampleProjectKotlinIllegalStateException, ExampleProjectKtor_client_coreHttpClientEngineConfig, ExampleProjectKtor_client_coreHttpClientConfig<T>, ExampleProjectKtor_eventsEvents, ExampleProjectKtor_client_coreHttpReceivePipeline, ExampleProjectKtor_client_coreHttpRequestPipeline, ExampleProjectKtor_client_coreHttpResponsePipeline, ExampleProjectKtor_client_coreHttpSendPipeline, ExampleProjectKtor_client_coreHttpRequestData, ExampleProjectKtor_client_coreHttpResponseData, ExampleProjectKotlinx_coroutines_coreCoroutineDispatcher, ExampleProjectKtor_client_coreProxyConfig, ExampleProjectKtor_utilsAttributeKey<T>, ExampleProjectKtor_eventsEventDefinition<T>, ExampleProjectKtor_utilsPipelinePhase, ExampleProjectKtor_utilsPipeline<TSubject, TContext>, ExampleProjectKtor_client_coreHttpReceivePipelinePhases, ExampleProjectKtor_client_coreHttpResponse, ExampleProjectKotlinUnit, ExampleProjectKtor_client_coreHttpRequestPipelinePhases, ExampleProjectKtor_client_coreHttpRequestBuilder, ExampleProjectKtor_client_coreHttpResponsePipelinePhases, ExampleProjectKtor_client_coreHttpResponseContainer, ExampleProjectKtor_client_coreHttpClientCall, ExampleProjectKtor_client_coreHttpSendPipelinePhases, ExampleProjectKotlinx_serialization_coreSerializersModule, ExampleProjectKotlinx_serialization_coreSerialKind, ExampleProjectKotlinNothing, ExampleProjectKtor_httpUrl, ExampleProjectKtor_httpHttpMethod, ExampleProjectKtor_httpOutgoingContent, ExampleProjectKtor_httpHttpStatusCode, ExampleProjectKtor_utilsGMTDate, ExampleProjectKtor_httpHttpProtocolVersion, ExampleProjectKotlinAbstractCoroutineContextElement, ExampleProjectKotlinx_coroutines_coreCoroutineDispatcherKey, ExampleProjectKtor_httpHeadersBuilder, ExampleProjectKtor_client_coreHttpRequestBuilderCompanion, ExampleProjectKtor_httpURLBuilder, ExampleProjectKtor_utilsTypeInfo, ExampleProjectKtor_client_coreHttpClientCallCompanion, ExampleProjectKtor_httpUrlCompanion, ExampleProjectKtor_httpURLProtocol, ExampleProjectKtor_httpHttpMethodCompanion, ExampleProjectKtor_httpContentType, ExampleProjectKotlinCancellationException, ExampleProjectKtor_httpHttpStatusCodeCompanion, ExampleProjectKtor_utilsGMTDateCompanion, ExampleProjectKtor_utilsWeekDay, ExampleProjectKtor_utilsMonth, ExampleProjectKtor_httpHttpProtocolVersionCompanion, ExampleProjectKotlinAbstractCoroutineContextKey<B, E>, ExampleProjectKtor_ioMemory, ExampleProjectKtor_ioChunkBuffer, ExampleProjectKotlinByteArray, ExampleProjectKtor_ioBuffer, ExampleProjectKtor_ioByteReadPacket, ExampleProjectKtor_utilsStringValuesBuilderImpl, ExampleProjectKtor_httpURLBuilderCompanion, ExampleProjectKtor_httpURLProtocolCompanion, ExampleProjectKtor_httpHeaderValueParam, ExampleProjectKtor_httpHeaderValueWithParametersCompanion, ExampleProjectKtor_httpHeaderValueWithParameters, ExampleProjectKtor_httpContentTypeCompanion, ExampleProjectKotlinEnumCompanion, ExampleProjectKotlinEnum<E>, ExampleProjectKtor_utilsWeekDayCompanion, ExampleProjectKtor_utilsMonthCompanion, ExampleProjectKtor_ioMemoryCompanion, ExampleProjectKtor_ioBufferCompanion, ExampleProjectKtor_ioChunkBufferCompanion, ExampleProjectKotlinByteIterator, ExampleProjectKtor_ioInputCompanion, ExampleProjectKtor_ioInput, ExampleProjectKtor_ioByteReadPacketCompanion, ExampleProjectKotlinKTypeProjection, ExampleProjectKotlinx_coroutines_coreAtomicDesc, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, ExampleProjectKotlinKVariance, ExampleProjectKotlinKTypeProjectionCompanion, ExampleProjectKotlinx_coroutines_coreAtomicOp<__contravariant T>, ExampleProjectKotlinx_coroutines_coreOpDescriptor, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
+@class ExampleProjectAccessKey, ExampleProjectAccount, ExampleProjectFlowWrapper<T>, ExampleProjectPortfolio, ExampleProjectFlowWrapper1<T>, ExampleProjectKotlinThrowable, ExampleProjectPortfolio_, ExampleProjectServiceLocator, ExampleProjectKtor_client_coreHttpClient, ExampleProjectAccountCompanion, ExampleProjectPortfolio_Companion, ExampleProjectWallet, ExampleProjectKotlinArray<T>, ExampleProjectKotlinException, ExampleProjectKotlinRuntimeException, ExampleProjectKotlinIllegalStateException, ExampleProjectKotlinCancellationException, ExampleProjectKtor_client_coreHttpClientEngineConfig, ExampleProjectKtor_client_coreHttpClientConfig<T>, ExampleProjectKtor_eventsEvents, ExampleProjectKtor_client_coreHttpReceivePipeline, ExampleProjectKtor_client_coreHttpRequestPipeline, ExampleProjectKtor_client_coreHttpResponsePipeline, ExampleProjectKtor_client_coreHttpSendPipeline, ExampleProjectKtor_client_coreHttpRequestData, ExampleProjectKtor_client_coreHttpResponseData, ExampleProjectKotlinx_coroutines_coreCoroutineDispatcher, ExampleProjectKtor_client_coreProxyConfig, ExampleProjectKtor_utilsAttributeKey<T>, ExampleProjectKtor_eventsEventDefinition<T>, ExampleProjectKtor_utilsPipelinePhase, ExampleProjectKtor_utilsPipeline<TSubject, TContext>, ExampleProjectKtor_client_coreHttpReceivePipelinePhases, ExampleProjectKtor_client_coreHttpResponse, ExampleProjectKotlinUnit, ExampleProjectKtor_client_coreHttpRequestPipelinePhases, ExampleProjectKtor_client_coreHttpRequestBuilder, ExampleProjectKtor_client_coreHttpResponsePipelinePhases, ExampleProjectKtor_client_coreHttpResponseContainer, ExampleProjectKtor_client_coreHttpClientCall, ExampleProjectKtor_client_coreHttpSendPipelinePhases, ExampleProjectKotlinx_serialization_coreSerializersModule, ExampleProjectKotlinx_serialization_coreSerialKind, ExampleProjectKotlinNothing, ExampleProjectKtor_httpUrl, ExampleProjectKtor_httpHttpMethod, ExampleProjectKtor_httpOutgoingContent, ExampleProjectKtor_httpHttpStatusCode, ExampleProjectKtor_utilsGMTDate, ExampleProjectKtor_httpHttpProtocolVersion, ExampleProjectKotlinAbstractCoroutineContextElement, ExampleProjectKotlinx_coroutines_coreCoroutineDispatcherKey, ExampleProjectKotlinx_coroutines_coreAtomicDesc, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, ExampleProjectKtor_httpHeadersBuilder, ExampleProjectKtor_client_coreHttpRequestBuilderCompanion, ExampleProjectKtor_httpURLBuilder, ExampleProjectKtor_utilsTypeInfo, ExampleProjectKtor_client_coreHttpClientCallCompanion, ExampleProjectKtor_httpUrlCompanion, ExampleProjectKtor_httpURLProtocol, ExampleProjectKtor_httpHttpMethodCompanion, ExampleProjectKtor_httpContentType, ExampleProjectKtor_httpHttpStatusCodeCompanion, ExampleProjectKtor_utilsGMTDateCompanion, ExampleProjectKtor_utilsWeekDay, ExampleProjectKtor_utilsMonth, ExampleProjectKtor_httpHttpProtocolVersionCompanion, ExampleProjectKotlinAbstractCoroutineContextKey<B, E>, ExampleProjectKotlinx_coroutines_coreAtomicOp<__contravariant T>, ExampleProjectKotlinx_coroutines_coreOpDescriptor, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, ExampleProjectKtor_ioMemory, ExampleProjectKtor_ioChunkBuffer, ExampleProjectKotlinByteArray, ExampleProjectKtor_ioBuffer, ExampleProjectKtor_ioByteReadPacket, ExampleProjectKtor_utilsStringValuesBuilderImpl, ExampleProjectKtor_httpURLBuilderCompanion, ExampleProjectKtor_httpURLProtocolCompanion, ExampleProjectKtor_httpHeaderValueParam, ExampleProjectKtor_httpHeaderValueWithParametersCompanion, ExampleProjectKtor_httpHeaderValueWithParameters, ExampleProjectKtor_httpContentTypeCompanion, ExampleProjectKotlinEnumCompanion, ExampleProjectKotlinEnum<E>, ExampleProjectKtor_utilsWeekDayCompanion, ExampleProjectKtor_utilsMonthCompanion, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>, ExampleProjectKtor_ioMemoryCompanion, ExampleProjectKtor_ioBufferCompanion, ExampleProjectKtor_ioChunkBufferCompanion, ExampleProjectKotlinByteIterator, ExampleProjectKtor_ioInputCompanion, ExampleProjectKtor_ioInput, ExampleProjectKtor_ioByteReadPacketCompanion, ExampleProjectKotlinKTypeProjection, ExampleProjectKotlinKVariance, ExampleProjectKotlinKTypeProjectionCompanion;
 
-@protocol ExampleProjectIDeposit, ExampleProjectIPortfolio, ExampleProjectKotlinKClassifier, ExampleProjectKotlinx_serialization_coreKSerializer, ExampleProjectKtor_client_coreHttpClientEngine, ExampleProjectKotlinCoroutineContext, ExampleProjectKotlinx_coroutines_coreCoroutineScope, ExampleProjectKtor_ioCloseable, ExampleProjectKtor_client_coreHttpClientEngineCapability, ExampleProjectKtor_utilsAttributes, ExampleProjectKotlinx_serialization_coreEncoder, ExampleProjectKotlinx_serialization_coreSerialDescriptor, ExampleProjectKotlinx_serialization_coreSerializationStrategy, ExampleProjectKotlinx_serialization_coreDecoder, ExampleProjectKotlinx_serialization_coreDeserializationStrategy, ExampleProjectKotlinIterator, ExampleProjectKotlinCoroutineContextElement, ExampleProjectKotlinCoroutineContextKey, ExampleProjectKtor_client_coreHttpClientPlugin, ExampleProjectKotlinx_coroutines_coreDisposableHandle, ExampleProjectKotlinSuspendFunction2, ExampleProjectKotlinx_serialization_coreCompositeEncoder, ExampleProjectKotlinAnnotation, ExampleProjectKotlinx_serialization_coreCompositeDecoder, ExampleProjectKtor_httpHeaders, ExampleProjectKotlinx_coroutines_coreJob, ExampleProjectKotlinContinuation, ExampleProjectKotlinContinuationInterceptor, ExampleProjectKotlinx_coroutines_coreRunnable, ExampleProjectKotlinFunction, ExampleProjectKtor_httpHttpMessage, ExampleProjectKtor_ioByteReadChannel, ExampleProjectKtor_httpHttpMessageBuilder, ExampleProjectKtor_client_coreHttpRequest, ExampleProjectKotlinx_serialization_coreSerializersModuleCollector, ExampleProjectKotlinKClass, ExampleProjectKtor_httpParameters, ExampleProjectKotlinMapEntry, ExampleProjectKtor_utilsStringValues, ExampleProjectKotlinx_coroutines_coreChildHandle, ExampleProjectKotlinx_coroutines_coreChildJob, ExampleProjectKotlinSequence, ExampleProjectKotlinx_coroutines_coreSelectClause0, ExampleProjectKotlinComparable, ExampleProjectKtor_ioReadSession, ExampleProjectKotlinSuspendFunction1, ExampleProjectKotlinAppendable, ExampleProjectKtor_utilsStringValuesBuilder, ExampleProjectKtor_httpParametersBuilder, ExampleProjectKotlinKType, ExampleProjectKotlinKDeclarationContainer, ExampleProjectKotlinKAnnotatedElement, ExampleProjectKotlinx_coroutines_coreParentJob, ExampleProjectKotlinx_coroutines_coreSelectInstance, ExampleProjectKotlinSuspendFunction0, ExampleProjectKtor_ioObjectPool;
+@protocol ExampleProjectIDeposit, ExampleProjectKotlinx_coroutines_coreFlow, ExampleProjectKotlinx_coroutines_coreJob, ExampleProjectKotlinx_coroutines_coreCoroutineScope, ExampleProjectIPortfolio, ExampleProjectKotlinKClassifier, ExampleProjectKotlinx_serialization_coreKSerializer, ExampleProjectKtor_client_coreHttpClientEngine, ExampleProjectKotlinx_coroutines_coreFlowCollector, ExampleProjectKotlinx_coroutines_coreChildHandle, ExampleProjectKotlinx_coroutines_coreChildJob, ExampleProjectKotlinx_coroutines_coreDisposableHandle, ExampleProjectKotlinSequence, ExampleProjectKotlinx_coroutines_coreSelectClause0, ExampleProjectKotlinCoroutineContextKey, ExampleProjectKotlinCoroutineContextElement, ExampleProjectKotlinCoroutineContext, ExampleProjectKtor_ioCloseable, ExampleProjectKtor_client_coreHttpClientEngineCapability, ExampleProjectKtor_utilsAttributes, ExampleProjectKotlinx_serialization_coreEncoder, ExampleProjectKotlinx_serialization_coreSerialDescriptor, ExampleProjectKotlinx_serialization_coreSerializationStrategy, ExampleProjectKotlinx_serialization_coreDecoder, ExampleProjectKotlinx_serialization_coreDeserializationStrategy, ExampleProjectKotlinIterator, ExampleProjectKotlinx_coroutines_coreParentJob, ExampleProjectKotlinx_coroutines_coreSelectInstance, ExampleProjectKotlinSuspendFunction0, ExampleProjectKtor_client_coreHttpClientPlugin, ExampleProjectKotlinSuspendFunction2, ExampleProjectKotlinx_serialization_coreCompositeEncoder, ExampleProjectKotlinAnnotation, ExampleProjectKotlinx_serialization_coreCompositeDecoder, ExampleProjectKtor_httpHeaders, ExampleProjectKotlinContinuation, ExampleProjectKotlinContinuationInterceptor, ExampleProjectKotlinx_coroutines_coreRunnable, ExampleProjectKotlinFunction, ExampleProjectKtor_httpHttpMessage, ExampleProjectKtor_ioByteReadChannel, ExampleProjectKtor_httpHttpMessageBuilder, ExampleProjectKtor_client_coreHttpRequest, ExampleProjectKotlinx_serialization_coreSerializersModuleCollector, ExampleProjectKotlinKClass, ExampleProjectKtor_httpParameters, ExampleProjectKotlinMapEntry, ExampleProjectKtor_utilsStringValues, ExampleProjectKotlinComparable, ExampleProjectKtor_ioReadSession, ExampleProjectKotlinSuspendFunction1, ExampleProjectKotlinAppendable, ExampleProjectKtor_utilsStringValuesBuilder, ExampleProjectKtor_httpParametersBuilder, ExampleProjectKotlinKType, ExampleProjectKotlinKDeclarationContainer, ExampleProjectKotlinKAnnotatedElement, ExampleProjectKtor_ioObjectPool;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -213,6 +213,8 @@ __attribute__((swift_name("FetchRequest")))
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (ExampleProjectFlowWrapper<ExampleProjectAccount *> *)fetchAccount __attribute__((swift_name("fetchAccount()")));
 - (ExampleProjectFlowWrapper<ExampleProjectPortfolio *> *)fetchPortfolio __attribute__((swift_name("fetchPortfolio()")));
+- (ExampleProjectFlowWrapper1<ExampleProjectPortfolio *> *)getPortfolio __attribute__((swift_name("getPortfolio()")));
+- (id<ExampleProjectKotlinx_coroutines_coreFlow>)getPortfolioStream __attribute__((swift_name("getPortfolioStream()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -221,6 +223,13 @@ __attribute__((swift_name("FlowWrapper")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @property T _Nullable value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FlowWrapper1")))
+@interface ExampleProjectFlowWrapper1<T> : ExampleProjectBase
+- (instancetype)initWithFlow:(id<ExampleProjectKotlinx_coroutines_coreFlow>)flow __attribute__((swift_name("init(flow:)"))) __attribute__((objc_designated_initializer));
+- (id<ExampleProjectKotlinx_coroutines_coreJob>)subscribeScope:(id<ExampleProjectKotlinx_coroutines_coreCoroutineScope>)scope onEach:(void (^)(T _Nullable))onEach onComplete:(void (^)(void))onComplete onThrow:(void (^)(ExampleProjectKotlinThrowable *))onThrow __attribute__((swift_name("subscribe(scope:onEach:onComplete:onThrow:)")));
 @end;
 
 __attribute__((swift_name("IPortfolio")))
@@ -411,15 +420,64 @@ __attribute__((swift_name("KotlinCancellationException")))
 - (instancetype)initWithCause:(ExampleProjectKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
 @end;
 
-__attribute__((swift_name("KotlinKClassifier")))
-@protocol ExampleProjectKotlinKClassifier
+__attribute__((swift_name("Kotlinx_coroutines_coreFlow")))
+@protocol ExampleProjectKotlinx_coroutines_coreFlow
 @required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)collectCollector:(id<ExampleProjectKotlinx_coroutines_coreFlowCollector>)collector completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("collect(collector:completionHandler:)")));
+@end;
+
+__attribute__((swift_name("KotlinCoroutineContext")))
+@protocol ExampleProjectKotlinCoroutineContext
+@required
+- (id _Nullable)foldInitial:(id _Nullable)initial operation:(id _Nullable (^)(id _Nullable, id<ExampleProjectKotlinCoroutineContextElement>))operation __attribute__((swift_name("fold(initial:operation:)")));
+- (id<ExampleProjectKotlinCoroutineContextElement> _Nullable)getKey:(id<ExampleProjectKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key:)")));
+- (id<ExampleProjectKotlinCoroutineContext>)minusKeyKey:(id<ExampleProjectKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key:)")));
+- (id<ExampleProjectKotlinCoroutineContext>)plusContext:(id<ExampleProjectKotlinCoroutineContext>)context __attribute__((swift_name("plus(context:)")));
+@end;
+
+__attribute__((swift_name("KotlinCoroutineContextElement")))
+@protocol ExampleProjectKotlinCoroutineContextElement <ExampleProjectKotlinCoroutineContext>
+@required
+@property (readonly) id<ExampleProjectKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreJob")))
+@protocol ExampleProjectKotlinx_coroutines_coreJob <ExampleProjectKotlinCoroutineContextElement>
+@required
+- (id<ExampleProjectKotlinx_coroutines_coreChildHandle>)attachChildChild:(id<ExampleProjectKotlinx_coroutines_coreChildJob>)child __attribute__((swift_name("attachChild(child:)")));
+- (void)cancelCause:(ExampleProjectKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
+- (ExampleProjectKotlinCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()")));
+- (id<ExampleProjectKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(ExampleProjectKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
+- (id<ExampleProjectKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionHandler:(void (^)(ExampleProjectKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)joinWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("join(completionHandler:)")));
+- (id<ExampleProjectKotlinx_coroutines_coreJob>)plusOther:(id<ExampleProjectKotlinx_coroutines_coreJob>)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`.")));
+- (BOOL)start __attribute__((swift_name("start()")));
+@property (readonly) id<ExampleProjectKotlinSequence> children __attribute__((swift_name("children")));
+@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
+@property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
+@property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted")));
+@property (readonly) id<ExampleProjectKotlinx_coroutines_coreSelectClause0> onJoin __attribute__((swift_name("onJoin")));
 @end;
 
 __attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))
 @protocol ExampleProjectKotlinx_coroutines_coreCoroutineScope
 @required
 @property (readonly) id<ExampleProjectKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
+@end;
+
+__attribute__((swift_name("KotlinKClassifier")))
+@protocol ExampleProjectKotlinKClassifier
+@required
 @end;
 
 __attribute__((swift_name("Ktor_ioCloseable")))
@@ -493,13 +551,51 @@ __attribute__((swift_name("KotlinArray")))
 @property (readonly) int32_t size __attribute__((swift_name("size")));
 @end;
 
-__attribute__((swift_name("KotlinCoroutineContext")))
-@protocol ExampleProjectKotlinCoroutineContext
+__attribute__((swift_name("Kotlinx_coroutines_coreFlowCollector")))
+@protocol ExampleProjectKotlinx_coroutines_coreFlowCollector
 @required
-- (id _Nullable)foldInitial:(id _Nullable)initial operation:(id _Nullable (^)(id _Nullable, id<ExampleProjectKotlinCoroutineContextElement>))operation __attribute__((swift_name("fold(initial:operation:)")));
-- (id<ExampleProjectKotlinCoroutineContextElement> _Nullable)getKey:(id<ExampleProjectKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key:)")));
-- (id<ExampleProjectKotlinCoroutineContext>)minusKeyKey:(id<ExampleProjectKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key:)")));
-- (id<ExampleProjectKotlinCoroutineContext>)plusContext:(id<ExampleProjectKotlinCoroutineContext>)context __attribute__((swift_name("plus(context:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)emitValue:(id _Nullable)value completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("emit(value:completionHandler:)")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreDisposableHandle")))
+@protocol ExampleProjectKotlinx_coroutines_coreDisposableHandle
+@required
+- (void)dispose __attribute__((swift_name("dispose()")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreChildHandle")))
+@protocol ExampleProjectKotlinx_coroutines_coreChildHandle <ExampleProjectKotlinx_coroutines_coreDisposableHandle>
+@required
+- (BOOL)childCancelledCause:(ExampleProjectKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
+@property (readonly) id<ExampleProjectKotlinx_coroutines_coreJob> _Nullable parent __attribute__((swift_name("parent")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreChildJob")))
+@protocol ExampleProjectKotlinx_coroutines_coreChildJob <ExampleProjectKotlinx_coroutines_coreJob>
+@required
+- (void)parentCancelledParentJob:(id<ExampleProjectKotlinx_coroutines_coreParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
+@end;
+
+__attribute__((swift_name("KotlinSequence")))
+@protocol ExampleProjectKotlinSequence
+@required
+- (id<ExampleProjectKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
+@protocol ExampleProjectKotlinx_coroutines_coreSelectClause0
+@required
+- (void)registerSelectClause0Select:(id<ExampleProjectKotlinx_coroutines_coreSelectInstance>)select block:(id<ExampleProjectKotlinSuspendFunction0>)block __attribute__((swift_name("registerSelectClause0(select:block:)")));
+@end;
+
+__attribute__((swift_name("KotlinCoroutineContextKey")))
+@protocol ExampleProjectKotlinCoroutineContextKey
+@required
 @end;
 
 __attribute__((swift_name("Ktor_client_coreHttpClientEngineConfig")))
@@ -711,12 +807,6 @@ __attribute__((swift_name("Ktor_client_coreHttpResponseData")))
 @property (readonly) ExampleProjectKtor_httpHttpProtocolVersion *version __attribute__((swift_name("version")));
 @end;
 
-__attribute__((swift_name("KotlinCoroutineContextElement")))
-@protocol ExampleProjectKotlinCoroutineContextElement <ExampleProjectKotlinCoroutineContext>
-@required
-@property (readonly) id<ExampleProjectKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
-@end;
-
 __attribute__((swift_name("KotlinAbstractCoroutineContextElement")))
 @interface ExampleProjectKotlinAbstractCoroutineContextElement : ExampleProjectBase <ExampleProjectKotlinCoroutineContextElement>
 - (instancetype)initWithKey:(id<ExampleProjectKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer));
@@ -741,7 +831,7 @@ __attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher")))
 - (id<ExampleProjectKotlinContinuation>)interceptContinuationContinuation:(id<ExampleProjectKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
 - (BOOL)isDispatchNeededContext:(id<ExampleProjectKotlinCoroutineContext>)context __attribute__((swift_name("isDispatchNeeded(context:)")));
 - (ExampleProjectKotlinx_coroutines_coreCoroutineDispatcher *)limitedParallelismParallelism:(int32_t)parallelism __attribute__((swift_name("limitedParallelism(parallelism:)")));
-- (ExampleProjectKotlinx_coroutines_coreCoroutineDispatcher *)plusOther:(ExampleProjectKotlinx_coroutines_coreCoroutineDispatcher *)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two CoroutineDispatcher objects is meaningless. CoroutineDispatcher is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The dispatcher to the right of `+` just replaces the dispatcher to the left.")));
+- (ExampleProjectKotlinx_coroutines_coreCoroutineDispatcher *)plusOther_:(ExampleProjectKotlinx_coroutines_coreCoroutineDispatcher *)other __attribute__((swift_name("plus(other_:)"))) __attribute__((unavailable("Operator '+' on two CoroutineDispatcher objects is meaningless. CoroutineDispatcher is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The dispatcher to the right of `+` just replaces the dispatcher to the left.")));
 - (void)releaseInterceptedContinuationContinuation:(id<ExampleProjectKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @end;
@@ -753,9 +843,38 @@ __attribute__((swift_name("KotlinIterator")))
 - (id _Nullable)next __attribute__((swift_name("next()")));
 @end;
 
-__attribute__((swift_name("KotlinCoroutineContextKey")))
-@protocol ExampleProjectKotlinCoroutineContextKey
+__attribute__((swift_name("Kotlinx_coroutines_coreParentJob")))
+@protocol ExampleProjectKotlinx_coroutines_coreParentJob <ExampleProjectKotlinx_coroutines_coreJob>
 @required
+- (ExampleProjectKotlinCancellationException *)getChildJobCancellationCause __attribute__((swift_name("getChildJobCancellationCause()")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSelectInstance")))
+@protocol ExampleProjectKotlinx_coroutines_coreSelectInstance
+@required
+- (void)disposeOnSelectHandle:(id<ExampleProjectKotlinx_coroutines_coreDisposableHandle>)handle __attribute__((swift_name("disposeOnSelect(handle:)")));
+- (id _Nullable)performAtomicTrySelectDesc:(ExampleProjectKotlinx_coroutines_coreAtomicDesc *)desc __attribute__((swift_name("performAtomicTrySelect(desc:)")));
+- (void)resumeSelectWithExceptionException:(ExampleProjectKotlinThrowable *)exception __attribute__((swift_name("resumeSelectWithException(exception:)")));
+- (BOOL)trySelect __attribute__((swift_name("trySelect()")));
+- (id _Nullable)trySelectOtherOtherOp:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp * _Nullable)otherOp __attribute__((swift_name("trySelectOther(otherOp:)")));
+@property (readonly) id<ExampleProjectKotlinContinuation> completion __attribute__((swift_name("completion")));
+@property (readonly) BOOL isSelected __attribute__((swift_name("isSelected")));
+@end;
+
+__attribute__((swift_name("KotlinFunction")))
+@protocol ExampleProjectKotlinFunction
+@required
+@end;
+
+__attribute__((swift_name("KotlinSuspendFunction0")))
+@protocol ExampleProjectKotlinSuspendFunction0 <ExampleProjectKotlinFunction>
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -790,23 +909,12 @@ __attribute__((swift_name("Ktor_eventsEventDefinition")))
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @end;
 
-__attribute__((swift_name("Kotlinx_coroutines_coreDisposableHandle")))
-@protocol ExampleProjectKotlinx_coroutines_coreDisposableHandle
-@required
-- (void)dispose __attribute__((swift_name("dispose()")));
-@end;
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Ktor_utilsPipelinePhase")))
 @interface ExampleProjectKtor_utilsPipelinePhase : ExampleProjectBase
 - (instancetype)initWithName:(NSString *)name __attribute__((swift_name("init(name:)"))) __attribute__((objc_designated_initializer));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString *name __attribute__((swift_name("name")));
-@end;
-
-__attribute__((swift_name("KotlinFunction")))
-@protocol ExampleProjectKotlinFunction
-@required
 @end;
 
 __attribute__((swift_name("KotlinSuspendFunction2")))
@@ -1111,29 +1219,6 @@ __attribute__((swift_name("Ktor_httpOutgoingContent")))
 @property (readonly) ExampleProjectKtor_httpHttpStatusCode * _Nullable status __attribute__((swift_name("status")));
 @end;
 
-__attribute__((swift_name("Kotlinx_coroutines_coreJob")))
-@protocol ExampleProjectKotlinx_coroutines_coreJob <ExampleProjectKotlinCoroutineContextElement>
-@required
-- (id<ExampleProjectKotlinx_coroutines_coreChildHandle>)attachChildChild:(id<ExampleProjectKotlinx_coroutines_coreChildJob>)child __attribute__((swift_name("attachChild(child:)")));
-- (void)cancelCause:(ExampleProjectKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
-- (ExampleProjectKotlinCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()")));
-- (id<ExampleProjectKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(ExampleProjectKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
-- (id<ExampleProjectKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionHandler:(void (^)(ExampleProjectKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)")));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)joinWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("join(completionHandler:)")));
-- (id<ExampleProjectKotlinx_coroutines_coreJob>)plusOther_:(id<ExampleProjectKotlinx_coroutines_coreJob>)other __attribute__((swift_name("plus(other_:)"))) __attribute__((unavailable("Operator '+' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`.")));
-- (BOOL)start __attribute__((swift_name("start()")));
-@property (readonly) id<ExampleProjectKotlinSequence> children __attribute__((swift_name("children")));
-@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
-@property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
-@property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted")));
-@property (readonly) id<ExampleProjectKotlinx_coroutines_coreSelectClause0> onJoin __attribute__((swift_name("onJoin")));
-@end;
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Ktor_httpHttpStatusCode")))
 @interface ExampleProjectKtor_httpHttpStatusCode : ExampleProjectBase
@@ -1228,6 +1313,40 @@ __attribute__((swift_name("Kotlinx_coroutines_coreRunnable")))
 @protocol ExampleProjectKotlinx_coroutines_coreRunnable
 @required
 - (void)run __attribute__((swift_name("run()")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreAtomicDesc")))
+@interface ExampleProjectKotlinx_coroutines_coreAtomicDesc : ExampleProjectBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)completeOp:(ExampleProjectKotlinx_coroutines_coreAtomicOp<id> *)op failure:(id _Nullable)failure __attribute__((swift_name("complete(op:failure:)")));
+- (id _Nullable)prepareOp:(ExampleProjectKotlinx_coroutines_coreAtomicOp<id> *)op __attribute__((swift_name("prepare(op:)")));
+@property ExampleProjectKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreOpDescriptor")))
+@interface ExampleProjectKotlinx_coroutines_coreOpDescriptor : ExampleProjectBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (BOOL)isEarlierThanThat:(ExampleProjectKotlinx_coroutines_coreOpDescriptor *)that __attribute__((swift_name("isEarlierThan(that:)")));
+- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) ExampleProjectKotlinx_coroutines_coreAtomicOp<id> * _Nullable atomicOp __attribute__((swift_name("atomicOp")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.PrepareOp")))
+@interface ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp : ExampleProjectKotlinx_coroutines_coreOpDescriptor
+- (instancetype)initWithAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)next desc:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *)desc __attribute__((swift_name("init(affected:next:desc:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (void)finishPrepare __attribute__((swift_name("finishPrepare()")));
+- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *affected __attribute__((swift_name("affected")));
+@property (readonly) ExampleProjectKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
+@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *desc __attribute__((swift_name("desc")));
+@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *next __attribute__((swift_name("next")));
 @end;
 
 __attribute__((swift_name("Ktor_ioByteReadChannel")))
@@ -1619,31 +1738,6 @@ __attribute__((swift_name("Ktor_httpContentType")))
 @property (readonly) NSString *contentType __attribute__((swift_name("contentType")));
 @end;
 
-__attribute__((swift_name("Kotlinx_coroutines_coreChildHandle")))
-@protocol ExampleProjectKotlinx_coroutines_coreChildHandle <ExampleProjectKotlinx_coroutines_coreDisposableHandle>
-@required
-- (BOOL)childCancelledCause:(ExampleProjectKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
-@property (readonly) id<ExampleProjectKotlinx_coroutines_coreJob> _Nullable parent __attribute__((swift_name("parent")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreChildJob")))
-@protocol ExampleProjectKotlinx_coroutines_coreChildJob <ExampleProjectKotlinx_coroutines_coreJob>
-@required
-- (void)parentCancelledParentJob:(id<ExampleProjectKotlinx_coroutines_coreParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
-@end;
-
-__attribute__((swift_name("KotlinSequence")))
-@protocol ExampleProjectKotlinSequence
-@required
-- (id<ExampleProjectKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
-@protocol ExampleProjectKotlinx_coroutines_coreSelectClause0
-@required
-- (void)registerSelectClause0Select:(id<ExampleProjectKotlinx_coroutines_coreSelectInstance>)select block:(id<ExampleProjectKotlinSuspendFunction0>)block __attribute__((swift_name("registerSelectClause0(select:block:)")));
-@end;
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Ktor_httpHttpStatusCode.Companion")))
 @interface ExampleProjectKtor_httpHttpStatusCodeCompanion : ExampleProjectBase
@@ -1784,6 +1878,61 @@ __attribute__((swift_name("Ktor_httpHttpProtocolVersion.Companion")))
 @property (readonly) ExampleProjectKtor_httpHttpProtocolVersion *HTTP_2_0 __attribute__((swift_name("HTTP_2_0")));
 @property (readonly) ExampleProjectKtor_httpHttpProtocolVersion *QUIC __attribute__((swift_name("QUIC")));
 @property (readonly) ExampleProjectKtor_httpHttpProtocolVersion *SPDY_3 __attribute__((swift_name("SPDY_3")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreAtomicOp")))
+@interface ExampleProjectKotlinx_coroutines_coreAtomicOp<__contravariant T> : ExampleProjectKotlinx_coroutines_coreOpDescriptor
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)completeAffected:(T _Nullable)affected failure:(id _Nullable)failure __attribute__((swift_name("complete(affected:failure:)")));
+- (id _Nullable)decideDecision:(id _Nullable)decision __attribute__((swift_name("decide(decision:)")));
+- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
+- (id _Nullable)prepareAffected:(T _Nullable)affected __attribute__((swift_name("prepare(affected:)")));
+@property (readonly) ExampleProjectKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
+@property (readonly) id _Nullable consensus __attribute__((swift_name("consensus")));
+@property (readonly) BOOL isDecided __attribute__((swift_name("isDecided")));
+@property (readonly) int64_t opSequence __attribute__((swift_name("opSequence")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode")))
+@interface ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode : ExampleProjectBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)addLastNode:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("addLast(node:)")));
+- (BOOL)addLastIfNode:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)node condition:(ExampleProjectBoolean *(^)(void))condition __attribute__((swift_name("addLastIf(node:condition:)")));
+- (BOOL)addLastIfPrevNode:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)node predicate:(ExampleProjectBoolean *(^)(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *))predicate __attribute__((swift_name("addLastIfPrev(node:predicate:)")));
+- (BOOL)addLastIfPrevAndIfNode:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)node predicate:(ExampleProjectBoolean *(^)(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *))predicate condition:(ExampleProjectBoolean *(^)(void))condition __attribute__((swift_name("addLastIfPrevAndIf(node:predicate:condition:)")));
+- (BOOL)addOneIfEmptyNode:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("addOneIfEmpty(node:)")));
+- (ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *> *)describeAddLastNode:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("describeAddLast(node:)")));
+- (ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *> *)describeRemoveFirst __attribute__((swift_name("describeRemoveFirst()")));
+- (void)helpRemove __attribute__((swift_name("helpRemove()")));
+- (ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)nextIfRemoved __attribute__((swift_name("nextIfRemoved()")));
+- (BOOL)remove __attribute__((swift_name("remove()")));
+- (id _Nullable)removeFirstIfIsInstanceOfOrPeekIfPredicate:(ExampleProjectBoolean *(^)(id _Nullable))predicate __attribute__((swift_name("removeFirstIfIsInstanceOfOrPeekIf(predicate:)")));
+- (ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)removeFirstOrNull __attribute__((swift_name("removeFirstOrNull()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BOOL isRemoved __attribute__((swift_name("isRemoved")));
+@property (readonly, getter=next_) id next __attribute__((swift_name("next")));
+@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *nextNode __attribute__((swift_name("nextNode")));
+@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *prevNode __attribute__((swift_name("prevNode")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.AbstractAtomicDesc")))
+@interface ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc : ExampleProjectKotlinx_coroutines_coreAtomicDesc
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)completeOp:(ExampleProjectKotlinx_coroutines_coreAtomicOp<id> *)op failure:(id _Nullable)failure __attribute__((swift_name("complete(op:failure:)")));
+- (id _Nullable)failureAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected __attribute__((swift_name("failure(affected:)")));
+- (void)finishOnSuccessAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
+- (void)finishPreparePrepareOp:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
+- (id _Nullable)onPreparePrepareOp:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("onPrepare(prepareOp:)")));
+- (void)onRemovedAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected __attribute__((swift_name("onRemoved(affected:)")));
+- (id _Nullable)prepareOp:(ExampleProjectKotlinx_coroutines_coreAtomicOp<id> *)op __attribute__((swift_name("prepare(op:)")));
+- (BOOL)retryAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
+- (ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(ExampleProjectKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
+- (id)updatedNextAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
+@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
+@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -2006,35 +2155,6 @@ __attribute__((swift_name("Ktor_httpContentType.Companion")))
 @property (readonly) ExampleProjectKtor_httpContentType *Any __attribute__((swift_name("Any")));
 @end;
 
-__attribute__((swift_name("Kotlinx_coroutines_coreParentJob")))
-@protocol ExampleProjectKotlinx_coroutines_coreParentJob <ExampleProjectKotlinx_coroutines_coreJob>
-@required
-- (ExampleProjectKotlinCancellationException *)getChildJobCancellationCause __attribute__((swift_name("getChildJobCancellationCause()")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreSelectInstance")))
-@protocol ExampleProjectKotlinx_coroutines_coreSelectInstance
-@required
-- (void)disposeOnSelectHandle:(id<ExampleProjectKotlinx_coroutines_coreDisposableHandle>)handle __attribute__((swift_name("disposeOnSelect(handle:)")));
-- (id _Nullable)performAtomicTrySelectDesc:(ExampleProjectKotlinx_coroutines_coreAtomicDesc *)desc __attribute__((swift_name("performAtomicTrySelect(desc:)")));
-- (void)resumeSelectWithExceptionException:(ExampleProjectKotlinThrowable *)exception __attribute__((swift_name("resumeSelectWithException(exception:)")));
-- (BOOL)trySelect __attribute__((swift_name("trySelect()")));
-- (id _Nullable)trySelectOtherOtherOp:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp * _Nullable)otherOp __attribute__((swift_name("trySelectOther(otherOp:)")));
-@property (readonly) id<ExampleProjectKotlinContinuation> completion __attribute__((swift_name("completion")));
-@property (readonly) BOOL isSelected __attribute__((swift_name("isSelected")));
-@end;
-
-__attribute__((swift_name("KotlinSuspendFunction0")))
-@protocol ExampleProjectKotlinSuspendFunction0 <ExampleProjectKotlinFunction>
-@required
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)invokeWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
-@end;
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinEnumCompanion")))
 @interface ExampleProjectKotlinEnumCompanion : ExampleProjectBase
@@ -2064,6 +2184,39 @@ __attribute__((swift_name("Ktor_utilsMonth.Companion")))
 @property (class, readonly, getter=shared) ExampleProjectKtor_utilsMonthCompanion *shared __attribute__((swift_name("shared")));
 - (ExampleProjectKtor_utilsMonth *)fromOrdinal:(int32_t)ordinal __attribute__((swift_name("from(ordinal:)")));
 - (ExampleProjectKtor_utilsMonth *)fromValue:(NSString *)value __attribute__((swift_name("from(value:)")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc")))
+@interface ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T> : ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc
+- (instancetype)initWithQueue:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)queue node:(T)node __attribute__((swift_name("init(queue:node:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (void)finishOnSuccessAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
+- (void)finishPreparePrepareOp:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
+- (BOOL)retryAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
+- (ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(ExampleProjectKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
+- (id)updatedNextAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
+@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
+@property (readonly) T node __attribute__((swift_name("node")));
+@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *originalNext __attribute__((swift_name("originalNext")));
+@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *queue __attribute__((swift_name("queue")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc")))
+@interface ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T> : ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc
+- (instancetype)initWithQueue:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)queue __attribute__((swift_name("init(queue:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (id _Nullable)failureAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected __attribute__((swift_name("failure(affected:)")));
+- (void)finishOnSuccessAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
+- (void)finishPreparePrepareOp:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
+- (BOOL)retryAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
+- (ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(ExampleProjectKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
+- (id)updatedNextAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
+@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
+@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
+@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *queue __attribute__((swift_name("queue")));
+@property (readonly) T _Nullable result __attribute__((swift_name("result")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -2150,40 +2303,6 @@ __attribute__((swift_name("KotlinKTypeProjection")))
 @property (readonly) ExampleProjectKotlinKVariance * _Nullable variance __attribute__((swift_name("variance")));
 @end;
 
-__attribute__((swift_name("Kotlinx_coroutines_coreAtomicDesc")))
-@interface ExampleProjectKotlinx_coroutines_coreAtomicDesc : ExampleProjectBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)completeOp:(ExampleProjectKotlinx_coroutines_coreAtomicOp<id> *)op failure:(id _Nullable)failure __attribute__((swift_name("complete(op:failure:)")));
-- (id _Nullable)prepareOp:(ExampleProjectKotlinx_coroutines_coreAtomicOp<id> *)op __attribute__((swift_name("prepare(op:)")));
-@property ExampleProjectKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreOpDescriptor")))
-@interface ExampleProjectKotlinx_coroutines_coreOpDescriptor : ExampleProjectBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (BOOL)isEarlierThanThat:(ExampleProjectKotlinx_coroutines_coreOpDescriptor *)that __attribute__((swift_name("isEarlierThan(that:)")));
-- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) ExampleProjectKotlinx_coroutines_coreAtomicOp<id> * _Nullable atomicOp __attribute__((swift_name("atomicOp")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.PrepareOp")))
-@interface ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp : ExampleProjectKotlinx_coroutines_coreOpDescriptor
-- (instancetype)initWithAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)next desc:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *)desc __attribute__((swift_name("init(affected:next:desc:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-- (void)finishPrepare __attribute__((swift_name("finishPrepare()")));
-- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *affected __attribute__((swift_name("affected")));
-@property (readonly) ExampleProjectKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
-@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *desc __attribute__((swift_name("desc")));
-@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *next __attribute__((swift_name("next")));
-@end;
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinKVariance")))
 @interface ExampleProjectKotlinKVariance : ExampleProjectKotlinEnum<ExampleProjectKotlinKVariance *>
@@ -2207,94 +2326,6 @@ __attribute__((swift_name("KotlinKTypeProjection.Companion")))
 - (ExampleProjectKotlinKTypeProjection *)covariantType:(id<ExampleProjectKotlinKType>)type __attribute__((swift_name("covariant(type:)")));
 - (ExampleProjectKotlinKTypeProjection *)invariantType:(id<ExampleProjectKotlinKType>)type __attribute__((swift_name("invariant(type:)")));
 @property (readonly) ExampleProjectKotlinKTypeProjection *STAR __attribute__((swift_name("STAR")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreAtomicOp")))
-@interface ExampleProjectKotlinx_coroutines_coreAtomicOp<__contravariant T> : ExampleProjectKotlinx_coroutines_coreOpDescriptor
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)completeAffected:(T _Nullable)affected failure:(id _Nullable)failure __attribute__((swift_name("complete(affected:failure:)")));
-- (id _Nullable)decideDecision:(id _Nullable)decision __attribute__((swift_name("decide(decision:)")));
-- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
-- (id _Nullable)prepareAffected:(T _Nullable)affected __attribute__((swift_name("prepare(affected:)")));
-@property (readonly) ExampleProjectKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
-@property (readonly) id _Nullable consensus __attribute__((swift_name("consensus")));
-@property (readonly) BOOL isDecided __attribute__((swift_name("isDecided")));
-@property (readonly) int64_t opSequence __attribute__((swift_name("opSequence")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode")))
-@interface ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode : ExampleProjectBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)addLastNode:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("addLast(node:)")));
-- (BOOL)addLastIfNode:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)node condition:(ExampleProjectBoolean *(^)(void))condition __attribute__((swift_name("addLastIf(node:condition:)")));
-- (BOOL)addLastIfPrevNode:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)node predicate:(ExampleProjectBoolean *(^)(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *))predicate __attribute__((swift_name("addLastIfPrev(node:predicate:)")));
-- (BOOL)addLastIfPrevAndIfNode:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)node predicate:(ExampleProjectBoolean *(^)(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *))predicate condition:(ExampleProjectBoolean *(^)(void))condition __attribute__((swift_name("addLastIfPrevAndIf(node:predicate:condition:)")));
-- (BOOL)addOneIfEmptyNode:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("addOneIfEmpty(node:)")));
-- (ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *> *)describeAddLastNode:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("describeAddLast(node:)")));
-- (ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *> *)describeRemoveFirst __attribute__((swift_name("describeRemoveFirst()")));
-- (void)helpRemove __attribute__((swift_name("helpRemove()")));
-- (ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)nextIfRemoved __attribute__((swift_name("nextIfRemoved()")));
-- (BOOL)remove __attribute__((swift_name("remove()")));
-- (id _Nullable)removeFirstIfIsInstanceOfOrPeekIfPredicate:(ExampleProjectBoolean *(^)(id _Nullable))predicate __attribute__((swift_name("removeFirstIfIsInstanceOfOrPeekIf(predicate:)")));
-- (ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)removeFirstOrNull __attribute__((swift_name("removeFirstOrNull()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) BOOL isRemoved __attribute__((swift_name("isRemoved")));
-@property (readonly, getter=next_) id next __attribute__((swift_name("next")));
-@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *nextNode __attribute__((swift_name("nextNode")));
-@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *prevNode __attribute__((swift_name("prevNode")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.AbstractAtomicDesc")))
-@interface ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc : ExampleProjectKotlinx_coroutines_coreAtomicDesc
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)completeOp:(ExampleProjectKotlinx_coroutines_coreAtomicOp<id> *)op failure:(id _Nullable)failure __attribute__((swift_name("complete(op:failure:)")));
-- (id _Nullable)failureAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected __attribute__((swift_name("failure(affected:)")));
-- (void)finishOnSuccessAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
-- (void)finishPreparePrepareOp:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
-- (id _Nullable)onPreparePrepareOp:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("onPrepare(prepareOp:)")));
-- (void)onRemovedAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected __attribute__((swift_name("onRemoved(affected:)")));
-- (id _Nullable)prepareOp:(ExampleProjectKotlinx_coroutines_coreAtomicOp<id> *)op __attribute__((swift_name("prepare(op:)")));
-- (BOOL)retryAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
-- (ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(ExampleProjectKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
-- (id)updatedNextAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
-@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
-@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc")))
-@interface ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T> : ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc
-- (instancetype)initWithQueue:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)queue node:(T)node __attribute__((swift_name("init(queue:node:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-- (void)finishOnSuccessAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
-- (void)finishPreparePrepareOp:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
-- (BOOL)retryAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
-- (ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(ExampleProjectKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
-- (id)updatedNextAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
-@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
-@property (readonly) T node __attribute__((swift_name("node")));
-@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *originalNext __attribute__((swift_name("originalNext")));
-@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *queue __attribute__((swift_name("queue")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc")))
-@interface ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T> : ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc
-- (instancetype)initWithQueue:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)queue __attribute__((swift_name("init(queue:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-- (id _Nullable)failureAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected __attribute__((swift_name("failure(affected:)")));
-- (void)finishOnSuccessAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
-- (void)finishPreparePrepareOp:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
-- (BOOL)retryAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
-- (ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(ExampleProjectKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
-- (id)updatedNextAffected:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
-@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
-@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
-@property (readonly) ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode *queue __attribute__((swift_name("queue")));
-@property (readonly) T _Nullable result __attribute__((swift_name("result")));
 @end;
 
 #pragma pop_macro("_Nullable_result")
