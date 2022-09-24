@@ -5,7 +5,7 @@
     <key>CFBundleExecutable</key>
     <string>ExampleProject</string>
     <key>CFBundleIdentifier</key>
-    <string>io.cex.wallet.api.ExampleProject</string>
+    <string>ExampleProject</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
