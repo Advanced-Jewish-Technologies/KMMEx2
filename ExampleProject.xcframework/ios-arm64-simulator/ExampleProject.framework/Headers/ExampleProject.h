@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class ExampleProjectAccessKey, ExampleProjectAccount, ExampleProjectServiceLocator, ExampleProjectTicker, ExampleProjectAccountCompanion, ExampleProjectKtor_client_coreHttpClient, ExampleProjectProvider, ExampleProjectTickerCompanion, ExampleProjectWallet, ExampleProjectKotlinThrowable, ExampleProjectKotlinArray<T>, ExampleProjectKotlinException, ExampleProjectKotlinRuntimeException, ExampleProjectKotlinIllegalStateException, ExampleProjectKtor_client_coreHttpClientEngineConfig, ExampleProjectKtor_client_coreHttpClientConfig<T>, ExampleProjectKtor_eventsEvents, ExampleProjectKtor_client_coreHttpReceivePipeline, ExampleProjectKtor_client_coreHttpRequestPipeline, ExampleProjectKtor_client_coreHttpResponsePipeline, ExampleProjectKtor_client_coreHttpSendPipeline, ExampleProjectKtor_client_coreHttpRequestData, ExampleProjectKtor_client_coreHttpResponseData, ExampleProjectKotlinx_coroutines_coreCoroutineDispatcher, ExampleProjectKotlinx_serialization_coreSerializersModule, ExampleProjectKotlinx_serialization_coreSerialKind, ExampleProjectKotlinNothing, ExampleProjectKtor_client_coreProxyConfig, ExampleProjectKtor_utilsAttributeKey<T>, ExampleProjectKtor_eventsEventDefinition<T>, ExampleProjectKtor_utilsPipelinePhase, ExampleProjectKtor_utilsPipeline<TSubject, TContext>, ExampleProjectKtor_client_coreHttpReceivePipelinePhases, ExampleProjectKtor_client_coreHttpResponse, ExampleProjectKotlinUnit, ExampleProjectKtor_client_coreHttpRequestPipelinePhases, ExampleProjectKtor_client_coreHttpRequestBuilder, ExampleProjectKtor_client_coreHttpResponsePipelinePhases, ExampleProjectKtor_client_coreHttpResponseContainer, ExampleProjectKtor_client_coreHttpClientCall, ExampleProjectKtor_client_coreHttpSendPipelinePhases, ExampleProjectKtor_httpUrl, ExampleProjectKtor_httpHttpMethod, ExampleProjectKtor_httpOutgoingContent, ExampleProjectKtor_httpHttpStatusCode, ExampleProjectKtor_utilsGMTDate, ExampleProjectKtor_httpHttpProtocolVersion, ExampleProjectKotlinAbstractCoroutineContextElement, ExampleProjectKotlinx_coroutines_coreCoroutineDispatcherKey, ExampleProjectKtor_httpHeadersBuilder, ExampleProjectKtor_client_coreHttpRequestBuilderCompanion, ExampleProjectKtor_httpURLBuilder, ExampleProjectKtor_utilsTypeInfo, ExampleProjectKtor_client_coreHttpClientCallCompanion, ExampleProjectKtor_httpUrlCompanion, ExampleProjectKtor_httpURLProtocol, ExampleProjectKtor_httpHttpMethodCompanion, ExampleProjectKtor_httpContentType, ExampleProjectKotlinCancellationException, ExampleProjectKtor_httpHttpStatusCodeCompanion, ExampleProjectKtor_utilsGMTDateCompanion, ExampleProjectKtor_utilsWeekDay, ExampleProjectKtor_utilsMonth, ExampleProjectKtor_httpHttpProtocolVersionCompanion, ExampleProjectKotlinAbstractCoroutineContextKey<B, E>, ExampleProjectKtor_ioMemory, ExampleProjectKtor_ioChunkBuffer, ExampleProjectKotlinByteArray, ExampleProjectKtor_ioBuffer, ExampleProjectKtor_ioByteReadPacket, ExampleProjectKtor_utilsStringValuesBuilderImpl, ExampleProjectKtor_httpURLBuilderCompanion, ExampleProjectKtor_httpURLProtocolCompanion, ExampleProjectKtor_httpHeaderValueParam, ExampleProjectKtor_httpHeaderValueWithParametersCompanion, ExampleProjectKtor_httpHeaderValueWithParameters, ExampleProjectKtor_httpContentTypeCompanion, ExampleProjectKotlinEnumCompanion, ExampleProjectKotlinEnum<E>, ExampleProjectKtor_utilsWeekDayCompanion, ExampleProjectKtor_utilsMonthCompanion, ExampleProjectKtor_ioMemoryCompanion, ExampleProjectKtor_ioBufferCompanion, ExampleProjectKtor_ioChunkBufferCompanion, ExampleProjectKotlinByteIterator, ExampleProjectKtor_ioInputCompanion, ExampleProjectKtor_ioInput, ExampleProjectKtor_ioByteReadPacketCompanion, ExampleProjectKotlinKTypeProjection, ExampleProjectKotlinx_coroutines_coreAtomicDesc, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, ExampleProjectKotlinKVariance, ExampleProjectKotlinKTypeProjectionCompanion, ExampleProjectKotlinx_coroutines_coreAtomicOp<__contravariant T>, ExampleProjectKotlinx_coroutines_coreOpDescriptor, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
+@class ExampleProjectAccessKey, ExampleProjectAccount, ExampleProjectPortfolio, ExampleProjectServiceLocator, ExampleProjectKtor_client_coreHttpClient, ExampleProjectAccountCompanion, ExampleProjectPortfolioCompanion, ExampleProjectWallet, ExampleProjectKotlinThrowable, ExampleProjectKotlinArray<T>, ExampleProjectKotlinException, ExampleProjectKotlinRuntimeException, ExampleProjectKotlinIllegalStateException, ExampleProjectKtor_client_coreHttpClientEngineConfig, ExampleProjectKtor_client_coreHttpClientConfig<T>, ExampleProjectKtor_eventsEvents, ExampleProjectKtor_client_coreHttpReceivePipeline, ExampleProjectKtor_client_coreHttpRequestPipeline, ExampleProjectKtor_client_coreHttpResponsePipeline, ExampleProjectKtor_client_coreHttpSendPipeline, ExampleProjectKtor_client_coreHttpRequestData, ExampleProjectKtor_client_coreHttpResponseData, ExampleProjectKotlinx_coroutines_coreCoroutineDispatcher, ExampleProjectKtor_client_coreProxyConfig, ExampleProjectKtor_utilsAttributeKey<T>, ExampleProjectKtor_eventsEventDefinition<T>, ExampleProjectKtor_utilsPipelinePhase, ExampleProjectKtor_utilsPipeline<TSubject, TContext>, ExampleProjectKtor_client_coreHttpReceivePipelinePhases, ExampleProjectKtor_client_coreHttpResponse, ExampleProjectKotlinUnit, ExampleProjectKtor_client_coreHttpRequestPipelinePhases, ExampleProjectKtor_client_coreHttpRequestBuilder, ExampleProjectKtor_client_coreHttpResponsePipelinePhases, ExampleProjectKtor_client_coreHttpResponseContainer, ExampleProjectKtor_client_coreHttpClientCall, ExampleProjectKtor_client_coreHttpSendPipelinePhases, ExampleProjectKotlinx_serialization_coreSerializersModule, ExampleProjectKotlinx_serialization_coreSerialKind, ExampleProjectKotlinNothing, ExampleProjectKtor_httpUrl, ExampleProjectKtor_httpHttpMethod, ExampleProjectKtor_httpOutgoingContent, ExampleProjectKtor_httpHttpStatusCode, ExampleProjectKtor_utilsGMTDate, ExampleProjectKtor_httpHttpProtocolVersion, ExampleProjectKotlinAbstractCoroutineContextElement, ExampleProjectKotlinx_coroutines_coreCoroutineDispatcherKey, ExampleProjectKtor_httpHeadersBuilder, ExampleProjectKtor_client_coreHttpRequestBuilderCompanion, ExampleProjectKtor_httpURLBuilder, ExampleProjectKtor_utilsTypeInfo, ExampleProjectKtor_client_coreHttpClientCallCompanion, ExampleProjectKtor_httpUrlCompanion, ExampleProjectKtor_httpURLProtocol, ExampleProjectKtor_httpHttpMethodCompanion, ExampleProjectKtor_httpContentType, ExampleProjectKotlinCancellationException, ExampleProjectKtor_httpHttpStatusCodeCompanion, ExampleProjectKtor_utilsGMTDateCompanion, ExampleProjectKtor_utilsWeekDay, ExampleProjectKtor_utilsMonth, ExampleProjectKtor_httpHttpProtocolVersionCompanion, ExampleProjectKotlinAbstractCoroutineContextKey<B, E>, ExampleProjectKtor_ioMemory, ExampleProjectKtor_ioChunkBuffer, ExampleProjectKotlinByteArray, ExampleProjectKtor_ioBuffer, ExampleProjectKtor_ioByteReadPacket, ExampleProjectKtor_utilsStringValuesBuilderImpl, ExampleProjectKtor_httpURLBuilderCompanion, ExampleProjectKtor_httpURLProtocolCompanion, ExampleProjectKtor_httpHeaderValueParam, ExampleProjectKtor_httpHeaderValueWithParametersCompanion, ExampleProjectKtor_httpHeaderValueWithParameters, ExampleProjectKtor_httpContentTypeCompanion, ExampleProjectKotlinEnumCompanion, ExampleProjectKotlinEnum<E>, ExampleProjectKtor_utilsWeekDayCompanion, ExampleProjectKtor_utilsMonthCompanion, ExampleProjectKtor_ioMemoryCompanion, ExampleProjectKtor_ioBufferCompanion, ExampleProjectKtor_ioChunkBufferCompanion, ExampleProjectKotlinByteIterator, ExampleProjectKtor_ioInputCompanion, ExampleProjectKtor_ioInput, ExampleProjectKtor_ioByteReadPacketCompanion, ExampleProjectKotlinKTypeProjection, ExampleProjectKotlinx_coroutines_coreAtomicDesc, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, ExampleProjectKotlinKVariance, ExampleProjectKotlinKTypeProjectionCompanion, ExampleProjectKotlinx_coroutines_coreAtomicOp<__contravariant T>, ExampleProjectKotlinx_coroutines_coreOpDescriptor, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
 
-@protocol ExampleProjectIDeposit, ExampleProjectKotlinKClassifier, ExampleProjectKotlinx_serialization_coreKSerializer, ExampleProjectKtor_client_coreHttpClientEngine, ExampleProjectKotlinx_serialization_coreEncoder, ExampleProjectKotlinx_serialization_coreSerialDescriptor, ExampleProjectKotlinx_serialization_coreSerializationStrategy, ExampleProjectKotlinx_serialization_coreDecoder, ExampleProjectKotlinx_serialization_coreDeserializationStrategy, ExampleProjectKotlinCoroutineContext, ExampleProjectKotlinx_coroutines_coreCoroutineScope, ExampleProjectKtor_ioCloseable, ExampleProjectKtor_client_coreHttpClientEngineCapability, ExampleProjectKtor_utilsAttributes, ExampleProjectKotlinIterator, ExampleProjectKotlinx_serialization_coreCompositeEncoder, ExampleProjectKotlinAnnotation, ExampleProjectKotlinx_serialization_coreCompositeDecoder, ExampleProjectKotlinCoroutineContextElement, ExampleProjectKotlinCoroutineContextKey, ExampleProjectKtor_client_coreHttpClientPlugin, ExampleProjectKotlinx_coroutines_coreDisposableHandle, ExampleProjectKotlinSuspendFunction2, ExampleProjectKtor_httpHeaders, ExampleProjectKotlinx_coroutines_coreJob, ExampleProjectKotlinContinuation, ExampleProjectKotlinContinuationInterceptor, ExampleProjectKotlinx_coroutines_coreRunnable, ExampleProjectKotlinx_serialization_coreSerializersModuleCollector, ExampleProjectKotlinKClass, ExampleProjectKotlinFunction, ExampleProjectKtor_httpHttpMessage, ExampleProjectKtor_ioByteReadChannel, ExampleProjectKtor_httpHttpMessageBuilder, ExampleProjectKtor_client_coreHttpRequest, ExampleProjectKtor_httpParameters, ExampleProjectKotlinMapEntry, ExampleProjectKtor_utilsStringValues, ExampleProjectKotlinx_coroutines_coreChildHandle, ExampleProjectKotlinx_coroutines_coreChildJob, ExampleProjectKotlinSequence, ExampleProjectKotlinx_coroutines_coreSelectClause0, ExampleProjectKotlinComparable, ExampleProjectKotlinKDeclarationContainer, ExampleProjectKotlinKAnnotatedElement, ExampleProjectKtor_ioReadSession, ExampleProjectKotlinSuspendFunction1, ExampleProjectKotlinAppendable, ExampleProjectKtor_utilsStringValuesBuilder, ExampleProjectKtor_httpParametersBuilder, ExampleProjectKotlinKType, ExampleProjectKotlinx_coroutines_coreParentJob, ExampleProjectKotlinx_coroutines_coreSelectInstance, ExampleProjectKotlinSuspendFunction0, ExampleProjectKtor_ioObjectPool;
+@protocol ExampleProjectIDeposit, ExampleProjectIPortfolio, ExampleProjectKotlinKClassifier, ExampleProjectKotlinx_serialization_coreKSerializer, ExampleProjectKtor_client_coreHttpClientEngine, ExampleProjectKotlinCoroutineContext, ExampleProjectKotlinx_coroutines_coreCoroutineScope, ExampleProjectKtor_ioCloseable, ExampleProjectKtor_client_coreHttpClientEngineCapability, ExampleProjectKtor_utilsAttributes, ExampleProjectKotlinx_serialization_coreEncoder, ExampleProjectKotlinx_serialization_coreSerialDescriptor, ExampleProjectKotlinx_serialization_coreSerializationStrategy, ExampleProjectKotlinx_serialization_coreDecoder, ExampleProjectKotlinx_serialization_coreDeserializationStrategy, ExampleProjectKotlinIterator, ExampleProjectKotlinCoroutineContextElement, ExampleProjectKotlinCoroutineContextKey, ExampleProjectKtor_client_coreHttpClientPlugin, ExampleProjectKotlinx_coroutines_coreDisposableHandle, ExampleProjectKotlinSuspendFunction2, ExampleProjectKotlinx_serialization_coreCompositeEncoder, ExampleProjectKotlinAnnotation, ExampleProjectKotlinx_serialization_coreCompositeDecoder, ExampleProjectKtor_httpHeaders, ExampleProjectKotlinx_coroutines_coreJob, ExampleProjectKotlinContinuation, ExampleProjectKotlinContinuationInterceptor, ExampleProjectKotlinx_coroutines_coreRunnable, ExampleProjectKotlinFunction, ExampleProjectKtor_httpHttpMessage, ExampleProjectKtor_ioByteReadChannel, ExampleProjectKtor_httpHttpMessageBuilder, ExampleProjectKtor_client_coreHttpRequest, ExampleProjectKotlinx_serialization_coreSerializersModuleCollector, ExampleProjectKotlinKClass, ExampleProjectKtor_httpParameters, ExampleProjectKotlinMapEntry, ExampleProjectKtor_utilsStringValues, ExampleProjectKotlinx_coroutines_coreChildHandle, ExampleProjectKotlinx_coroutines_coreChildJob, ExampleProjectKotlinSequence, ExampleProjectKotlinx_coroutines_coreSelectClause0, ExampleProjectKotlinComparable, ExampleProjectKtor_ioReadSession, ExampleProjectKotlinSuspendFunction1, ExampleProjectKotlinAppendable, ExampleProjectKtor_utilsStringValuesBuilder, ExampleProjectKtor_httpParametersBuilder, ExampleProjectKotlinKType, ExampleProjectKotlinKDeclarationContainer, ExampleProjectKotlinKAnnotatedElement, ExampleProjectKotlinx_coroutines_coreParentJob, ExampleProjectKotlinx_coroutines_coreSelectInstance, ExampleProjectKotlinSuspendFunction0, ExampleProjectKtor_ioObjectPool;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -167,6 +167,18 @@ __attribute__((swift_name("IDeposit")))
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)accountsWithCompletionHandler:(void (^)(NSArray<ExampleProjectAccount *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("accounts(completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)confirmWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("confirm(completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)operationWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("operation(completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -180,14 +192,42 @@ __attribute__((swift_name("Deposit")))
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)accountsWithCompletionHandler:(void (^)(NSArray<ExampleProjectAccount *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("accounts(completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)confirmWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("confirm(completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)operationWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("operation(completionHandler:)")));
+@end;
+
+__attribute__((swift_name("IPortfolio")))
+@protocol ExampleProjectIPortfolio
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)portfolioRateAsset:(NSString *)rateAsset asset:(NSString *)asset days:(int32_t)days completionHandler:(void (^)(NSArray<ExampleProjectPortfolio *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("portfolio(rateAsset:asset:days:completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Greeting")))
-@interface ExampleProjectGreeting : ExampleProjectBase
+__attribute__((swift_name("Portfolio_")))
+@interface ExampleProjectPortfolio_ : ExampleProjectBase <ExampleProjectIPortfolio>
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (NSString *)greeting __attribute__((swift_name("greeting()")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)portfolioRateAsset:(NSString *)rateAsset asset:(NSString *)asset days:(int32_t)days completionHandler:(void (^)(NSArray<ExampleProjectPortfolio *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("portfolio(rateAsset:asset:days:completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -203,18 +243,22 @@ __attribute__((swift_name("ServiceLocator")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("SocketCommunicator")))
+@interface ExampleProjectSocketCommunicator : ExampleProjectBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (readonly) ExampleProjectKtor_client_coreHttpClient *client __attribute__((swift_name("client")));
+@property (readonly) NSString *echo __attribute__((swift_name("echo")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Wallet")))
 @interface ExampleProjectWallet : ExampleProjectBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (void)authorizationFn:(ExampleProjectAccessKey *(^)(ExampleProjectInt *))fn __attribute__((swift_name("authorization(fn:)")));
 - (id<ExampleProjectIDeposit>)deposit __attribute__((swift_name("deposit()")));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)fetchTickerWithCompletionHandler:(void (^)(ExampleProjectTicker * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("fetchTicker(completionHandler:)")));
+- (id<ExampleProjectIPortfolio>)portfolio __attribute__((swift_name("portfolio()")));
 @property NSString *baseUrl __attribute__((swift_name("baseUrl")));
 @end;
 
@@ -245,64 +289,46 @@ __attribute__((swift_name("Account.Companion")))
 - (id<ExampleProjectKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
-__attribute__((swift_name("Provider")))
-@interface ExampleProjectProvider : ExampleProjectBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (readonly) ExampleProjectKtor_client_coreHttpClient *client __attribute__((swift_name("client")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("AccountsProvider")))
-@interface ExampleProjectAccountsProvider : ExampleProjectProvider
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+__attribute__((swift_name("IWithdrawal")))
+@protocol ExampleProjectIWithdrawal
+@required
 
 /**
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)accountsWithCompletionHandler:(void (^)(NSArray<ExampleProjectAccount *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("accounts(completionHandler:)")));
+- (void)confirmWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("confirm(completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)operationWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("operation(completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ticker")))
-@interface ExampleProjectTicker : ExampleProjectBase
-- (instancetype)initWithLprice:(NSString *)lprice curr1:(NSString *)curr1 curr2:(NSString *)curr2 __attribute__((swift_name("init(lprice:curr1:curr2:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) ExampleProjectTickerCompanion *companion __attribute__((swift_name("companion")));
+__attribute__((swift_name("Portfolio")))
+@interface ExampleProjectPortfolio : ExampleProjectBase
+- (instancetype)initWithDate:(NSString *)date stringValue:(NSString *)stringValue __attribute__((swift_name("init(date:stringValue:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) ExampleProjectPortfolioCompanion *companion __attribute__((swift_name("companion")));
 - (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (ExampleProjectTicker *)doCopyLprice:(NSString *)lprice curr1:(NSString *)curr1 curr2:(NSString *)curr2 __attribute__((swift_name("doCopy(lprice:curr1:curr2:)")));
+- (ExampleProjectPortfolio *)doCopyDate:(NSString *)date stringValue:(NSString *)stringValue __attribute__((swift_name("doCopy(date:stringValue:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *curr1 __attribute__((swift_name("curr1")));
-@property (readonly) NSString *curr2 __attribute__((swift_name("curr2")));
-@property (readonly) NSString *lprice __attribute__((swift_name("lprice")));
+@property (readonly) NSString *date __attribute__((swift_name("date")));
+@property (readonly) NSString *stringValue __attribute__((swift_name("stringValue")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ticker.Companion")))
-@interface ExampleProjectTickerCompanion : ExampleProjectBase
+__attribute__((swift_name("Portfolio.Companion")))
+@interface ExampleProjectPortfolioCompanion : ExampleProjectBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) ExampleProjectTickerCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) ExampleProjectPortfolioCompanion *shared __attribute__((swift_name("shared")));
 - (id<ExampleProjectKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("TickerRemoteProvider")))
-@interface ExampleProjectTickerRemoteProvider : ExampleProjectProvider
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-
-/**
- @note This method converts instances of Exception to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)getNetworkResponseWithCompletionHandler:(void (^)(ExampleProjectTicker * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getNetworkResponse(completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -373,25 +399,6 @@ __attribute__((swift_name("KotlinKClassifier")))
 @required
 @end;
 
-__attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
-@protocol ExampleProjectKotlinx_serialization_coreSerializationStrategy
-@required
-- (void)serializeEncoder:(id<ExampleProjectKotlinx_serialization_coreEncoder>)encoder value:(id _Nullable)value __attribute__((swift_name("serialize(encoder:value:)")));
-@property (readonly) id<ExampleProjectKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
-@end;
-
-__attribute__((swift_name("Kotlinx_serialization_coreDeserializationStrategy")))
-@protocol ExampleProjectKotlinx_serialization_coreDeserializationStrategy
-@required
-- (id _Nullable)deserializeDecoder:(id<ExampleProjectKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
-@property (readonly) id<ExampleProjectKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
-@end;
-
-__attribute__((swift_name("Kotlinx_serialization_coreKSerializer")))
-@protocol ExampleProjectKotlinx_serialization_coreKSerializer <ExampleProjectKotlinx_serialization_coreSerializationStrategy, ExampleProjectKotlinx_serialization_coreDeserializationStrategy>
-@required
-@end;
-
 __attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))
 @protocol ExampleProjectKotlinx_coroutines_coreCoroutineScope
 @required
@@ -423,6 +430,25 @@ __attribute__((swift_name("Ktor_client_coreHttpClient")))
 @property (readonly) ExampleProjectKtor_client_coreHttpSendPipeline *sendPipeline __attribute__((swift_name("sendPipeline")));
 @end;
 
+__attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
+@protocol ExampleProjectKotlinx_serialization_coreSerializationStrategy
+@required
+- (void)serializeEncoder:(id<ExampleProjectKotlinx_serialization_coreEncoder>)encoder value:(id _Nullable)value __attribute__((swift_name("serialize(encoder:value:)")));
+@property (readonly) id<ExampleProjectKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
+@end;
+
+__attribute__((swift_name("Kotlinx_serialization_coreDeserializationStrategy")))
+@protocol ExampleProjectKotlinx_serialization_coreDeserializationStrategy
+@required
+- (id _Nullable)deserializeDecoder:(id<ExampleProjectKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
+@property (readonly) id<ExampleProjectKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
+@end;
+
+__attribute__((swift_name("Kotlinx_serialization_coreKSerializer")))
+@protocol ExampleProjectKotlinx_serialization_coreKSerializer <ExampleProjectKotlinx_serialization_coreSerializationStrategy, ExampleProjectKotlinx_serialization_coreDeserializationStrategy>
+@required
+@end;
+
 __attribute__((swift_name("Ktor_client_coreHttpClientEngine")))
 @protocol ExampleProjectKtor_client_coreHttpClientEngine <ExampleProjectKotlinx_coroutines_coreCoroutineScope, ExampleProjectKtor_ioCloseable>
 @required
@@ -448,67 +474,6 @@ __attribute__((swift_name("KotlinArray")))
 - (id<ExampleProjectKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
 - (void)setIndex:(int32_t)index value:(T _Nullable)value __attribute__((swift_name("set(index:value:)")));
 @property (readonly) int32_t size __attribute__((swift_name("size")));
-@end;
-
-__attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
-@protocol ExampleProjectKotlinx_serialization_coreEncoder
-@required
-- (id<ExampleProjectKotlinx_serialization_coreCompositeEncoder>)beginCollectionDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor collectionSize:(int32_t)collectionSize __attribute__((swift_name("beginCollection(descriptor:collectionSize:)")));
-- (id<ExampleProjectKotlinx_serialization_coreCompositeEncoder>)beginStructureDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("beginStructure(descriptor:)")));
-- (void)encodeBooleanValue:(BOOL)value __attribute__((swift_name("encodeBoolean(value:)")));
-- (void)encodeByteValue:(int8_t)value __attribute__((swift_name("encodeByte(value:)")));
-- (void)encodeCharValue:(unichar)value __attribute__((swift_name("encodeChar(value:)")));
-- (void)encodeDoubleValue:(double)value __attribute__((swift_name("encodeDouble(value:)")));
-- (void)encodeEnumEnumDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)enumDescriptor index:(int32_t)index __attribute__((swift_name("encodeEnum(enumDescriptor:index:)")));
-- (void)encodeFloatValue:(float)value __attribute__((swift_name("encodeFloat(value:)")));
-- (id<ExampleProjectKotlinx_serialization_coreEncoder>)encodeInlineInlineDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)inlineDescriptor __attribute__((swift_name("encodeInline(inlineDescriptor:)")));
-- (void)encodeIntValue:(int32_t)value __attribute__((swift_name("encodeInt(value:)")));
-- (void)encodeLongValue:(int64_t)value __attribute__((swift_name("encodeLong(value:)")));
-- (void)encodeNotNullMark __attribute__((swift_name("encodeNotNullMark()")));
-- (void)encodeNull __attribute__((swift_name("encodeNull()")));
-- (void)encodeNullableSerializableValueSerializer:(id<ExampleProjectKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeNullableSerializableValue(serializer:value:)")));
-- (void)encodeSerializableValueSerializer:(id<ExampleProjectKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeSerializableValue(serializer:value:)")));
-- (void)encodeShortValue:(int16_t)value __attribute__((swift_name("encodeShort(value:)")));
-- (void)encodeStringValue:(NSString *)value __attribute__((swift_name("encodeString(value:)")));
-@property (readonly) ExampleProjectKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
-@end;
-
-__attribute__((swift_name("Kotlinx_serialization_coreSerialDescriptor")))
-@protocol ExampleProjectKotlinx_serialization_coreSerialDescriptor
-@required
-- (NSArray<id<ExampleProjectKotlinAnnotation>> *)getElementAnnotationsIndex:(int32_t)index __attribute__((swift_name("getElementAnnotations(index:)")));
-- (id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)getElementDescriptorIndex:(int32_t)index __attribute__((swift_name("getElementDescriptor(index:)")));
-- (int32_t)getElementIndexName:(NSString *)name __attribute__((swift_name("getElementIndex(name:)")));
-- (NSString *)getElementNameIndex:(int32_t)index __attribute__((swift_name("getElementName(index:)")));
-- (BOOL)isElementOptionalIndex:(int32_t)index __attribute__((swift_name("isElementOptional(index:)")));
-@property (readonly) NSArray<id<ExampleProjectKotlinAnnotation>> *annotations __attribute__((swift_name("annotations")));
-@property (readonly) int32_t elementsCount __attribute__((swift_name("elementsCount")));
-@property (readonly) BOOL isInline __attribute__((swift_name("isInline")));
-@property (readonly) BOOL isNullable __attribute__((swift_name("isNullable")));
-@property (readonly) ExampleProjectKotlinx_serialization_coreSerialKind *kind __attribute__((swift_name("kind")));
-@property (readonly) NSString *serialName __attribute__((swift_name("serialName")));
-@end;
-
-__attribute__((swift_name("Kotlinx_serialization_coreDecoder")))
-@protocol ExampleProjectKotlinx_serialization_coreDecoder
-@required
-- (id<ExampleProjectKotlinx_serialization_coreCompositeDecoder>)beginStructureDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("beginStructure(descriptor:)")));
-- (BOOL)decodeBoolean __attribute__((swift_name("decodeBoolean()")));
-- (int8_t)decodeByte __attribute__((swift_name("decodeByte()")));
-- (unichar)decodeChar __attribute__((swift_name("decodeChar()")));
-- (double)decodeDouble __attribute__((swift_name("decodeDouble()")));
-- (int32_t)decodeEnumEnumDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)enumDescriptor __attribute__((swift_name("decodeEnum(enumDescriptor:)")));
-- (float)decodeFloat __attribute__((swift_name("decodeFloat()")));
-- (id<ExampleProjectKotlinx_serialization_coreDecoder>)decodeInlineInlineDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)inlineDescriptor __attribute__((swift_name("decodeInline(inlineDescriptor:)")));
-- (int32_t)decodeInt __attribute__((swift_name("decodeInt()")));
-- (int64_t)decodeLong __attribute__((swift_name("decodeLong()")));
-- (BOOL)decodeNotNullMark __attribute__((swift_name("decodeNotNullMark()")));
-- (ExampleProjectKotlinNothing * _Nullable)decodeNull __attribute__((swift_name("decodeNull()")));
-- (id _Nullable)decodeNullableSerializableValueDeserializer:(id<ExampleProjectKotlinx_serialization_coreDeserializationStrategy>)deserializer __attribute__((swift_name("decodeNullableSerializableValue(deserializer:)")));
-- (id _Nullable)decodeSerializableValueDeserializer:(id<ExampleProjectKotlinx_serialization_coreDeserializationStrategy>)deserializer __attribute__((swift_name("decodeSerializableValue(deserializer:)")));
-- (int16_t)decodeShort __attribute__((swift_name("decodeShort()")));
-- (NSString *)decodeString __attribute__((swift_name("decodeString()")));
-@property (readonly) ExampleProjectKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
 @end;
 
 __attribute__((swift_name("KotlinCoroutineContext")))
@@ -640,6 +605,67 @@ __attribute__((swift_name("Ktor_client_coreHttpSendPipeline")))
 @property (readonly) BOOL developmentMode __attribute__((swift_name("developmentMode")));
 @end;
 
+__attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
+@protocol ExampleProjectKotlinx_serialization_coreEncoder
+@required
+- (id<ExampleProjectKotlinx_serialization_coreCompositeEncoder>)beginCollectionDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor collectionSize:(int32_t)collectionSize __attribute__((swift_name("beginCollection(descriptor:collectionSize:)")));
+- (id<ExampleProjectKotlinx_serialization_coreCompositeEncoder>)beginStructureDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("beginStructure(descriptor:)")));
+- (void)encodeBooleanValue:(BOOL)value __attribute__((swift_name("encodeBoolean(value:)")));
+- (void)encodeByteValue:(int8_t)value __attribute__((swift_name("encodeByte(value:)")));
+- (void)encodeCharValue:(unichar)value __attribute__((swift_name("encodeChar(value:)")));
+- (void)encodeDoubleValue:(double)value __attribute__((swift_name("encodeDouble(value:)")));
+- (void)encodeEnumEnumDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)enumDescriptor index:(int32_t)index __attribute__((swift_name("encodeEnum(enumDescriptor:index:)")));
+- (void)encodeFloatValue:(float)value __attribute__((swift_name("encodeFloat(value:)")));
+- (id<ExampleProjectKotlinx_serialization_coreEncoder>)encodeInlineInlineDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)inlineDescriptor __attribute__((swift_name("encodeInline(inlineDescriptor:)")));
+- (void)encodeIntValue:(int32_t)value __attribute__((swift_name("encodeInt(value:)")));
+- (void)encodeLongValue:(int64_t)value __attribute__((swift_name("encodeLong(value:)")));
+- (void)encodeNotNullMark __attribute__((swift_name("encodeNotNullMark()")));
+- (void)encodeNull __attribute__((swift_name("encodeNull()")));
+- (void)encodeNullableSerializableValueSerializer:(id<ExampleProjectKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeNullableSerializableValue(serializer:value:)")));
+- (void)encodeSerializableValueSerializer:(id<ExampleProjectKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeSerializableValue(serializer:value:)")));
+- (void)encodeShortValue:(int16_t)value __attribute__((swift_name("encodeShort(value:)")));
+- (void)encodeStringValue:(NSString *)value __attribute__((swift_name("encodeString(value:)")));
+@property (readonly) ExampleProjectKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end;
+
+__attribute__((swift_name("Kotlinx_serialization_coreSerialDescriptor")))
+@protocol ExampleProjectKotlinx_serialization_coreSerialDescriptor
+@required
+- (NSArray<id<ExampleProjectKotlinAnnotation>> *)getElementAnnotationsIndex:(int32_t)index __attribute__((swift_name("getElementAnnotations(index:)")));
+- (id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)getElementDescriptorIndex:(int32_t)index __attribute__((swift_name("getElementDescriptor(index:)")));
+- (int32_t)getElementIndexName:(NSString *)name __attribute__((swift_name("getElementIndex(name:)")));
+- (NSString *)getElementNameIndex:(int32_t)index __attribute__((swift_name("getElementName(index:)")));
+- (BOOL)isElementOptionalIndex:(int32_t)index __attribute__((swift_name("isElementOptional(index:)")));
+@property (readonly) NSArray<id<ExampleProjectKotlinAnnotation>> *annotations __attribute__((swift_name("annotations")));
+@property (readonly) int32_t elementsCount __attribute__((swift_name("elementsCount")));
+@property (readonly) BOOL isInline __attribute__((swift_name("isInline")));
+@property (readonly) BOOL isNullable __attribute__((swift_name("isNullable")));
+@property (readonly) ExampleProjectKotlinx_serialization_coreSerialKind *kind __attribute__((swift_name("kind")));
+@property (readonly) NSString *serialName __attribute__((swift_name("serialName")));
+@end;
+
+__attribute__((swift_name("Kotlinx_serialization_coreDecoder")))
+@protocol ExampleProjectKotlinx_serialization_coreDecoder
+@required
+- (id<ExampleProjectKotlinx_serialization_coreCompositeDecoder>)beginStructureDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("beginStructure(descriptor:)")));
+- (BOOL)decodeBoolean __attribute__((swift_name("decodeBoolean()")));
+- (int8_t)decodeByte __attribute__((swift_name("decodeByte()")));
+- (unichar)decodeChar __attribute__((swift_name("decodeChar()")));
+- (double)decodeDouble __attribute__((swift_name("decodeDouble()")));
+- (int32_t)decodeEnumEnumDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)enumDescriptor __attribute__((swift_name("decodeEnum(enumDescriptor:)")));
+- (float)decodeFloat __attribute__((swift_name("decodeFloat()")));
+- (id<ExampleProjectKotlinx_serialization_coreDecoder>)decodeInlineInlineDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)inlineDescriptor __attribute__((swift_name("decodeInline(inlineDescriptor:)")));
+- (int32_t)decodeInt __attribute__((swift_name("decodeInt()")));
+- (int64_t)decodeLong __attribute__((swift_name("decodeLong()")));
+- (BOOL)decodeNotNullMark __attribute__((swift_name("decodeNotNullMark()")));
+- (ExampleProjectKotlinNothing * _Nullable)decodeNull __attribute__((swift_name("decodeNull()")));
+- (id _Nullable)decodeNullableSerializableValueDeserializer:(id<ExampleProjectKotlinx_serialization_coreDeserializationStrategy>)deserializer __attribute__((swift_name("decodeNullableSerializableValue(deserializer:)")));
+- (id _Nullable)decodeSerializableValueDeserializer:(id<ExampleProjectKotlinx_serialization_coreDeserializationStrategy>)deserializer __attribute__((swift_name("decodeSerializableValue(deserializer:)")));
+- (int16_t)decodeShort __attribute__((swift_name("decodeShort()")));
+- (NSString *)decodeString __attribute__((swift_name("decodeString()")));
+@property (readonly) ExampleProjectKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end;
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Ktor_client_coreHttpRequestData")))
 @interface ExampleProjectKtor_client_coreHttpRequestData : ExampleProjectBase
@@ -708,72 +734,6 @@ __attribute__((swift_name("KotlinIterator")))
 @required
 - (BOOL)hasNext __attribute__((swift_name("hasNext()")));
 - (id _Nullable)next __attribute__((swift_name("next()")));
-@end;
-
-__attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
-@protocol ExampleProjectKotlinx_serialization_coreCompositeEncoder
-@required
-- (void)encodeBooleanElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(BOOL)value __attribute__((swift_name("encodeBooleanElement(descriptor:index:value:)")));
-- (void)encodeByteElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int8_t)value __attribute__((swift_name("encodeByteElement(descriptor:index:value:)")));
-- (void)encodeCharElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(unichar)value __attribute__((swift_name("encodeCharElement(descriptor:index:value:)")));
-- (void)encodeDoubleElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(double)value __attribute__((swift_name("encodeDoubleElement(descriptor:index:value:)")));
-- (void)encodeFloatElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(float)value __attribute__((swift_name("encodeFloatElement(descriptor:index:value:)")));
-- (id<ExampleProjectKotlinx_serialization_coreEncoder>)encodeInlineElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("encodeInlineElement(descriptor:index:)")));
-- (void)encodeIntElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int32_t)value __attribute__((swift_name("encodeIntElement(descriptor:index:value:)")));
-- (void)encodeLongElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int64_t)value __attribute__((swift_name("encodeLongElement(descriptor:index:value:)")));
-- (void)encodeNullableSerializableElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index serializer:(id<ExampleProjectKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeNullableSerializableElement(descriptor:index:serializer:value:)")));
-- (void)encodeSerializableElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index serializer:(id<ExampleProjectKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeSerializableElement(descriptor:index:serializer:value:)")));
-- (void)encodeShortElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int16_t)value __attribute__((swift_name("encodeShortElement(descriptor:index:value:)")));
-- (void)encodeStringElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(NSString *)value __attribute__((swift_name("encodeStringElement(descriptor:index:value:)")));
-- (void)endStructureDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("endStructure(descriptor:)")));
-- (BOOL)shouldEncodeElementDefaultDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("shouldEncodeElementDefault(descriptor:index:)")));
-@property (readonly) ExampleProjectKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
-@end;
-
-__attribute__((swift_name("Kotlinx_serialization_coreSerializersModule")))
-@interface ExampleProjectKotlinx_serialization_coreSerializersModule : ExampleProjectBase
-- (void)dumpToCollector:(id<ExampleProjectKotlinx_serialization_coreSerializersModuleCollector>)collector __attribute__((swift_name("dumpTo(collector:)")));
-- (id<ExampleProjectKotlinx_serialization_coreKSerializer> _Nullable)getContextualKClass:(id<ExampleProjectKotlinKClass>)kClass typeArgumentsSerializers:(NSArray<id<ExampleProjectKotlinx_serialization_coreKSerializer>> *)typeArgumentsSerializers __attribute__((swift_name("getContextual(kClass:typeArgumentsSerializers:)")));
-- (id<ExampleProjectKotlinx_serialization_coreSerializationStrategy> _Nullable)getPolymorphicBaseClass:(id<ExampleProjectKotlinKClass>)baseClass value:(id)value __attribute__((swift_name("getPolymorphic(baseClass:value:)")));
-- (id<ExampleProjectKotlinx_serialization_coreDeserializationStrategy> _Nullable)getPolymorphicBaseClass:(id<ExampleProjectKotlinKClass>)baseClass serializedClassName:(NSString * _Nullable)serializedClassName __attribute__((swift_name("getPolymorphic(baseClass:serializedClassName:)")));
-@end;
-
-__attribute__((swift_name("KotlinAnnotation")))
-@protocol ExampleProjectKotlinAnnotation
-@required
-@end;
-
-__attribute__((swift_name("Kotlinx_serialization_coreSerialKind")))
-@interface ExampleProjectKotlinx_serialization_coreSerialKind : ExampleProjectBase
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@end;
-
-__attribute__((swift_name("Kotlinx_serialization_coreCompositeDecoder")))
-@protocol ExampleProjectKotlinx_serialization_coreCompositeDecoder
-@required
-- (BOOL)decodeBooleanElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeBooleanElement(descriptor:index:)")));
-- (int8_t)decodeByteElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeByteElement(descriptor:index:)")));
-- (unichar)decodeCharElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeCharElement(descriptor:index:)")));
-- (int32_t)decodeCollectionSizeDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("decodeCollectionSize(descriptor:)")));
-- (double)decodeDoubleElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeDoubleElement(descriptor:index:)")));
-- (int32_t)decodeElementIndexDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("decodeElementIndex(descriptor:)")));
-- (float)decodeFloatElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeFloatElement(descriptor:index:)")));
-- (id<ExampleProjectKotlinx_serialization_coreDecoder>)decodeInlineElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeInlineElement(descriptor:index:)")));
-- (int32_t)decodeIntElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeIntElement(descriptor:index:)")));
-- (int64_t)decodeLongElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeLongElement(descriptor:index:)")));
-- (id _Nullable)decodeNullableSerializableElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index deserializer:(id<ExampleProjectKotlinx_serialization_coreDeserializationStrategy>)deserializer previousValue:(id _Nullable)previousValue __attribute__((swift_name("decodeNullableSerializableElement(descriptor:index:deserializer:previousValue:)")));
-- (BOOL)decodeSequentially __attribute__((swift_name("decodeSequentially()")));
-- (id _Nullable)decodeSerializableElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index deserializer:(id<ExampleProjectKotlinx_serialization_coreDeserializationStrategy>)deserializer previousValue:(id _Nullable)previousValue __attribute__((swift_name("decodeSerializableElement(descriptor:index:deserializer:previousValue:)")));
-- (int16_t)decodeShortElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeShortElement(descriptor:index:)")));
-- (NSString *)decodeStringElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeStringElement(descriptor:index:)")));
-- (void)endStructureDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("endStructure(descriptor:)")));
-@property (readonly) ExampleProjectKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinNothing")))
-@interface ExampleProjectKotlinNothing : ExampleProjectBase
 @end;
 
 __attribute__((swift_name("KotlinCoroutineContextKey")))
@@ -1000,6 +960,72 @@ __attribute__((swift_name("Ktor_client_coreHttpSendPipeline.Phases")))
 @property (readonly) ExampleProjectKtor_utilsPipelinePhase *State __attribute__((swift_name("State")));
 @end;
 
+__attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
+@protocol ExampleProjectKotlinx_serialization_coreCompositeEncoder
+@required
+- (void)encodeBooleanElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(BOOL)value __attribute__((swift_name("encodeBooleanElement(descriptor:index:value:)")));
+- (void)encodeByteElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int8_t)value __attribute__((swift_name("encodeByteElement(descriptor:index:value:)")));
+- (void)encodeCharElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(unichar)value __attribute__((swift_name("encodeCharElement(descriptor:index:value:)")));
+- (void)encodeDoubleElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(double)value __attribute__((swift_name("encodeDoubleElement(descriptor:index:value:)")));
+- (void)encodeFloatElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(float)value __attribute__((swift_name("encodeFloatElement(descriptor:index:value:)")));
+- (id<ExampleProjectKotlinx_serialization_coreEncoder>)encodeInlineElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("encodeInlineElement(descriptor:index:)")));
+- (void)encodeIntElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int32_t)value __attribute__((swift_name("encodeIntElement(descriptor:index:value:)")));
+- (void)encodeLongElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int64_t)value __attribute__((swift_name("encodeLongElement(descriptor:index:value:)")));
+- (void)encodeNullableSerializableElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index serializer:(id<ExampleProjectKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeNullableSerializableElement(descriptor:index:serializer:value:)")));
+- (void)encodeSerializableElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index serializer:(id<ExampleProjectKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeSerializableElement(descriptor:index:serializer:value:)")));
+- (void)encodeShortElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int16_t)value __attribute__((swift_name("encodeShortElement(descriptor:index:value:)")));
+- (void)encodeStringElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(NSString *)value __attribute__((swift_name("encodeStringElement(descriptor:index:value:)")));
+- (void)endStructureDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("endStructure(descriptor:)")));
+- (BOOL)shouldEncodeElementDefaultDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("shouldEncodeElementDefault(descriptor:index:)")));
+@property (readonly) ExampleProjectKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end;
+
+__attribute__((swift_name("Kotlinx_serialization_coreSerializersModule")))
+@interface ExampleProjectKotlinx_serialization_coreSerializersModule : ExampleProjectBase
+- (void)dumpToCollector:(id<ExampleProjectKotlinx_serialization_coreSerializersModuleCollector>)collector __attribute__((swift_name("dumpTo(collector:)")));
+- (id<ExampleProjectKotlinx_serialization_coreKSerializer> _Nullable)getContextualKClass:(id<ExampleProjectKotlinKClass>)kClass typeArgumentsSerializers:(NSArray<id<ExampleProjectKotlinx_serialization_coreKSerializer>> *)typeArgumentsSerializers __attribute__((swift_name("getContextual(kClass:typeArgumentsSerializers:)")));
+- (id<ExampleProjectKotlinx_serialization_coreSerializationStrategy> _Nullable)getPolymorphicBaseClass:(id<ExampleProjectKotlinKClass>)baseClass value:(id)value __attribute__((swift_name("getPolymorphic(baseClass:value:)")));
+- (id<ExampleProjectKotlinx_serialization_coreDeserializationStrategy> _Nullable)getPolymorphicBaseClass:(id<ExampleProjectKotlinKClass>)baseClass serializedClassName:(NSString * _Nullable)serializedClassName __attribute__((swift_name("getPolymorphic(baseClass:serializedClassName:)")));
+@end;
+
+__attribute__((swift_name("KotlinAnnotation")))
+@protocol ExampleProjectKotlinAnnotation
+@required
+@end;
+
+__attribute__((swift_name("Kotlinx_serialization_coreSerialKind")))
+@interface ExampleProjectKotlinx_serialization_coreSerialKind : ExampleProjectBase
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end;
+
+__attribute__((swift_name("Kotlinx_serialization_coreCompositeDecoder")))
+@protocol ExampleProjectKotlinx_serialization_coreCompositeDecoder
+@required
+- (BOOL)decodeBooleanElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeBooleanElement(descriptor:index:)")));
+- (int8_t)decodeByteElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeByteElement(descriptor:index:)")));
+- (unichar)decodeCharElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeCharElement(descriptor:index:)")));
+- (int32_t)decodeCollectionSizeDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("decodeCollectionSize(descriptor:)")));
+- (double)decodeDoubleElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeDoubleElement(descriptor:index:)")));
+- (int32_t)decodeElementIndexDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("decodeElementIndex(descriptor:)")));
+- (float)decodeFloatElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeFloatElement(descriptor:index:)")));
+- (id<ExampleProjectKotlinx_serialization_coreDecoder>)decodeInlineElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeInlineElement(descriptor:index:)")));
+- (int32_t)decodeIntElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeIntElement(descriptor:index:)")));
+- (int64_t)decodeLongElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeLongElement(descriptor:index:)")));
+- (id _Nullable)decodeNullableSerializableElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index deserializer:(id<ExampleProjectKotlinx_serialization_coreDeserializationStrategy>)deserializer previousValue:(id _Nullable)previousValue __attribute__((swift_name("decodeNullableSerializableElement(descriptor:index:deserializer:previousValue:)")));
+- (BOOL)decodeSequentially __attribute__((swift_name("decodeSequentially()")));
+- (id _Nullable)decodeSerializableElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index deserializer:(id<ExampleProjectKotlinx_serialization_coreDeserializationStrategy>)deserializer previousValue:(id _Nullable)previousValue __attribute__((swift_name("decodeSerializableElement(descriptor:index:deserializer:previousValue:)")));
+- (int16_t)decodeShortElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeShortElement(descriptor:index:)")));
+- (NSString *)decodeStringElementDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeStringElement(descriptor:index:)")));
+- (void)endStructureDescriptor:(id<ExampleProjectKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("endStructure(descriptor:)")));
+@property (readonly) ExampleProjectKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinNothing")))
+@interface ExampleProjectKotlinNothing : ExampleProjectBase
+@end;
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Ktor_httpUrl")))
 @interface ExampleProjectKtor_httpUrl : ExampleProjectBase
@@ -1185,35 +1211,6 @@ __attribute__((swift_name("Kotlinx_coroutines_coreRunnable")))
 @protocol ExampleProjectKotlinx_coroutines_coreRunnable
 @required
 - (void)run __attribute__((swift_name("run()")));
-@end;
-
-__attribute__((swift_name("Kotlinx_serialization_coreSerializersModuleCollector")))
-@protocol ExampleProjectKotlinx_serialization_coreSerializersModuleCollector
-@required
-- (void)contextualKClass:(id<ExampleProjectKotlinKClass>)kClass provider:(id<ExampleProjectKotlinx_serialization_coreKSerializer> (^)(NSArray<id<ExampleProjectKotlinx_serialization_coreKSerializer>> *))provider __attribute__((swift_name("contextual(kClass:provider:)")));
-- (void)contextualKClass:(id<ExampleProjectKotlinKClass>)kClass serializer:(id<ExampleProjectKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("contextual(kClass:serializer:)")));
-- (void)polymorphicBaseClass:(id<ExampleProjectKotlinKClass>)baseClass actualClass:(id<ExampleProjectKotlinKClass>)actualClass actualSerializer:(id<ExampleProjectKotlinx_serialization_coreKSerializer>)actualSerializer __attribute__((swift_name("polymorphic(baseClass:actualClass:actualSerializer:)")));
-- (void)polymorphicDefaultBaseClass:(id<ExampleProjectKotlinKClass>)baseClass defaultDeserializerProvider:(id<ExampleProjectKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultDeserializerProvider __attribute__((swift_name("polymorphicDefault(baseClass:defaultDeserializerProvider:)")));
-- (void)polymorphicDefaultDeserializerBaseClass:(id<ExampleProjectKotlinKClass>)baseClass defaultDeserializerProvider:(id<ExampleProjectKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultDeserializerProvider __attribute__((swift_name("polymorphicDefaultDeserializer(baseClass:defaultDeserializerProvider:)")));
-- (void)polymorphicDefaultSerializerBaseClass:(id<ExampleProjectKotlinKClass>)baseClass defaultSerializerProvider:(id<ExampleProjectKotlinx_serialization_coreSerializationStrategy> _Nullable (^)(id))defaultSerializerProvider __attribute__((swift_name("polymorphicDefaultSerializer(baseClass:defaultSerializerProvider:)")));
-@end;
-
-__attribute__((swift_name("KotlinKDeclarationContainer")))
-@protocol ExampleProjectKotlinKDeclarationContainer
-@required
-@end;
-
-__attribute__((swift_name("KotlinKAnnotatedElement")))
-@protocol ExampleProjectKotlinKAnnotatedElement
-@required
-@end;
-
-__attribute__((swift_name("KotlinKClass")))
-@protocol ExampleProjectKotlinKClass <ExampleProjectKotlinKDeclarationContainer, ExampleProjectKotlinKAnnotatedElement, ExampleProjectKotlinKClassifier>
-@required
-- (BOOL)isInstanceValue:(id _Nullable)value __attribute__((swift_name("isInstance(value:)")));
-@property (readonly) NSString * _Nullable qualifiedName __attribute__((swift_name("qualifiedName")));
-@property (readonly) NSString * _Nullable simpleName __attribute__((swift_name("simpleName")));
 @end;
 
 __attribute__((swift_name("Ktor_ioByteReadChannel")))
@@ -1494,6 +1491,35 @@ __attribute__((swift_name("Ktor_client_coreHttpRequest")))
 @property (readonly) ExampleProjectKtor_httpOutgoingContent *content __attribute__((swift_name("content")));
 @property (readonly) ExampleProjectKtor_httpHttpMethod *method __attribute__((swift_name("method")));
 @property (readonly) ExampleProjectKtor_httpUrl *url __attribute__((swift_name("url")));
+@end;
+
+__attribute__((swift_name("Kotlinx_serialization_coreSerializersModuleCollector")))
+@protocol ExampleProjectKotlinx_serialization_coreSerializersModuleCollector
+@required
+- (void)contextualKClass:(id<ExampleProjectKotlinKClass>)kClass provider:(id<ExampleProjectKotlinx_serialization_coreKSerializer> (^)(NSArray<id<ExampleProjectKotlinx_serialization_coreKSerializer>> *))provider __attribute__((swift_name("contextual(kClass:provider:)")));
+- (void)contextualKClass:(id<ExampleProjectKotlinKClass>)kClass serializer:(id<ExampleProjectKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("contextual(kClass:serializer:)")));
+- (void)polymorphicBaseClass:(id<ExampleProjectKotlinKClass>)baseClass actualClass:(id<ExampleProjectKotlinKClass>)actualClass actualSerializer:(id<ExampleProjectKotlinx_serialization_coreKSerializer>)actualSerializer __attribute__((swift_name("polymorphic(baseClass:actualClass:actualSerializer:)")));
+- (void)polymorphicDefaultBaseClass:(id<ExampleProjectKotlinKClass>)baseClass defaultDeserializerProvider:(id<ExampleProjectKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultDeserializerProvider __attribute__((swift_name("polymorphicDefault(baseClass:defaultDeserializerProvider:)")));
+- (void)polymorphicDefaultDeserializerBaseClass:(id<ExampleProjectKotlinKClass>)baseClass defaultDeserializerProvider:(id<ExampleProjectKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultDeserializerProvider __attribute__((swift_name("polymorphicDefaultDeserializer(baseClass:defaultDeserializerProvider:)")));
+- (void)polymorphicDefaultSerializerBaseClass:(id<ExampleProjectKotlinKClass>)baseClass defaultSerializerProvider:(id<ExampleProjectKotlinx_serialization_coreSerializationStrategy> _Nullable (^)(id))defaultSerializerProvider __attribute__((swift_name("polymorphicDefaultSerializer(baseClass:defaultSerializerProvider:)")));
+@end;
+
+__attribute__((swift_name("KotlinKDeclarationContainer")))
+@protocol ExampleProjectKotlinKDeclarationContainer
+@required
+@end;
+
+__attribute__((swift_name("KotlinKAnnotatedElement")))
+@protocol ExampleProjectKotlinKAnnotatedElement
+@required
+@end;
+
+__attribute__((swift_name("KotlinKClass")))
+@protocol ExampleProjectKotlinKClass <ExampleProjectKotlinKDeclarationContainer, ExampleProjectKotlinKAnnotatedElement, ExampleProjectKotlinKClassifier>
+@required
+- (BOOL)isInstanceValue:(id _Nullable)value __attribute__((swift_name("isInstance(value:)")));
+@property (readonly) NSString * _Nullable qualifiedName __attribute__((swift_name("qualifiedName")));
+@property (readonly) NSString * _Nullable simpleName __attribute__((swift_name("simpleName")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
