@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class ExampleProjectPortfolio, ExampleProjectFlowWrapper1<T>, ExampleProjectKotlinThrowable, ExampleProjectAccessKey, ExampleProjectAccount, ExampleProjectPortfolio_, ExampleProjectServiceLocator, ExampleProjectKtor_client_coreHttpClient, ExampleProjectAccountCompanion, ExampleProjectPortfolio_Companion, ExampleProjectWallet, ExampleProjectKotlinCancellationException, ExampleProjectKotlinArray<T>, ExampleProjectKotlinException, ExampleProjectKotlinRuntimeException, ExampleProjectKotlinIllegalStateException, ExampleProjectKtor_client_coreHttpClientEngineConfig, ExampleProjectKtor_client_coreHttpClientConfig<T>, ExampleProjectKtor_eventsEvents, ExampleProjectKtor_client_coreHttpReceivePipeline, ExampleProjectKtor_client_coreHttpRequestPipeline, ExampleProjectKtor_client_coreHttpResponsePipeline, ExampleProjectKtor_client_coreHttpSendPipeline, ExampleProjectKtor_client_coreHttpRequestData, ExampleProjectKtor_client_coreHttpResponseData, ExampleProjectKotlinx_coroutines_coreCoroutineDispatcher, ExampleProjectKtor_client_coreProxyConfig, ExampleProjectKtor_utilsAttributeKey<T>, ExampleProjectKtor_eventsEventDefinition<T>, ExampleProjectKtor_utilsPipelinePhase, ExampleProjectKtor_utilsPipeline<TSubject, TContext>, ExampleProjectKtor_client_coreHttpReceivePipelinePhases, ExampleProjectKtor_client_coreHttpResponse, ExampleProjectKotlinUnit, ExampleProjectKtor_client_coreHttpRequestPipelinePhases, ExampleProjectKtor_client_coreHttpRequestBuilder, ExampleProjectKtor_client_coreHttpResponsePipelinePhases, ExampleProjectKtor_client_coreHttpResponseContainer, ExampleProjectKtor_client_coreHttpClientCall, ExampleProjectKtor_client_coreHttpSendPipelinePhases, ExampleProjectKotlinx_serialization_coreSerializersModule, ExampleProjectKotlinx_serialization_coreSerialKind, ExampleProjectKotlinNothing, ExampleProjectKtor_httpUrl, ExampleProjectKtor_httpHttpMethod, ExampleProjectKtor_httpOutgoingContent, ExampleProjectKtor_httpHttpStatusCode, ExampleProjectKtor_utilsGMTDate, ExampleProjectKtor_httpHttpProtocolVersion, ExampleProjectKotlinAbstractCoroutineContextElement, ExampleProjectKotlinx_coroutines_coreCoroutineDispatcherKey, ExampleProjectKotlinx_coroutines_coreAtomicDesc, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, ExampleProjectKtor_httpHeadersBuilder, ExampleProjectKtor_client_coreHttpRequestBuilderCompanion, ExampleProjectKtor_httpURLBuilder, ExampleProjectKtor_utilsTypeInfo, ExampleProjectKtor_client_coreHttpClientCallCompanion, ExampleProjectKtor_httpUrlCompanion, ExampleProjectKtor_httpURLProtocol, ExampleProjectKtor_httpHttpMethodCompanion, ExampleProjectKtor_httpContentType, ExampleProjectKtor_httpHttpStatusCodeCompanion, ExampleProjectKtor_utilsGMTDateCompanion, ExampleProjectKtor_utilsWeekDay, ExampleProjectKtor_utilsMonth, ExampleProjectKtor_httpHttpProtocolVersionCompanion, ExampleProjectKotlinAbstractCoroutineContextKey<B, E>, ExampleProjectKotlinx_coroutines_coreAtomicOp<__contravariant T>, ExampleProjectKotlinx_coroutines_coreOpDescriptor, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, ExampleProjectKtor_ioMemory, ExampleProjectKtor_ioChunkBuffer, ExampleProjectKotlinByteArray, ExampleProjectKtor_ioBuffer, ExampleProjectKtor_ioByteReadPacket, ExampleProjectKtor_utilsStringValuesBuilderImpl, ExampleProjectKtor_httpURLBuilderCompanion, ExampleProjectKtor_httpURLProtocolCompanion, ExampleProjectKtor_httpHeaderValueParam, ExampleProjectKtor_httpHeaderValueWithParametersCompanion, ExampleProjectKtor_httpHeaderValueWithParameters, ExampleProjectKtor_httpContentTypeCompanion, ExampleProjectKotlinEnumCompanion, ExampleProjectKotlinEnum<E>, ExampleProjectKtor_utilsWeekDayCompanion, ExampleProjectKtor_utilsMonthCompanion, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>, ExampleProjectKtor_ioMemoryCompanion, ExampleProjectKtor_ioBufferCompanion, ExampleProjectKtor_ioChunkBufferCompanion, ExampleProjectKotlinByteIterator, ExampleProjectKtor_ioInputCompanion, ExampleProjectKtor_ioInput, ExampleProjectKtor_ioByteReadPacketCompanion, ExampleProjectKotlinKTypeProjection, ExampleProjectKotlinKVariance, ExampleProjectKotlinKTypeProjectionCompanion;
+@class ExampleProjectKotlinThrowable, ExampleProjectAccessKey, ExampleProjectAccount, ExampleProjectPortfolio, ExampleProjectFlowWrapper<T>, ExampleProjectServiceLocator, ExampleProjectKtor_client_coreHttpClient, ExampleProjectAccountCompanion, ExampleProjectPortfolioCompanion, ExampleProjectWallet, ExampleProjectKotlinCancellationException, ExampleProjectKotlinArray<T>, ExampleProjectKotlinException, ExampleProjectKotlinRuntimeException, ExampleProjectKotlinIllegalStateException, ExampleProjectKtor_client_coreHttpClientEngineConfig, ExampleProjectKtor_client_coreHttpClientConfig<T>, ExampleProjectKtor_eventsEvents, ExampleProjectKtor_client_coreHttpReceivePipeline, ExampleProjectKtor_client_coreHttpRequestPipeline, ExampleProjectKtor_client_coreHttpResponsePipeline, ExampleProjectKtor_client_coreHttpSendPipeline, ExampleProjectKtor_client_coreHttpRequestData, ExampleProjectKtor_client_coreHttpResponseData, ExampleProjectKotlinx_coroutines_coreCoroutineDispatcher, ExampleProjectKtor_client_coreProxyConfig, ExampleProjectKtor_utilsAttributeKey<T>, ExampleProjectKtor_eventsEventDefinition<T>, ExampleProjectKtor_utilsPipelinePhase, ExampleProjectKtor_utilsPipeline<TSubject, TContext>, ExampleProjectKtor_client_coreHttpReceivePipelinePhases, ExampleProjectKtor_client_coreHttpResponse, ExampleProjectKotlinUnit, ExampleProjectKtor_client_coreHttpRequestPipelinePhases, ExampleProjectKtor_client_coreHttpRequestBuilder, ExampleProjectKtor_client_coreHttpResponsePipelinePhases, ExampleProjectKtor_client_coreHttpResponseContainer, ExampleProjectKtor_client_coreHttpClientCall, ExampleProjectKtor_client_coreHttpSendPipelinePhases, ExampleProjectKotlinx_serialization_coreSerializersModule, ExampleProjectKotlinx_serialization_coreSerialKind, ExampleProjectKotlinNothing, ExampleProjectKtor_httpUrl, ExampleProjectKtor_httpHttpMethod, ExampleProjectKtor_httpOutgoingContent, ExampleProjectKtor_httpHttpStatusCode, ExampleProjectKtor_utilsGMTDate, ExampleProjectKtor_httpHttpProtocolVersion, ExampleProjectKotlinAbstractCoroutineContextElement, ExampleProjectKotlinx_coroutines_coreCoroutineDispatcherKey, ExampleProjectKotlinx_coroutines_coreAtomicDesc, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, ExampleProjectKtor_httpHeadersBuilder, ExampleProjectKtor_client_coreHttpRequestBuilderCompanion, ExampleProjectKtor_httpURLBuilder, ExampleProjectKtor_utilsTypeInfo, ExampleProjectKtor_client_coreHttpClientCallCompanion, ExampleProjectKtor_httpUrlCompanion, ExampleProjectKtor_httpURLProtocol, ExampleProjectKtor_httpHttpMethodCompanion, ExampleProjectKtor_httpContentType, ExampleProjectKtor_httpHttpStatusCodeCompanion, ExampleProjectKtor_utilsGMTDateCompanion, ExampleProjectKtor_utilsWeekDay, ExampleProjectKtor_utilsMonth, ExampleProjectKtor_httpHttpProtocolVersionCompanion, ExampleProjectKotlinAbstractCoroutineContextKey<B, E>, ExampleProjectKotlinx_coroutines_coreAtomicOp<__contravariant T>, ExampleProjectKotlinx_coroutines_coreOpDescriptor, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNode, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, ExampleProjectKtor_ioMemory, ExampleProjectKtor_ioChunkBuffer, ExampleProjectKotlinByteArray, ExampleProjectKtor_ioBuffer, ExampleProjectKtor_ioByteReadPacket, ExampleProjectKtor_utilsStringValuesBuilderImpl, ExampleProjectKtor_httpURLBuilderCompanion, ExampleProjectKtor_httpURLProtocolCompanion, ExampleProjectKtor_httpHeaderValueParam, ExampleProjectKtor_httpHeaderValueWithParametersCompanion, ExampleProjectKtor_httpHeaderValueWithParameters, ExampleProjectKtor_httpContentTypeCompanion, ExampleProjectKotlinEnumCompanion, ExampleProjectKotlinEnum<E>, ExampleProjectKtor_utilsWeekDayCompanion, ExampleProjectKtor_utilsMonthCompanion, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, ExampleProjectKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>, ExampleProjectKtor_ioMemoryCompanion, ExampleProjectKtor_ioBufferCompanion, ExampleProjectKtor_ioChunkBufferCompanion, ExampleProjectKotlinByteIterator, ExampleProjectKtor_ioInputCompanion, ExampleProjectKtor_ioInput, ExampleProjectKtor_ioByteReadPacketCompanion, ExampleProjectKotlinKTypeProjection, ExampleProjectKotlinKVariance, ExampleProjectKotlinKTypeProjectionCompanion;
 
-@protocol ExampleProjectKotlinx_coroutines_coreFlow, ExampleProjectKotlinx_coroutines_coreJob, ExampleProjectKotlinx_coroutines_coreCoroutineScope, ExampleProjectIDeposit, ExampleProjectIPortfolio, ExampleProjectKotlinKClassifier, ExampleProjectKotlinx_serialization_coreKSerializer, ExampleProjectKtor_client_coreHttpClientEngine, ExampleProjectKotlinx_coroutines_coreFlowCollector, ExampleProjectKotlinx_coroutines_coreChildHandle, ExampleProjectKotlinx_coroutines_coreChildJob, ExampleProjectKotlinx_coroutines_coreDisposableHandle, ExampleProjectKotlinSequence, ExampleProjectKotlinx_coroutines_coreSelectClause0, ExampleProjectKotlinCoroutineContextKey, ExampleProjectKotlinCoroutineContextElement, ExampleProjectKotlinCoroutineContext, ExampleProjectKtor_ioCloseable, ExampleProjectKtor_client_coreHttpClientEngineCapability, ExampleProjectKtor_utilsAttributes, ExampleProjectKotlinx_serialization_coreEncoder, ExampleProjectKotlinx_serialization_coreSerialDescriptor, ExampleProjectKotlinx_serialization_coreSerializationStrategy, ExampleProjectKotlinx_serialization_coreDecoder, ExampleProjectKotlinx_serialization_coreDeserializationStrategy, ExampleProjectKotlinx_coroutines_coreParentJob, ExampleProjectKotlinIterator, ExampleProjectKotlinx_coroutines_coreSelectInstance, ExampleProjectKotlinSuspendFunction0, ExampleProjectKtor_client_coreHttpClientPlugin, ExampleProjectKotlinSuspendFunction2, ExampleProjectKotlinx_serialization_coreCompositeEncoder, ExampleProjectKotlinAnnotation, ExampleProjectKotlinx_serialization_coreCompositeDecoder, ExampleProjectKtor_httpHeaders, ExampleProjectKotlinContinuation, ExampleProjectKotlinContinuationInterceptor, ExampleProjectKotlinx_coroutines_coreRunnable, ExampleProjectKotlinFunction, ExampleProjectKtor_httpHttpMessage, ExampleProjectKtor_ioByteReadChannel, ExampleProjectKtor_httpHttpMessageBuilder, ExampleProjectKtor_client_coreHttpRequest, ExampleProjectKotlinx_serialization_coreSerializersModuleCollector, ExampleProjectKotlinKClass, ExampleProjectKtor_httpParameters, ExampleProjectKotlinMapEntry, ExampleProjectKtor_utilsStringValues, ExampleProjectKotlinComparable, ExampleProjectKtor_ioReadSession, ExampleProjectKotlinSuspendFunction1, ExampleProjectKotlinAppendable, ExampleProjectKtor_utilsStringValuesBuilder, ExampleProjectKtor_httpParametersBuilder, ExampleProjectKotlinKType, ExampleProjectKotlinKDeclarationContainer, ExampleProjectKotlinKAnnotatedElement, ExampleProjectKtor_ioObjectPool;
+@protocol ExampleProjectKotlinx_coroutines_coreFlow, ExampleProjectKotlinx_coroutines_coreJob, ExampleProjectIDeposit, ExampleProjectIPortfolio, ExampleProjectKotlinKClassifier, ExampleProjectKotlinx_serialization_coreKSerializer, ExampleProjectKtor_client_coreHttpClientEngine, ExampleProjectKotlinx_coroutines_coreFlowCollector, ExampleProjectKotlinx_coroutines_coreChildHandle, ExampleProjectKotlinx_coroutines_coreChildJob, ExampleProjectKotlinx_coroutines_coreDisposableHandle, ExampleProjectKotlinSequence, ExampleProjectKotlinx_coroutines_coreSelectClause0, ExampleProjectKotlinCoroutineContextKey, ExampleProjectKotlinCoroutineContextElement, ExampleProjectKotlinCoroutineContext, ExampleProjectKotlinx_coroutines_coreCoroutineScope, ExampleProjectKtor_ioCloseable, ExampleProjectKtor_client_coreHttpClientEngineCapability, ExampleProjectKtor_utilsAttributes, ExampleProjectKotlinx_serialization_coreEncoder, ExampleProjectKotlinx_serialization_coreSerialDescriptor, ExampleProjectKotlinx_serialization_coreSerializationStrategy, ExampleProjectKotlinx_serialization_coreDecoder, ExampleProjectKotlinx_serialization_coreDeserializationStrategy, ExampleProjectKotlinx_coroutines_coreParentJob, ExampleProjectKotlinIterator, ExampleProjectKotlinx_coroutines_coreSelectInstance, ExampleProjectKotlinSuspendFunction0, ExampleProjectKtor_client_coreHttpClientPlugin, ExampleProjectKotlinSuspendFunction2, ExampleProjectKotlinx_serialization_coreCompositeEncoder, ExampleProjectKotlinAnnotation, ExampleProjectKotlinx_serialization_coreCompositeDecoder, ExampleProjectKtor_httpHeaders, ExampleProjectKotlinContinuation, ExampleProjectKotlinContinuationInterceptor, ExampleProjectKotlinx_coroutines_coreRunnable, ExampleProjectKotlinFunction, ExampleProjectKtor_httpHttpMessage, ExampleProjectKtor_ioByteReadChannel, ExampleProjectKtor_httpHttpMessageBuilder, ExampleProjectKtor_client_coreHttpRequest, ExampleProjectKotlinx_serialization_coreSerializersModuleCollector, ExampleProjectKotlinKClass, ExampleProjectKtor_httpParameters, ExampleProjectKotlinMapEntry, ExampleProjectKtor_utilsStringValues, ExampleProjectKotlinComparable, ExampleProjectKtor_ioReadSession, ExampleProjectKotlinSuspendFunction1, ExampleProjectKotlinAppendable, ExampleProjectKtor_utilsStringValuesBuilder, ExampleProjectKtor_httpParametersBuilder, ExampleProjectKotlinKType, ExampleProjectKotlinKDeclarationContainer, ExampleProjectKotlinKAnnotatedElement, ExampleProjectKtor_ioObjectPool;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -145,27 +145,10 @@ __attribute__((swift_name("KotlinBoolean")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("FetchRequest")))
-@interface ExampleProjectFetchRequest : ExampleProjectBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (ExampleProjectFlowWrapper1<ExampleProjectPortfolio *> *)getPortfolio __attribute__((swift_name("getPortfolio()")));
-- (id<ExampleProjectKotlinx_coroutines_coreFlow>)getPortfolioStream __attribute__((swift_name("getPortfolioStream()")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FlowWrapper")))
 @interface ExampleProjectFlowWrapper<T> : ExampleProjectBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property T _Nullable value __attribute__((swift_name("value")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("FlowWrapper1")))
-@interface ExampleProjectFlowWrapper1<T> : ExampleProjectBase
 - (instancetype)initWithFlow:(id<ExampleProjectKotlinx_coroutines_coreFlow>)flow __attribute__((swift_name("init(flow:)"))) __attribute__((objc_designated_initializer));
-- (id<ExampleProjectKotlinx_coroutines_coreJob>)subscribeScope:(id<ExampleProjectKotlinx_coroutines_coreCoroutineScope>)scope onEach:(void (^)(T _Nullable))onEach onComplete:(void (^)(void))onComplete onThrow:(void (^)(ExampleProjectKotlinThrowable *))onThrow __attribute__((swift_name("subscribe(scope:onEach:onComplete:onThrow:)")));
+- (id<ExampleProjectKotlinx_coroutines_coreJob>)subscribeOnNext:(void (^)(T))onNext onComplete:(void (^)(void))onComplete onError:(void (^)(ExampleProjectKotlinThrowable *))onError __attribute__((swift_name("subscribe(onNext:onComplete:onError:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -238,20 +221,21 @@ __attribute__((swift_name("IPortfolio")))
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)portfolioRateAsset:(NSString *)rateAsset asset:(NSString *)asset days:(int32_t)days completionHandler:(void (^)(NSArray<ExampleProjectPortfolio_ *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("portfolio(rateAsset:asset:days:completionHandler:)")));
+- (void)portfolioRateAsset:(NSString *)rateAsset asset:(NSString *)asset days:(int32_t)days completionHandler:(void (^)(NSArray<ExampleProjectPortfolio *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("portfolio(rateAsset:asset:days:completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Portfolio")))
-@interface ExampleProjectPortfolio : ExampleProjectBase <ExampleProjectIPortfolio>
+__attribute__((swift_name("Portfolio_")))
+@interface ExampleProjectPortfolio_ : ExampleProjectBase <ExampleProjectIPortfolio>
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (ExampleProjectFlowWrapper<NSArray<ExampleProjectPortfolio *> *> *)getPortfolioRateAsset:(NSString *)rateAsset asset:(NSString *)asset days:(int32_t)days __attribute__((swift_name("getPortfolio(rateAsset:asset:days:)")));
 
 /**
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)portfolioRateAsset:(NSString *)rateAsset asset:(NSString *)asset days:(int32_t)days completionHandler:(void (^)(NSArray<ExampleProjectPortfolio_ *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("portfolio(rateAsset:asset:days:completionHandler:)")));
+- (void)portfolioRateAsset:(NSString *)rateAsset asset:(NSString *)asset days:(int32_t)days completionHandler:(void (^)(NSArray<ExampleProjectPortfolio *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("portfolio(rateAsset:asset:days:completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -331,13 +315,13 @@ __attribute__((swift_name("IWithdrawal")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Portfolio_")))
-@interface ExampleProjectPortfolio_ : ExampleProjectBase
+__attribute__((swift_name("Portfolio")))
+@interface ExampleProjectPortfolio : ExampleProjectBase
 - (instancetype)initWithDate:(NSString *)date stringValue:(NSString *)stringValue __attribute__((swift_name("init(date:stringValue:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) ExampleProjectPortfolio_Companion *companion __attribute__((swift_name("companion")));
+@property (class, readonly, getter=companion) ExampleProjectPortfolioCompanion *companion __attribute__((swift_name("companion")));
 - (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (ExampleProjectPortfolio_ *)doCopyDate:(NSString *)date stringValue:(NSString *)stringValue __attribute__((swift_name("doCopy(date:stringValue:)")));
+- (ExampleProjectPortfolio *)doCopyDate:(NSString *)date stringValue:(NSString *)stringValue __attribute__((swift_name("doCopy(date:stringValue:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -346,12 +330,12 @@ __attribute__((swift_name("Portfolio_")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Portfolio_.Companion")))
-@interface ExampleProjectPortfolio_Companion : ExampleProjectBase
+__attribute__((swift_name("Portfolio.Companion")))
+@interface ExampleProjectPortfolioCompanion : ExampleProjectBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) ExampleProjectPortfolio_Companion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) ExampleProjectPortfolioCompanion *shared __attribute__((swift_name("shared")));
 - (id<ExampleProjectKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
@@ -416,12 +400,6 @@ __attribute__((swift_name("Kotlinx_coroutines_coreJob")))
 @property (readonly) id<ExampleProjectKotlinx_coroutines_coreSelectClause0> onJoin __attribute__((swift_name("onJoin")));
 @end;
 
-__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))
-@protocol ExampleProjectKotlinx_coroutines_coreCoroutineScope
-@required
-@property (readonly) id<ExampleProjectKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
-@end;
-
 __attribute__((swift_name("KotlinThrowable")))
 @interface ExampleProjectKotlinThrowable : ExampleProjectBase
 - (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
@@ -476,6 +454,12 @@ __attribute__((swift_name("KotlinCancellationException")))
 __attribute__((swift_name("KotlinKClassifier")))
 @protocol ExampleProjectKotlinKClassifier
 @required
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))
+@protocol ExampleProjectKotlinx_coroutines_coreCoroutineScope
+@required
+@property (readonly) id<ExampleProjectKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
 @end;
 
 __attribute__((swift_name("Ktor_ioCloseable")))
