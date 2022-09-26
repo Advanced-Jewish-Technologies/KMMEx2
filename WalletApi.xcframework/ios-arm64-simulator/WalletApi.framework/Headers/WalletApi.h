@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class WalletApiAccessKey, WalletApiAccount, WalletApiSource, WalletApiDestination, WalletApiOperationResponse, WalletApiPortfolio, WalletApiFlowWrapper<T>, WalletApiServiceLocator, WalletApiKtor_client_coreHttpClient, WalletApiAccountCompanion, WalletApiDestinationCompanion, WalletApiFeeCompanion, WalletApiKotlinThrowable, WalletApiFee, WalletApiOperationConfirmResponseCompanion, WalletApiProvider, WalletApiOperationRequest, WalletApiOperationRequestCompanion, WalletApiRequestOperationResult, WalletApiOperationResponseCompanion, WalletApiPortfolioCompanion, WalletApiRequestOperationResultCompanion, WalletApiSourceCompanion, WalletApiWallet, WalletApiKotlinArray<T>, WalletApiKotlinException, WalletApiKotlinRuntimeException, WalletApiKotlinIllegalStateException, WalletApiKtor_client_coreHttpClientEngineConfig, WalletApiKtor_client_coreHttpClientConfig<T>, WalletApiKtor_eventsEvents, WalletApiKtor_client_coreHttpReceivePipeline, WalletApiKtor_client_coreHttpRequestPipeline, WalletApiKtor_client_coreHttpResponsePipeline, WalletApiKtor_client_coreHttpSendPipeline, WalletApiKotlinCancellationException, WalletApiKtor_client_coreHttpRequestData, WalletApiKtor_client_coreHttpResponseData, WalletApiKotlinx_coroutines_coreCoroutineDispatcher, WalletApiKtor_client_coreProxyConfig, WalletApiKtor_utilsAttributeKey<T>, WalletApiKtor_eventsEventDefinition<T>, WalletApiKtor_utilsPipelinePhase, WalletApiKtor_utilsPipeline<TSubject, TContext>, WalletApiKtor_client_coreHttpReceivePipelinePhases, WalletApiKtor_client_coreHttpResponse, WalletApiKotlinUnit, WalletApiKtor_client_coreHttpRequestPipelinePhases, WalletApiKtor_client_coreHttpRequestBuilder, WalletApiKtor_client_coreHttpResponsePipelinePhases, WalletApiKtor_client_coreHttpResponseContainer, WalletApiKtor_client_coreHttpClientCall, WalletApiKtor_client_coreHttpSendPipelinePhases, WalletApiKotlinx_serialization_coreSerializersModule, WalletApiKotlinx_serialization_coreSerialKind, WalletApiKotlinNothing, WalletApiKtor_httpUrl, WalletApiKtor_httpHttpMethod, WalletApiKtor_httpOutgoingContent, WalletApiKtor_httpHttpStatusCode, WalletApiKtor_utilsGMTDate, WalletApiKtor_httpHttpProtocolVersion, WalletApiKotlinAbstractCoroutineContextElement, WalletApiKotlinx_coroutines_coreCoroutineDispatcherKey, WalletApiKtor_httpHeadersBuilder, WalletApiKtor_client_coreHttpRequestBuilderCompanion, WalletApiKtor_httpURLBuilder, WalletApiKtor_utilsTypeInfo, WalletApiKtor_client_coreHttpClientCallCompanion, WalletApiKotlinx_coroutines_coreAtomicDesc, WalletApiKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, WalletApiKtor_httpUrlCompanion, WalletApiKtor_httpURLProtocol, WalletApiKtor_httpHttpMethodCompanion, WalletApiKtor_httpContentType, WalletApiKtor_httpHttpStatusCodeCompanion, WalletApiKtor_utilsGMTDateCompanion, WalletApiKtor_utilsWeekDay, WalletApiKtor_utilsMonth, WalletApiKtor_httpHttpProtocolVersionCompanion, WalletApiKotlinAbstractCoroutineContextKey<B, E>, WalletApiKtor_ioMemory, WalletApiKtor_ioChunkBuffer, WalletApiKotlinByteArray, WalletApiKtor_ioBuffer, WalletApiKtor_ioByteReadPacket, WalletApiKtor_utilsStringValuesBuilderImpl, WalletApiKtor_httpURLBuilderCompanion, WalletApiKotlinx_coroutines_coreAtomicOp<__contravariant T>, WalletApiKotlinx_coroutines_coreOpDescriptor, WalletApiKotlinx_coroutines_coreLockFreeLinkedListNode, WalletApiKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, WalletApiKtor_httpURLProtocolCompanion, WalletApiKtor_httpHeaderValueParam, WalletApiKtor_httpHeaderValueWithParametersCompanion, WalletApiKtor_httpHeaderValueWithParameters, WalletApiKtor_httpContentTypeCompanion, WalletApiKotlinEnumCompanion, WalletApiKotlinEnum<E>, WalletApiKtor_utilsWeekDayCompanion, WalletApiKtor_utilsMonthCompanion, WalletApiKtor_ioMemoryCompanion, WalletApiKtor_ioBufferCompanion, WalletApiKtor_ioChunkBufferCompanion, WalletApiKotlinByteIterator, WalletApiKtor_ioInputCompanion, WalletApiKtor_ioInput, WalletApiKtor_ioByteReadPacketCompanion, WalletApiKotlinKTypeProjection, WalletApiKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, WalletApiKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>, WalletApiKotlinKVariance, WalletApiKotlinKTypeProjectionCompanion;
+@class WalletApiAccessKey, WalletApiAccount, WalletApiConfirmCode, WalletApiOperationConfirmResponse, WalletApiSource, WalletApiDestination, WalletApiOperationResponse, WalletApiPortfolio, WalletApiFlowWrapper<T>, WalletApiServiceLocator, WalletApiKtor_client_coreHttpClient, WalletApiAccountCompanion, WalletApiBrowserCompanion, WalletApiDevice, WalletApiTime, WalletApiBrowser, WalletApiRedirect, WalletApiCVVCompanion, WalletApiConfirmCodeCompanion, WalletApiCVV, WalletApiDepositRequestCompanion, WalletApiDestinationCompanion, WalletApiDeviceCompanion, WalletApiFeeCompanion, WalletApiKotlinThrowable, WalletApiProvider, WalletApiParams, WalletApiOperationConfirmRequestCompanion, WalletApiFee, WalletApiOperationConfirmResponseCompanion, WalletApiOperationRequest, WalletApiOperationRequestCompanion, WalletApiRequestOperationResult, WalletApiOperationResponseCompanion, WalletApiParamsCompanion, WalletApiPortfolioCompanion, WalletApiRedirectCompanion, WalletApiRequestOperationResultCompanion, WalletApiSourceCompanion, WalletApiTimeCompanion, WalletApiWallet, WalletApiKotlinArray<T>, WalletApiKotlinException, WalletApiKotlinRuntimeException, WalletApiKotlinIllegalStateException, WalletApiKtor_client_coreHttpClientEngineConfig, WalletApiKtor_client_coreHttpClientConfig<T>, WalletApiKtor_eventsEvents, WalletApiKtor_client_coreHttpReceivePipeline, WalletApiKtor_client_coreHttpRequestPipeline, WalletApiKtor_client_coreHttpResponsePipeline, WalletApiKtor_client_coreHttpSendPipeline, WalletApiKotlinCancellationException, WalletApiKtor_client_coreHttpRequestData, WalletApiKtor_client_coreHttpResponseData, WalletApiKotlinx_coroutines_coreCoroutineDispatcher, WalletApiKtor_client_coreProxyConfig, WalletApiKtor_utilsAttributeKey<T>, WalletApiKtor_eventsEventDefinition<T>, WalletApiKtor_utilsPipelinePhase, WalletApiKtor_utilsPipeline<TSubject, TContext>, WalletApiKtor_client_coreHttpReceivePipelinePhases, WalletApiKtor_client_coreHttpResponse, WalletApiKotlinUnit, WalletApiKtor_client_coreHttpRequestPipelinePhases, WalletApiKtor_client_coreHttpRequestBuilder, WalletApiKtor_client_coreHttpResponsePipelinePhases, WalletApiKtor_client_coreHttpResponseContainer, WalletApiKtor_client_coreHttpClientCall, WalletApiKtor_client_coreHttpSendPipelinePhases, WalletApiKotlinx_serialization_coreSerializersModule, WalletApiKotlinx_serialization_coreSerialKind, WalletApiKotlinNothing, WalletApiKtor_httpUrl, WalletApiKtor_httpHttpMethod, WalletApiKtor_httpOutgoingContent, WalletApiKtor_httpHttpStatusCode, WalletApiKtor_utilsGMTDate, WalletApiKtor_httpHttpProtocolVersion, WalletApiKotlinAbstractCoroutineContextElement, WalletApiKotlinx_coroutines_coreCoroutineDispatcherKey, WalletApiKtor_httpHeadersBuilder, WalletApiKtor_client_coreHttpRequestBuilderCompanion, WalletApiKtor_httpURLBuilder, WalletApiKtor_utilsTypeInfo, WalletApiKtor_client_coreHttpClientCallCompanion, WalletApiKotlinx_coroutines_coreAtomicDesc, WalletApiKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, WalletApiKtor_httpUrlCompanion, WalletApiKtor_httpURLProtocol, WalletApiKtor_httpHttpMethodCompanion, WalletApiKtor_httpContentType, WalletApiKtor_httpHttpStatusCodeCompanion, WalletApiKtor_utilsGMTDateCompanion, WalletApiKtor_utilsWeekDay, WalletApiKtor_utilsMonth, WalletApiKtor_httpHttpProtocolVersionCompanion, WalletApiKotlinAbstractCoroutineContextKey<B, E>, WalletApiKtor_ioMemory, WalletApiKtor_ioChunkBuffer, WalletApiKotlinByteArray, WalletApiKtor_ioBuffer, WalletApiKtor_ioByteReadPacket, WalletApiKtor_utilsStringValuesBuilderImpl, WalletApiKtor_httpURLBuilderCompanion, WalletApiKotlinx_coroutines_coreAtomicOp<__contravariant T>, WalletApiKotlinx_coroutines_coreOpDescriptor, WalletApiKotlinx_coroutines_coreLockFreeLinkedListNode, WalletApiKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, WalletApiKtor_httpURLProtocolCompanion, WalletApiKtor_httpHeaderValueParam, WalletApiKtor_httpHeaderValueWithParametersCompanion, WalletApiKtor_httpHeaderValueWithParameters, WalletApiKtor_httpContentTypeCompanion, WalletApiKotlinEnumCompanion, WalletApiKotlinEnum<E>, WalletApiKtor_utilsWeekDayCompanion, WalletApiKtor_utilsMonthCompanion, WalletApiKtor_ioMemoryCompanion, WalletApiKtor_ioBufferCompanion, WalletApiKtor_ioChunkBufferCompanion, WalletApiKotlinByteIterator, WalletApiKtor_ioInputCompanion, WalletApiKtor_ioInput, WalletApiKtor_ioByteReadPacketCompanion, WalletApiKotlinKTypeProjection, WalletApiKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, WalletApiKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>, WalletApiKotlinKVariance, WalletApiKotlinKTypeProjectionCompanion;
 
-@protocol WalletApiIDeposit, WalletApiIPortfolio, WalletApiKotlinKClassifier, WalletApiKotlinx_serialization_coreKSerializer, WalletApiKotlinx_coroutines_coreFlow, WalletApiKotlinx_coroutines_coreJob, WalletApiKtor_client_coreHttpClientEngine, WalletApiKotlinCoroutineContext, WalletApiKotlinx_coroutines_coreCoroutineScope, WalletApiKtor_ioCloseable, WalletApiKtor_client_coreHttpClientEngineCapability, WalletApiKtor_utilsAttributes, WalletApiKotlinx_serialization_coreEncoder, WalletApiKotlinx_serialization_coreSerialDescriptor, WalletApiKotlinx_serialization_coreSerializationStrategy, WalletApiKotlinx_serialization_coreDecoder, WalletApiKotlinx_serialization_coreDeserializationStrategy, WalletApiKotlinx_coroutines_coreFlowCollector, WalletApiKotlinx_coroutines_coreChildHandle, WalletApiKotlinx_coroutines_coreChildJob, WalletApiKotlinx_coroutines_coreDisposableHandle, WalletApiKotlinSequence, WalletApiKotlinx_coroutines_coreSelectClause0, WalletApiKotlinCoroutineContextKey, WalletApiKotlinCoroutineContextElement, WalletApiKotlinIterator, WalletApiKtor_client_coreHttpClientPlugin, WalletApiKotlinSuspendFunction2, WalletApiKotlinx_serialization_coreCompositeEncoder, WalletApiKotlinAnnotation, WalletApiKotlinx_serialization_coreCompositeDecoder, WalletApiKotlinx_coroutines_coreParentJob, WalletApiKotlinx_coroutines_coreSelectInstance, WalletApiKotlinSuspendFunction0, WalletApiKtor_httpHeaders, WalletApiKotlinContinuation, WalletApiKotlinContinuationInterceptor, WalletApiKotlinx_coroutines_coreRunnable, WalletApiKotlinFunction, WalletApiKtor_httpHttpMessage, WalletApiKtor_ioByteReadChannel, WalletApiKtor_httpHttpMessageBuilder, WalletApiKtor_client_coreHttpRequest, WalletApiKotlinx_serialization_coreSerializersModuleCollector, WalletApiKotlinKClass, WalletApiKtor_httpParameters, WalletApiKotlinMapEntry, WalletApiKtor_utilsStringValues, WalletApiKotlinComparable, WalletApiKtor_ioReadSession, WalletApiKotlinSuspendFunction1, WalletApiKotlinAppendable, WalletApiKtor_utilsStringValuesBuilder, WalletApiKtor_httpParametersBuilder, WalletApiKotlinKType, WalletApiKotlinKDeclarationContainer, WalletApiKotlinKAnnotatedElement, WalletApiKtor_ioObjectPool;
+@protocol WalletApiIDeposit, WalletApiIPortfolio, WalletApiKotlinKClassifier, WalletApiIWithdrawal, WalletApiKotlinx_serialization_coreKSerializer, WalletApiKotlinx_coroutines_coreFlow, WalletApiKotlinx_coroutines_coreJob, WalletApiKotlinSuspendFunction0, WalletApiKtor_client_coreHttpClientEngine, WalletApiKotlinCoroutineContext, WalletApiKotlinx_coroutines_coreCoroutineScope, WalletApiKtor_ioCloseable, WalletApiKtor_client_coreHttpClientEngineCapability, WalletApiKtor_utilsAttributes, WalletApiKotlinx_serialization_coreEncoder, WalletApiKotlinx_serialization_coreSerialDescriptor, WalletApiKotlinx_serialization_coreSerializationStrategy, WalletApiKotlinx_serialization_coreDecoder, WalletApiKotlinx_serialization_coreDeserializationStrategy, WalletApiKotlinx_coroutines_coreFlowCollector, WalletApiKotlinx_coroutines_coreChildHandle, WalletApiKotlinx_coroutines_coreChildJob, WalletApiKotlinx_coroutines_coreDisposableHandle, WalletApiKotlinSequence, WalletApiKotlinx_coroutines_coreSelectClause0, WalletApiKotlinCoroutineContextKey, WalletApiKotlinCoroutineContextElement, WalletApiKotlinFunction, WalletApiKotlinIterator, WalletApiKtor_client_coreHttpClientPlugin, WalletApiKotlinSuspendFunction2, WalletApiKotlinx_serialization_coreCompositeEncoder, WalletApiKotlinAnnotation, WalletApiKotlinx_serialization_coreCompositeDecoder, WalletApiKotlinx_coroutines_coreParentJob, WalletApiKotlinx_coroutines_coreSelectInstance, WalletApiKtor_httpHeaders, WalletApiKotlinContinuation, WalletApiKotlinContinuationInterceptor, WalletApiKotlinx_coroutines_coreRunnable, WalletApiKtor_httpHttpMessage, WalletApiKtor_ioByteReadChannel, WalletApiKtor_httpHttpMessageBuilder, WalletApiKtor_client_coreHttpRequest, WalletApiKotlinx_serialization_coreSerializersModuleCollector, WalletApiKotlinKClass, WalletApiKtor_httpParameters, WalletApiKotlinMapEntry, WalletApiKtor_utilsStringValues, WalletApiKotlinComparable, WalletApiKtor_ioReadSession, WalletApiKotlinSuspendFunction1, WalletApiKotlinAppendable, WalletApiKtor_utilsStringValuesBuilder, WalletApiKtor_httpParametersBuilder, WalletApiKotlinKType, WalletApiKotlinKDeclarationContainer, WalletApiKotlinKAnnotatedElement, WalletApiKtor_ioObjectPool;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -172,7 +172,7 @@ __attribute__((swift_name("IDeposit")))
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)confirmWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("confirm(completionHandler:)")));
+- (void)confirmId:(NSString *)id code:(WalletApiConfirmCode * _Nullable)code completionHandler:(void (^)(WalletApiOperationConfirmResponse * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("confirm(id:code:completionHandler:)")));
 
 /**
  @note This method converts instances of CancellationException to errors.
@@ -197,7 +197,7 @@ __attribute__((swift_name("Deposit")))
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)confirmWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("confirm(completionHandler:)")));
+- (void)confirmId:(NSString *)id code:(WalletApiConfirmCode * _Nullable)code completionHandler:(void (^)(WalletApiOperationConfirmResponse * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("confirm(id:code:completionHandler:)")));
 
 /**
  @note This method converts instances of CancellationException to errors.
@@ -216,6 +216,23 @@ __attribute__((swift_name("IPortfolio")))
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)portfolioRateAsset:(NSString *)rateAsset days:(int32_t)days completionHandler:(void (^)(NSArray<WalletApiPortfolio *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("portfolio(rateAsset:days:completionHandler:)")));
+@end;
+
+__attribute__((swift_name("IWithdrawal")))
+@protocol WalletApiIWithdrawal
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)confirmId:(NSString *)id code:(WalletApiConfirmCode * _Nullable)code completionHandler:(void (^)(WalletApiOperationConfirmResponse * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("confirm(id:code:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)operationSource:(WalletApiSource *)source destination:(WalletApiDestination *)destination completionHandler:(void (^)(WalletApiOperationResponse * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("operation(source:destination:completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -261,7 +278,27 @@ __attribute__((swift_name("Wallet")))
 - (void)authorizationFn:(WalletApiAccessKey *(^)(WalletApiInt *))fn __attribute__((swift_name("authorization(fn:)")));
 - (id<WalletApiIDeposit>)deposit __attribute__((swift_name("deposit()")));
 - (id<WalletApiIPortfolio>)portfolio __attribute__((swift_name("portfolio()")));
+- (id<WalletApiIWithdrawal>)withdrawal __attribute__((swift_name("withdrawal()")));
 @property NSString *baseUrl __attribute__((swift_name("baseUrl")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Withdrawal")))
+@interface WalletApiWithdrawal : WalletApiBase <WalletApiIWithdrawal>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)confirmId:(NSString *)id code:(WalletApiConfirmCode * _Nullable)code completionHandler:(void (^)(WalletApiOperationConfirmResponse * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("confirm(id:code:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)operationSource:(WalletApiSource *)source destination:(WalletApiDestination *)destination completionHandler:(void (^)(WalletApiOperationResponse * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("operation(source:destination:completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -292,6 +329,97 @@ __attribute__((swift_name("Account.Companion")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Browser")))
+@interface WalletApiBrowser : WalletApiBase
+- (instancetype)initWithJsEnabled:(BOOL)jsEnabled userAgent:(NSString *)userAgent acceptHeader:(NSString *)acceptHeader __attribute__((swift_name("init(jsEnabled:userAgent:acceptHeader:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) WalletApiBrowserCompanion *companion __attribute__((swift_name("companion")));
+@property (readonly) NSString *acceptHeader __attribute__((swift_name("acceptHeader")));
+@property (readonly) BOOL jsEnabled __attribute__((swift_name("jsEnabled")));
+@property (readonly) NSString *userAgent __attribute__((swift_name("userAgent")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Browser.Companion")))
+@interface WalletApiBrowserCompanion : WalletApiBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) WalletApiBrowserCompanion *shared __attribute__((swift_name("shared")));
+- (id<WalletApiKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CVV")))
+@interface WalletApiCVV : WalletApiBase
+- (instancetype)initWithCvv:(NSString * _Nullable)cvv token:(NSString * _Nullable)token device:(WalletApiDevice *)device time:(WalletApiTime *)time browser:(WalletApiBrowser *)browser redirect:(WalletApiRedirect *)redirect __attribute__((swift_name("init(cvv:token:device:time:browser:redirect:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) WalletApiCVVCompanion *companion __attribute__((swift_name("companion")));
+@property (readonly) WalletApiBrowser *browser __attribute__((swift_name("browser")));
+@property (readonly) NSString * _Nullable cvv __attribute__((swift_name("cvv")));
+@property (readonly) WalletApiDevice *device __attribute__((swift_name("device")));
+@property (readonly) WalletApiRedirect *redirect __attribute__((swift_name("redirect")));
+@property (readonly) WalletApiTime *time __attribute__((swift_name("time")));
+@property (readonly) NSString * _Nullable token __attribute__((swift_name("token")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CVV.Companion")))
+@interface WalletApiCVVCompanion : WalletApiBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) WalletApiCVVCompanion *shared __attribute__((swift_name("shared")));
+- (id<WalletApiKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ConfirmCode")))
+@interface WalletApiConfirmCode : WalletApiBase
+- (instancetype)initWithId:(NSString * _Nullable)id code:(NSString *)code method:(NSString *)method action:(NSString * _Nullable)action __attribute__((swift_name("init(id:code:method:action:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) WalletApiConfirmCodeCompanion *companion __attribute__((swift_name("companion")));
+- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
+- (WalletApiConfirmCode *)doCopyId:(NSString * _Nullable)id code:(NSString *)code method:(NSString *)method action:(NSString * _Nullable)action __attribute__((swift_name("doCopy(id:code:method:action:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable action __attribute__((swift_name("action")));
+@property (readonly) NSString *code __attribute__((swift_name("code")));
+@property (readonly) NSString * _Nullable id __attribute__((swift_name("id")));
+@property (readonly) NSString *method __attribute__((swift_name("method")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ConfirmCode.Companion")))
+@interface WalletApiConfirmCodeCompanion : WalletApiBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) WalletApiConfirmCodeCompanion *shared __attribute__((swift_name("shared")));
+- (id<WalletApiKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DepositRequest")))
+@interface WalletApiDepositRequest : WalletApiBase
+- (instancetype)initWithId:(NSString *)id params:(WalletApiCVV *)params __attribute__((swift_name("init(id:params:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) WalletApiDepositRequestCompanion *companion __attribute__((swift_name("companion")));
+@property (readonly) NSString *id __attribute__((swift_name("id")));
+@property (readonly) WalletApiCVV *params __attribute__((swift_name("params")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DepositRequest.Companion")))
+@interface WalletApiDepositRequestCompanion : WalletApiBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) WalletApiDepositRequestCompanion *shared __attribute__((swift_name("shared")));
+- (id<WalletApiKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Destination")))
 @interface WalletApiDestination : WalletApiBase
 - (instancetype)initWithAccount:(NSString *)account asset:(NSString *)asset amount:(NSString * _Nullable)amount __attribute__((swift_name("init(account:asset:amount:)"))) __attribute__((objc_designated_initializer));
@@ -308,6 +436,24 @@ __attribute__((swift_name("Destination.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) WalletApiDestinationCompanion *shared __attribute__((swift_name("shared")));
+- (id<WalletApiKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Device")))
+@interface WalletApiDevice : WalletApiBase
+- (instancetype)initWithType:(NSString *)type __attribute__((swift_name("init(type:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) WalletApiDeviceCompanion *companion __attribute__((swift_name("companion")));
+@property (readonly) NSString *type __attribute__((swift_name("type")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Device.Companion")))
+@interface WalletApiDeviceCompanion : WalletApiBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) WalletApiDeviceCompanion *shared __attribute__((swift_name("shared")));
 - (id<WalletApiKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
@@ -336,23 +482,47 @@ __attribute__((swift_name("FlowWrapper")))
 @interface WalletApiFlowWrapper<T> : WalletApiBase
 - (instancetype)initWithFlow:(id<WalletApiKotlinx_coroutines_coreFlow>)flow __attribute__((swift_name("init(flow:)"))) __attribute__((objc_designated_initializer));
 - (id<WalletApiKotlinx_coroutines_coreJob>)subscribeOnEach:(void (^)(T))onEach onComplete:(void (^)(void))onComplete onThrow:(void (^)(WalletApiKotlinThrowable *))onThrow __attribute__((swift_name("subscribe(onEach:onComplete:onThrow:)")));
+@property (readonly) id<WalletApiKotlinx_coroutines_coreFlow> flow __attribute__((swift_name("flow")));
 @end;
 
-__attribute__((swift_name("IWithdrawal")))
-@protocol WalletApiIWithdrawal
-@required
+__attribute__((swift_name("Provider")))
+@interface WalletApiProvider : WalletApiBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (readonly) WalletApiKtor_client_coreHttpClient *client __attribute__((swift_name("client")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OperationConfirmProvider")))
+@interface WalletApiOperationConfirmProvider : WalletApiProvider
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 
 /**
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)confirmWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("confirm(completionHandler:)")));
+- (void)confirmId:(NSString *)id code:(WalletApiConfirmCode * _Nullable)code completionHandler:(void (^)(WalletApiOperationConfirmResponse * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("confirm(id:code:completionHandler:)")));
+@end;
 
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)operationWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("operation(completionHandler:)")));
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OperationConfirmRequest")))
+@interface WalletApiOperationConfirmRequest : WalletApiBase
+- (instancetype)initWithId:(NSString *)id confirmCode:(WalletApiConfirmCode * _Nullable)confirmCode params:(WalletApiParams * _Nullable)params __attribute__((swift_name("init(id:confirmCode:params:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) WalletApiOperationConfirmRequestCompanion *companion __attribute__((swift_name("companion")));
+@property (readonly) WalletApiConfirmCode * _Nullable confirmCode __attribute__((swift_name("confirmCode")));
+@property (readonly) NSString *id __attribute__((swift_name("id")));
+@property (readonly) WalletApiParams * _Nullable params __attribute__((swift_name("params")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OperationConfirmRequest.Companion")))
+@interface WalletApiOperationConfirmRequestCompanion : WalletApiBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) WalletApiOperationConfirmRequestCompanion *shared __attribute__((swift_name("shared")));
+- (id<WalletApiKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -378,13 +548,6 @@ __attribute__((swift_name("OperationConfirmResponse.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) WalletApiOperationConfirmResponseCompanion *shared __attribute__((swift_name("shared")));
 - (id<WalletApiKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end;
-
-__attribute__((swift_name("Provider")))
-@interface WalletApiProvider : WalletApiBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (readonly) WalletApiKtor_client_coreHttpClient *client __attribute__((swift_name("client")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -443,6 +606,26 @@ __attribute__((swift_name("OperationResponse.Companion")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Params")))
+@interface WalletApiParams : WalletApiBase
+- (instancetype)initWithDevice:(WalletApiDevice *)device browser:(WalletApiBrowser *)browser time:(WalletApiTime *)time __attribute__((swift_name("init(device:browser:time:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) WalletApiParamsCompanion *companion __attribute__((swift_name("companion")));
+@property (readonly) WalletApiBrowser *browser __attribute__((swift_name("browser")));
+@property (readonly) WalletApiDevice *device __attribute__((swift_name("device")));
+@property (readonly) WalletApiTime *time __attribute__((swift_name("time")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Params.Companion")))
+@interface WalletApiParamsCompanion : WalletApiBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) WalletApiParamsCompanion *shared __attribute__((swift_name("shared")));
+- (id<WalletApiKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Portfolio")))
 @interface WalletApiPortfolio : WalletApiBase
 - (instancetype)initWithDate:(NSString *)date stringValue:(NSString *)stringValue __attribute__((swift_name("init(date:stringValue:)"))) __attribute__((objc_designated_initializer));
@@ -464,6 +647,25 @@ __attribute__((swift_name("Portfolio.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) WalletApiPortfolioCompanion *shared __attribute__((swift_name("shared")));
+- (id<WalletApiKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Redirect")))
+@interface WalletApiRedirect : WalletApiBase
+- (instancetype)initWithSuccess:(NSString *)success decline:(NSString *)decline __attribute__((swift_name("init(success:decline:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) WalletApiRedirectCompanion *companion __attribute__((swift_name("companion")));
+@property (readonly) NSString *decline __attribute__((swift_name("decline")));
+@property (readonly) NSString *success __attribute__((swift_name("success")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Redirect.Companion")))
+@interface WalletApiRedirectCompanion : WalletApiBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) WalletApiRedirectCompanion *shared __attribute__((swift_name("shared")));
 - (id<WalletApiKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
@@ -503,6 +705,31 @@ __attribute__((swift_name("Source.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) WalletApiSourceCompanion *shared __attribute__((swift_name("shared")));
+- (id<WalletApiKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("SuspendWrapper")))
+@interface WalletApiSuspendWrapper<T> : WalletApiBase
+- (instancetype)initWithSuspender:(id<WalletApiKotlinSuspendFunction0>)suspender __attribute__((swift_name("init(suspender:)"))) __attribute__((objc_designated_initializer));
+- (id<WalletApiKotlinx_coroutines_coreJob>)subscribeOnSuccess:(void (^)(T _Nullable))onSuccess onThrow:(void (^)(WalletApiKotlinThrowable *))onThrow onComplete:(void (^)(void))onComplete __attribute__((swift_name("subscribe(onSuccess:onThrow:onComplete:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Time")))
+@interface WalletApiTime : WalletApiBase
+- (instancetype)initWithOffset:(NSString *)offset __attribute__((swift_name("init(offset:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) WalletApiTimeCompanion *companion __attribute__((swift_name("companion")));
+@property (readonly) NSString *offset __attribute__((swift_name("offset")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Time.Companion")))
+@interface WalletApiTimeCompanion : WalletApiBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) WalletApiTimeCompanion *shared __attribute__((swift_name("shared")));
 - (id<WalletApiKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
@@ -671,6 +898,22 @@ __attribute__((swift_name("Kotlinx_coroutines_coreJob")))
 @property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
 @property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted")));
 @property (readonly) id<WalletApiKotlinx_coroutines_coreSelectClause0> onJoin __attribute__((swift_name("onJoin")));
+@end;
+
+__attribute__((swift_name("KotlinFunction")))
+@protocol WalletApiKotlinFunction
+@required
+@end;
+
+__attribute__((swift_name("KotlinSuspendFunction0")))
+@protocol WalletApiKotlinSuspendFunction0 <WalletApiKotlinFunction>
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
 @end;
 
 __attribute__((swift_name("Ktor_client_coreHttpClientEngine")))
@@ -1032,11 +1275,6 @@ __attribute__((swift_name("Ktor_utilsPipelinePhase")))
 @property (readonly) NSString *name __attribute__((swift_name("name")));
 @end;
 
-__attribute__((swift_name("KotlinFunction")))
-@protocol WalletApiKotlinFunction
-@required
-@end;
-
 __attribute__((swift_name("KotlinSuspendFunction2")))
 @protocol WalletApiKotlinSuspendFunction2 <WalletApiKotlinFunction>
 @required
@@ -1287,17 +1525,6 @@ __attribute__((swift_name("Kotlinx_coroutines_coreSelectInstance")))
 - (id _Nullable)trySelectOtherOtherOp:(WalletApiKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp * _Nullable)otherOp __attribute__((swift_name("trySelectOther(otherOp:)")));
 @property (readonly) id<WalletApiKotlinContinuation> completion __attribute__((swift_name("completion")));
 @property (readonly) BOOL isSelected __attribute__((swift_name("isSelected")));
-@end;
-
-__attribute__((swift_name("KotlinSuspendFunction0")))
-@protocol WalletApiKotlinSuspendFunction0 <WalletApiKotlinFunction>
-@required
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)invokeWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
