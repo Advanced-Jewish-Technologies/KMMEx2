@@ -209,12 +209,13 @@ __attribute__((swift_name("Deposit")))
 __attribute__((swift_name("IPortfolio")))
 @protocol WalletApiIPortfolio
 @required
+- (WalletApiFlowWrapper<NSArray<WalletApiPortfolio *> *> *)fetchPortfoliosRateAsset:(NSString *)rateAsset days:(int32_t)days __attribute__((swift_name("fetchPortfolios(rateAsset:days:)")));
 
 /**
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)portfolioRateAsset:(NSString *)rateAsset asset:(NSString *)asset days:(int32_t)days completionHandler:(void (^)(NSArray<WalletApiPortfolio *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("portfolio(rateAsset:asset:days:completionHandler:)")));
+- (void)portfolioRateAsset:(NSString *)rateAsset days:(int32_t)days completionHandler:(void (^)(NSArray<WalletApiPortfolio *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("portfolio(rateAsset:days:completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -222,13 +223,13 @@ __attribute__((swift_name("Portfolio_")))
 @interface WalletApiPortfolio_ : WalletApiBase <WalletApiIPortfolio>
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (WalletApiFlowWrapper<NSArray<WalletApiPortfolio *> *> *)fetchPortfoliosRateAsset:(NSString *)rateAsset asset:(NSString *)asset days:(int32_t)days __attribute__((swift_name("fetchPortfolios(rateAsset:asset:days:)")));
+- (WalletApiFlowWrapper<NSArray<WalletApiPortfolio *> *> *)fetchPortfoliosRateAsset:(NSString *)rateAsset days:(int32_t)days __attribute__((swift_name("fetchPortfolios(rateAsset:days:)")));
 
 /**
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)portfolioRateAsset:(NSString *)rateAsset asset:(NSString *)asset days:(int32_t)days completionHandler:(void (^)(NSArray<WalletApiPortfolio *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("portfolio(rateAsset:asset:days:completionHandler:)")));
+- (void)portfolioRateAsset:(NSString *)rateAsset days:(int32_t)days completionHandler:(void (^)(NSArray<WalletApiPortfolio *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("portfolio(rateAsset:days:completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
