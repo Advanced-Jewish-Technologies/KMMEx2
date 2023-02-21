@@ -718,8 +718,8 @@ __attribute__((swift_name("WalletAnalytic")))
 @interface WalletApiWalletAnalytic : WalletApiBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)depositCurrency:(NSString *)currency __attribute__((swift_name("deposit(currency:)")));
-- (void)eventAttrs:(NSDictionary<NSString *, NSString *> *)attrs __attribute__((swift_name("event(attrs:)")));
+- (void)eventName:(NSString *)name attrs:(NSDictionary<NSString *, NSString *> *)attrs __attribute__((swift_name("event(name:attrs:)")));
+- (void)logDepositStartCurrency:(NSString *)currency __attribute__((swift_name("logDepositStart(currency:)")));
 @end
 
 
