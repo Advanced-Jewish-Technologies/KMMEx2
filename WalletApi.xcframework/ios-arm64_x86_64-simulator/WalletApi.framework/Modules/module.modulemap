@@ -1,0 +1,6 @@
+framework module WalletApi {
+    umbrella header "WalletApi.h"
+
+    export *
+    module * { export * }
+}
