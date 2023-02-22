@@ -628,6 +628,12 @@ __attribute__((swift_name("SocketCommunicator")))
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
+- (void)reconnectWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("reconnect(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
 - (void)sendMessage:(NSString *)message completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("send(message:completionHandler:)")));
 @property void (^ _Nullable callback)(NSString *) __attribute__((swift_name("callback")));
 @property (readonly) WalletApiKtor_client_coreHttpClient *client __attribute__((swift_name("client")));
