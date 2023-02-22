@@ -730,18 +730,18 @@ __attribute__((swift_name("WalletAnalytic")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Account")))
 @interface WalletApiAccount : WalletApiBase
-- (instancetype)initWithId:(NSString *)id assets:(NSArray<NSString *> * _Nullable)assets type:(NSString *)type status:(NSString *)status info:(WalletApiAccountInfo * _Nullable)info instrument:(NSString * _Nullable)instrument trusted:(BOOL)trusted isVirtual:(WalletApiBoolean * _Nullable)isVirtual blockchainType:(NSString * _Nullable)blockchainType name:(NSString * _Nullable)name __attribute__((swift_name("init(id:assets:type:status:info:instrument:trusted:isVirtual:blockchainType:name:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(NSString *)id assets:(NSArray<NSString *> * _Nullable)assets type:(NSString *)type status:(NSString * _Nullable)status info:(WalletApiAccountInfo * _Nullable)info instrument:(NSString * _Nullable)instrument trusted:(WalletApiBoolean * _Nullable)trusted isVirtual:(WalletApiBoolean * _Nullable)isVirtual blockchainType:(NSString * _Nullable)blockchainType name:(NSString * _Nullable)name __attribute__((swift_name("init(id:assets:type:status:info:instrument:trusted:isVirtual:blockchainType:name:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) WalletApiAccountCompanion *companion __attribute__((swift_name("companion")));
 - (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString * _Nullable)component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSArray<NSString *> * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
 - (WalletApiAccountInfo * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString * _Nullable)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BOOL)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
+- (WalletApiBoolean * _Nullable)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString * _Nullable)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
-- (WalletApiAccount *)doCopyId:(NSString *)id assets:(NSArray<NSString *> * _Nullable)assets type:(NSString *)type status:(NSString *)status info:(WalletApiAccountInfo * _Nullable)info instrument:(NSString * _Nullable)instrument trusted:(BOOL)trusted isVirtual:(WalletApiBoolean * _Nullable)isVirtual blockchainType:(NSString * _Nullable)blockchainType name:(NSString * _Nullable)name __attribute__((swift_name("doCopy(id:assets:type:status:info:instrument:trusted:isVirtual:blockchainType:name:)")));
+- (WalletApiAccount *)doCopyId:(NSString *)id assets:(NSArray<NSString *> * _Nullable)assets type:(NSString *)type status:(NSString * _Nullable)status info:(WalletApiAccountInfo * _Nullable)info instrument:(NSString * _Nullable)instrument trusted:(WalletApiBoolean * _Nullable)trusted isVirtual:(WalletApiBoolean * _Nullable)isVirtual blockchainType:(NSString * _Nullable)blockchainType name:(NSString * _Nullable)name __attribute__((swift_name("doCopy(id:assets:type:status:info:instrument:trusted:isVirtual:blockchainType:name:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (BOOL)isCard __attribute__((swift_name("isCard()")));
@@ -758,8 +758,8 @@ __attribute__((swift_name("Account")))
 @property (readonly) WalletApiAccountInfo * _Nullable info __attribute__((swift_name("info")));
 @property (readonly) NSString * _Nullable instrument __attribute__((swift_name("instrument")));
 @property NSString * _Nullable name __attribute__((swift_name("name")));
-@property (readonly) NSString *status __attribute__((swift_name("status")));
-@property (readonly) BOOL trusted __attribute__((swift_name("trusted")));
+@property (readonly) NSString * _Nullable status __attribute__((swift_name("status")));
+@property (readonly) WalletApiBoolean * _Nullable trusted __attribute__((swift_name("trusted")));
 @property (readonly) NSString *type __attribute__((swift_name("type")));
 @property (readonly, getter=virtual) BOOL virtual_ __attribute__((swift_name("virtual_")));
 @property NSArray<NSString *> *withdrawal __attribute__((swift_name("withdrawal")));
