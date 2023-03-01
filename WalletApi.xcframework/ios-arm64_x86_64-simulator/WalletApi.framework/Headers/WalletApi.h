@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class WalletApiAccessKey, WalletApiLinkPaymentResponse, WalletApiClients, WalletApiAccount, WalletApiConfirmCode, WalletApiOperationConfirmResponse, WalletApiSource, WalletApiDestination, WalletApiOperationResponse, WalletApiSuspendWrapper<T>, WalletApiEventCompanion, WalletApiEvent<T>, WalletApiKotlinArray<T>, WalletApiEventTypeCompanion, WalletApiEventType, WalletApiEventsCompanion, WalletApiEvents, WalletApiEventsAuthStatusCompanion, WalletApiEventsAuthStatus, WalletApiEventsEchoCompanion, WalletApiEventsUrlCompanion, WalletApiFormFields, WalletApiIBankingCompanion, WalletApiPortfolio, WalletApiServiceLocator, WalletApiSocketCommunicator, WalletApiSocketCommunicatorCompanion, WalletApiKtor_client_coreDefaultClientWebSocketSession, WalletApiKotlinUnit, WalletApiKtor_client_coreHttpClient, WalletApiSocketFactory, WalletApiKtor_websocketsFrame, WalletApiWalletEnv, WalletApiAccountInfo, WalletApiAccountCompanion, WalletApiOutputMethodsResponse, WalletApiInputMethodsResponse, WalletApiAccountInfoCompanion, WalletApiProvider, WalletApiBrowserCompanion, WalletApiDevice, WalletApiTime, WalletApiBrowser, WalletApiRedirect, WalletApiCVVCompanion, WalletApiConfirmCodeCompanion, WalletApiCVV, WalletApiDepositRequestCompanion, WalletApiDestinationCompanion, WalletApiDeviceCompanion, WalletApiFeeCompanion, WalletApiKotlinThrowable, WalletApiInputMethodsResponseCompanion, WalletApiLinkBankPaymentMethodRequestCompanion, WalletApiLinkPaymentMethodRequestCompanion, WalletApiLinkPaymentMethodRequest, WalletApiLinkPaymentResponseCompanion, WalletApiParams, WalletApiOperationConfirmRequestCompanion, WalletApiFee, WalletApiOperationConfirmResponseCompanion, WalletApiOperationRequest, WalletApiOperationRequestCompanion, WalletApiRequestOperationResult, WalletApiOperationResponseCompanion, WalletApiOutputMethodsResponseCompanion, WalletApiParamsCompanion, WalletApiPortfolioCompanion, WalletApiRedirectCompanion, WalletApiRequestOperationResultCompanion, WalletApiSourceCompanion, WalletApiTimeCompanion, WalletApiWallet, WalletApiKotlinException, WalletApiKotlinRuntimeException, WalletApiKotlinIllegalStateException, WalletApiKtor_client_coreHttpClientCall, WalletApiKtor_client_coreHttpClientEngineConfig, WalletApiKtor_client_coreHttpClientConfig<T>, WalletApiKtor_eventsEvents, WalletApiKtor_client_coreHttpReceivePipeline, WalletApiKtor_client_coreHttpRequestPipeline, WalletApiKtor_client_coreHttpResponsePipeline, WalletApiKtor_client_coreHttpSendPipeline, WalletApiKtor_ioCharset, WalletApiKtor_utilsTypeInfo, WalletApiKtor_websocketsFrameCompanion, WalletApiKotlinByteArray, WalletApiKtor_websocketsFrameType, WalletApiKotlinCancellationException, WalletApiKtor_client_coreHttpRequestData, WalletApiKtor_client_coreHttpResponseData, WalletApiKotlinx_coroutines_coreCoroutineDispatcher, WalletApiKotlinx_serialization_coreSerializersModule, WalletApiKotlinx_serialization_coreSerialKind, WalletApiKotlinNothing, WalletApiKtor_client_coreHttpClientCallCompanion, WalletApiKtor_client_coreHttpResponse, WalletApiKtor_websocketsWebSocketExtensionHeader, WalletApiKtor_client_coreProxyConfig, WalletApiKtor_utilsAttributeKey<T>, WalletApiKtor_eventsEventDefinition<T>, WalletApiKtor_utilsPipelinePhase, WalletApiKtor_utilsPipeline<TSubject, TContext>, WalletApiKtor_client_coreHttpReceivePipelinePhases, WalletApiKtor_client_coreHttpRequestPipelinePhases, WalletApiKtor_client_coreHttpRequestBuilder, WalletApiKtor_client_coreHttpResponsePipelinePhases, WalletApiKtor_client_coreHttpResponseContainer, WalletApiKtor_client_coreHttpSendPipelinePhases, WalletApiKtor_ioCharsetCompanion, WalletApiKtor_ioCharsetDecoder, WalletApiKtor_ioCharsetEncoder, WalletApiKotlinByteIterator, WalletApiKotlinEnumCompanion, WalletApiKotlinEnum<E>, WalletApiKtor_websocketsFrameTypeCompanion, WalletApiKtor_httpUrl, WalletApiKtor_httpHttpMethod, WalletApiKtor_httpOutgoingContent, WalletApiKtor_httpHttpStatusCode, WalletApiKtor_utilsGMTDate, WalletApiKtor_httpHttpProtocolVersion, WalletApiKotlinAbstractCoroutineContextElement, WalletApiKotlinx_coroutines_coreCoroutineDispatcherKey, WalletApiKtor_ioMemory, WalletApiKtor_ioChunkBuffer, WalletApiKtor_ioBuffer, WalletApiKtor_ioByteReadPacket, WalletApiKtor_httpHeadersBuilder, WalletApiKtor_client_coreHttpRequestBuilderCompanion, WalletApiKtor_httpURLBuilder, WalletApiKotlinKTypeProjection, WalletApiKotlinx_coroutines_coreAtomicDesc, WalletApiKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, WalletApiKtor_httpUrlCompanion, WalletApiKtor_httpURLProtocol, WalletApiKtor_httpHttpMethodCompanion, WalletApiKtor_httpContentType, WalletApiKtor_httpHttpStatusCodeCompanion, WalletApiKtor_utilsGMTDateCompanion, WalletApiKtor_utilsWeekDay, WalletApiKtor_utilsMonth, WalletApiKtor_httpHttpProtocolVersionCompanion, WalletApiKotlinAbstractCoroutineContextKey<B, E>, WalletApiKtor_ioMemoryCompanion, WalletApiKtor_ioBufferCompanion, WalletApiKtor_ioChunkBufferCompanion, WalletApiKtor_ioInputCompanion, WalletApiKtor_ioInput, WalletApiKtor_ioByteReadPacketCompanion, WalletApiKtor_utilsStringValuesBuilderImpl, WalletApiKtor_httpURLBuilderCompanion, WalletApiKotlinKVariance, WalletApiKotlinKTypeProjectionCompanion, WalletApiKotlinx_coroutines_coreAtomicOp<__contravariant T>, WalletApiKotlinx_coroutines_coreOpDescriptor, WalletApiKotlinx_coroutines_coreLockFreeLinkedListNode, WalletApiKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, WalletApiKtor_httpURLProtocolCompanion, WalletApiKtor_httpHeaderValueParam, WalletApiKtor_httpHeaderValueWithParametersCompanion, WalletApiKtor_httpHeaderValueWithParameters, WalletApiKtor_httpContentTypeCompanion, WalletApiKtor_utilsWeekDayCompanion, WalletApiKtor_utilsMonthCompanion, WalletApiKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, WalletApiKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
+@class WalletApiAccessKey, WalletApiLinkPaymentResponse, WalletApiClients, WalletApiAccount, WalletApiConfirmCode, WalletApiOperationConfirmResponse, WalletApiSource, WalletApiDestination, WalletApiOperationResponse, WalletApiSuspendWrapper<T>, WalletApiEventCompanion, WalletApiEvent<T>, WalletApiKotlinArray<T>, WalletApiEventTypeCompanion, WalletApiEventType, WalletApiEventsCompanion, WalletApiEvents, WalletApiEventsAuthStatusCompanion, WalletApiEventsAuthStatus, WalletApiEventsEchoCompanion, WalletApiEventsUrlCompanion, WalletApiFormFields, WalletApiIBankingCompanion, WalletApiPortfolio, WalletApiServiceLocator, WalletApiSocketCommunicator, WalletApiSocketCommunicatorCompanion, WalletApiKtor_client_coreDefaultClientWebSocketSession, WalletApiKotlinUnit, WalletApiKtor_client_coreHttpClient, WalletApiSocketFactory, WalletApiKtor_websocketsFrame, WalletApiWalletEnv, WalletApiDepositAttrs, WalletApiEAnalyticCompanion, WalletApiAccountInfo, WalletApiAccountCompanion, WalletApiOutputMethodsResponse, WalletApiInputMethodsResponse, WalletApiAccountInfoCompanion, WalletApiProvider, WalletApiBrowserCompanion, WalletApiDevice, WalletApiTime, WalletApiBrowser, WalletApiRedirect, WalletApiCVVCompanion, WalletApiConfirmCodeCompanion, WalletApiCVV, WalletApiDepositRequestCompanion, WalletApiDestinationCompanion, WalletApiDeviceCompanion, WalletApiFeeCompanion, WalletApiKotlinThrowable, WalletApiInputMethodsResponseCompanion, WalletApiLinkBankPaymentMethodRequestCompanion, WalletApiLinkPaymentMethodRequestCompanion, WalletApiLinkPaymentMethodRequest, WalletApiLinkPaymentResponseCompanion, WalletApiParams, WalletApiOperationConfirmRequestCompanion, WalletApiFee, WalletApiOperationConfirmResponseCompanion, WalletApiOperationRequest, WalletApiOperationRequestCompanion, WalletApiRequestOperationResult, WalletApiOperationResponseCompanion, WalletApiOutputMethodsResponseCompanion, WalletApiParamsCompanion, WalletApiPortfolioCompanion, WalletApiRedirectCompanion, WalletApiRequestOperationResultCompanion, WalletApiSourceCompanion, WalletApiTimeCompanion, WalletApiWallet, WalletApiKotlinException, WalletApiKotlinRuntimeException, WalletApiKotlinIllegalStateException, WalletApiKtor_client_coreHttpClientCall, WalletApiKtor_client_coreHttpClientEngineConfig, WalletApiKtor_client_coreHttpClientConfig<T>, WalletApiKtor_eventsEvents, WalletApiKtor_client_coreHttpReceivePipeline, WalletApiKtor_client_coreHttpRequestPipeline, WalletApiKtor_client_coreHttpResponsePipeline, WalletApiKtor_client_coreHttpSendPipeline, WalletApiKtor_ioCharset, WalletApiKtor_utilsTypeInfo, WalletApiKtor_websocketsFrameCompanion, WalletApiKotlinByteArray, WalletApiKtor_websocketsFrameType, WalletApiKotlinCancellationException, WalletApiKtor_client_coreHttpRequestData, WalletApiKtor_client_coreHttpResponseData, WalletApiKotlinx_coroutines_coreCoroutineDispatcher, WalletApiKotlinx_serialization_coreSerializersModule, WalletApiKotlinx_serialization_coreSerialKind, WalletApiKotlinNothing, WalletApiKtor_client_coreHttpClientCallCompanion, WalletApiKtor_client_coreHttpResponse, WalletApiKtor_websocketsWebSocketExtensionHeader, WalletApiKtor_client_coreProxyConfig, WalletApiKtor_utilsAttributeKey<T>, WalletApiKtor_eventsEventDefinition<T>, WalletApiKtor_utilsPipelinePhase, WalletApiKtor_utilsPipeline<TSubject, TContext>, WalletApiKtor_client_coreHttpReceivePipelinePhases, WalletApiKtor_client_coreHttpRequestPipelinePhases, WalletApiKtor_client_coreHttpRequestBuilder, WalletApiKtor_client_coreHttpResponsePipelinePhases, WalletApiKtor_client_coreHttpResponseContainer, WalletApiKtor_client_coreHttpSendPipelinePhases, WalletApiKtor_ioCharsetCompanion, WalletApiKtor_ioCharsetDecoder, WalletApiKtor_ioCharsetEncoder, WalletApiKotlinByteIterator, WalletApiKotlinEnumCompanion, WalletApiKotlinEnum<E>, WalletApiKtor_websocketsFrameTypeCompanion, WalletApiKtor_httpUrl, WalletApiKtor_httpHttpMethod, WalletApiKtor_httpOutgoingContent, WalletApiKtor_httpHttpStatusCode, WalletApiKtor_utilsGMTDate, WalletApiKtor_httpHttpProtocolVersion, WalletApiKotlinAbstractCoroutineContextElement, WalletApiKotlinx_coroutines_coreCoroutineDispatcherKey, WalletApiKtor_ioMemory, WalletApiKtor_ioChunkBuffer, WalletApiKtor_ioBuffer, WalletApiKtor_ioByteReadPacket, WalletApiKtor_httpHeadersBuilder, WalletApiKtor_client_coreHttpRequestBuilderCompanion, WalletApiKtor_httpURLBuilder, WalletApiKotlinKTypeProjection, WalletApiKotlinx_coroutines_coreAtomicDesc, WalletApiKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, WalletApiKtor_httpUrlCompanion, WalletApiKtor_httpURLProtocol, WalletApiKtor_httpHttpMethodCompanion, WalletApiKtor_httpContentType, WalletApiKtor_httpHttpStatusCodeCompanion, WalletApiKtor_utilsGMTDateCompanion, WalletApiKtor_utilsWeekDay, WalletApiKtor_utilsMonth, WalletApiKtor_httpHttpProtocolVersionCompanion, WalletApiKotlinAbstractCoroutineContextKey<B, E>, WalletApiKtor_ioMemoryCompanion, WalletApiKtor_ioBufferCompanion, WalletApiKtor_ioChunkBufferCompanion, WalletApiKtor_ioInputCompanion, WalletApiKtor_ioInput, WalletApiKtor_ioByteReadPacketCompanion, WalletApiKtor_utilsStringValuesBuilderImpl, WalletApiKtor_httpURLBuilderCompanion, WalletApiKotlinKVariance, WalletApiKotlinKTypeProjectionCompanion, WalletApiKotlinx_coroutines_coreAtomicOp<__contravariant T>, WalletApiKotlinx_coroutines_coreOpDescriptor, WalletApiKotlinx_coroutines_coreLockFreeLinkedListNode, WalletApiKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, WalletApiKtor_httpURLProtocolCompanion, WalletApiKtor_httpHeaderValueParam, WalletApiKtor_httpHeaderValueWithParametersCompanion, WalletApiKtor_httpHeaderValueWithParameters, WalletApiKtor_httpContentTypeCompanion, WalletApiKtor_utilsWeekDayCompanion, WalletApiKtor_utilsMonthCompanion, WalletApiKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, WalletApiKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
 
 @protocol WalletApiKotlinx_coroutines_coreFlow, WalletApiIEvents, WalletApiIBanking, WalletApiIDeposit, WalletApiKotlinx_coroutines_coreSharedFlow, WalletApiKotlinx_serialization_coreKSerializer, WalletApiIPayment, WalletApiIPortfolio, WalletApiKotlinKClassifier, WalletApiKotlinFunction, WalletApiKotlinSuspendFunction1, WalletApiKtor_serializationWebsocketContentConverter, WalletApiIWithdrawal, WalletApiKotlinx_coroutines_coreJob, WalletApiKotlinSuspendFunction0, WalletApiKtor_client_coreHttpClientEngine, WalletApiKotlinx_coroutines_coreFlowCollector, WalletApiKotlinx_serialization_coreEncoder, WalletApiKotlinx_serialization_coreSerialDescriptor, WalletApiKotlinx_serialization_coreSerializationStrategy, WalletApiKotlinx_serialization_coreDecoder, WalletApiKotlinx_serialization_coreDeserializationStrategy, WalletApiKotlinIterator, WalletApiKtor_websocketsWebSocketExtension, WalletApiKotlinx_coroutines_coreReceiveChannel, WalletApiKotlinx_coroutines_coreSendChannel, WalletApiKotlinCoroutineContext, WalletApiKotlinx_coroutines_coreCoroutineScope, WalletApiKtor_websocketsWebSocketSession, WalletApiKtor_client_coreClientWebSocketSession, WalletApiKotlinx_coroutines_coreDeferred, WalletApiKtor_websocketsDefaultWebSocketSession, WalletApiKtor_ioCloseable, WalletApiKtor_client_coreHttpClientEngineCapability, WalletApiKtor_utilsAttributes, WalletApiKotlinx_coroutines_coreDisposableHandle, WalletApiKotlinx_coroutines_coreChildHandle, WalletApiKotlinx_coroutines_coreChildJob, WalletApiKotlinSequence, WalletApiKotlinx_coroutines_coreSelectClause0, WalletApiKotlinCoroutineContextKey, WalletApiKotlinCoroutineContextElement, WalletApiKotlinx_serialization_coreCompositeEncoder, WalletApiKotlinAnnotation, WalletApiKotlinx_serialization_coreCompositeDecoder, WalletApiKtor_ioByteReadChannel, WalletApiKtor_client_coreHttpRequest, WalletApiKtor_websocketsWebSocketExtensionFactory, WalletApiKotlinx_coroutines_coreChannelIterator, WalletApiKotlinx_coroutines_coreSelectClause1, WalletApiKotlinx_coroutines_coreSelectClause2, WalletApiKtor_client_coreHttpClientPlugin, WalletApiKotlinSuspendFunction2, WalletApiKotlinKClass, WalletApiKotlinKType, WalletApiKotlinComparable, WalletApiKotlinx_coroutines_coreParentJob, WalletApiKotlinx_coroutines_coreSelectInstance, WalletApiKtor_httpHeaders, WalletApiKotlinContinuation, WalletApiKotlinContinuationInterceptor, WalletApiKotlinx_coroutines_coreRunnable, WalletApiKotlinx_serialization_coreSerializersModuleCollector, WalletApiKtor_ioReadSession, WalletApiKotlinAppendable, WalletApiKtor_httpHttpMessage, WalletApiKtor_httpHttpMessageBuilder, WalletApiKotlinKDeclarationContainer, WalletApiKotlinKAnnotatedElement, WalletApiKtor_httpParameters, WalletApiKotlinMapEntry, WalletApiKtor_utilsStringValues, WalletApiKtor_ioObjectPool, WalletApiKtor_utilsStringValuesBuilder, WalletApiKtor_httpParametersBuilder;
 
@@ -148,8 +148,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AccessKey")))
 @interface WalletApiAccessKey : WalletApiBase
 - (instancetype)initWithAccessToken:(NSString *)accessToken refreshToken:(NSString *)refreshToken __attribute__((swift_name("init(accessToken:refreshToken:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (WalletApiAccessKey *)doCopyAccessToken:(NSString *)accessToken refreshToken:(NSString *)refreshToken __attribute__((swift_name("doCopy(accessToken:refreshToken:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -325,8 +323,6 @@ __attribute__((swift_name("Event")))
 @interface WalletApiEvent<T> : WalletApiBase
 - (instancetype)initWithEvent:(NSString *)event data:(T _Nullable)data __attribute__((swift_name("init(event:data:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) WalletApiEventCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (T _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (WalletApiEvent<T> *)doCopyEvent:(NSString *)event data:(T _Nullable)data __attribute__((swift_name("doCopy(event:data:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -356,7 +352,6 @@ __attribute__((swift_name("EventType")))
 @interface WalletApiEventType : WalletApiBase
 - (instancetype)initWithEvent:(NSString *)event __attribute__((swift_name("init(event:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) WalletApiEventTypeCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
 - (WalletApiEventType *)doCopyEvent:(NSString *)event __attribute__((swift_name("doCopy(event:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -394,8 +389,6 @@ __attribute__((swift_name("Events.AuthStatus")))
 @interface WalletApiEventsAuthStatus : WalletApiEvents
 - (instancetype)initWithStatus:(NSString *)status oid:(NSString *)oid __attribute__((swift_name("init(status:oid:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) WalletApiEventsAuthStatusCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (WalletApiEventsAuthStatus *)doCopyStatus:(NSString *)status oid:(NSString *)oid __attribute__((swift_name("doCopy(status:oid:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -715,11 +708,55 @@ __attribute__((swift_name("Withdrawal")))
 - (void)operationSource:(WalletApiSource *)source destination:(WalletApiDestination *)destination completionHandler:(void (^)(WalletApiOperationResponse * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("operation(source:destination:completionHandler:)")));
 @end
 
-__attribute__((swift_name("WalletAnalytic")))
-@interface WalletApiWalletAnalytic : WalletApiBase
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DepositAttrs")))
+@interface WalletApiDepositAttrs : WalletApiBase
+- (instancetype)initWithAccountDestination:(NSString * _Nullable)accountDestination amountSource:(NSString * _Nullable)amountSource amountDestination:(NSString * _Nullable)amountDestination currencySource:(NSString *)currencySource currencyDestination:(NSString *)currencyDestination instrumentType:(NSString *)instrumentType __attribute__((swift_name("init(accountDestination:amountSource:amountDestination:currencySource:currencyDestination:instrumentType:)"))) __attribute__((objc_designated_initializer));
+- (WalletApiDepositAttrs *)doCopyAccountDestination:(NSString * _Nullable)accountDestination amountSource:(NSString * _Nullable)amountSource amountDestination:(NSString * _Nullable)amountDestination currencySource:(NSString *)currencySource currencyDestination:(NSString *)currencyDestination instrumentType:(NSString *)instrumentType __attribute__((swift_name("doCopy(accountDestination:amountSource:amountDestination:currencySource:currencyDestination:instrumentType:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property NSString * _Nullable accountDestination __attribute__((swift_name("accountDestination")));
+@property NSString * _Nullable amountDestination __attribute__((swift_name("amountDestination")));
+@property NSString * _Nullable amountSource __attribute__((swift_name("amountSource")));
+@property NSString *currencyDestination __attribute__((swift_name("currencyDestination")));
+@property NSString *currencySource __attribute__((swift_name("currencySource")));
+@property NSString *instrumentType __attribute__((swift_name("instrumentType")));
+@end
+
+__attribute__((swift_name("EAnalytic")))
+@interface WalletApiEAnalytic : WalletApiBase
+- (instancetype)initWithPlatform:(NSString *)platform __attribute__((swift_name("init(platform:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) WalletApiEAnalyticCompanion *companion __attribute__((swift_name("companion")));
+- (void)eventName:(NSString *)name attrs:(NSDictionary<NSString *, id> *)attrs __attribute__((swift_name("event(name:attrs:)")));
+- (void)logCardDepositStartAttrs:(WalletApiDepositAttrs *)attrs __attribute__((swift_name("logCardDepositStart(attrs:)")));
+- (void)logCardDepositSubmitAttrs:(WalletApiDepositAttrs *)attrs __attribute__((swift_name("logCardDepositSubmit(attrs:)")));
+- (void)logDepositCryptoStartCurrency:(NSString *)currency blockchain:(NSString *)blockchain __attribute__((swift_name("logDepositCryptoStart(currency:blockchain:)")));
+- (void)logDepositFiatStartAttrs:(WalletApiDepositAttrs *)attrs __attribute__((swift_name("logDepositFiatStart(attrs:)")));
+- (void)logDepositFiatSubmitAttrs:(WalletApiDepositAttrs *)attrs __attribute__((swift_name("logDepositFiatSubmit(attrs:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("EAnalytic.Companion")))
+@interface WalletApiEAnalyticCompanion : WalletApiBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) WalletApiEAnalyticCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *CURRENCY_TYPE_CRYPTO __attribute__((swift_name("CURRENCY_TYPE_CRYPTO")));
+@property (readonly) NSString *CURRENCY_TYPE_FIAT __attribute__((swift_name("CURRENCY_TYPE_FIAT")));
+@property (readonly) NSString *CURRENCY_TYPE_STABLE __attribute__((swift_name("CURRENCY_TYPE_STABLE")));
+@property (readonly) NSString *DESTINATION_ACCOUNT_CRYPTO __attribute__((swift_name("DESTINATION_ACCOUNT_CRYPTO")));
+@property (readonly) NSString *DESTINATION_ACCOUNT_FIAT __attribute__((swift_name("DESTINATION_ACCOUNT_FIAT")));
+@property (readonly) NSString *PLATFORM_ANDROID __attribute__((swift_name("PLATFORM_ANDROID")));
+@property (readonly) NSString *PLATFORM_IOS __attribute__((swift_name("PLATFORM_IOS")));
+@end
+
+__attribute__((swift_name("WAnalytic")))
+@interface WalletApiWAnalytic : WalletApiBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)eventName:(NSString *)name attrs:(NSDictionary<NSString *, NSString *> *)attrs __attribute__((swift_name("event(name:attrs:)")));
+- (void)eventName:(NSString *)name attrs:(NSDictionary<NSString *, id> *)attrs __attribute__((swift_name("event(name:attrs:)")));
 - (void)logDepositStartCurrency:(NSString *)currency __attribute__((swift_name("logDepositStart(currency:)")));
 @end
 
@@ -733,17 +770,6 @@ __attribute__((swift_name("Account")))
 @interface WalletApiAccount : WalletApiBase
 - (instancetype)initWithId:(NSString *)id assets:(NSArray<NSString *> * _Nullable)assets type:(NSString *)type status:(NSString * _Nullable)status info:(WalletApiAccountInfo * _Nullable)info instrument:(NSString * _Nullable)instrument trusted:(WalletApiBoolean * _Nullable)trusted isVirtual:(WalletApiBoolean * _Nullable)isVirtual blockchainType:(NSString * _Nullable)blockchainType name:(NSString * _Nullable)name updatedAt:(int64_t)updatedAt __attribute__((swift_name("init(id:assets:type:status:info:instrument:trusted:isVirtual:blockchainType:name:updatedAt:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) WalletApiAccountCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int64_t)component11 __attribute__((swift_name("component11()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<NSString *> * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (WalletApiAccountInfo * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (WalletApiBoolean * _Nullable)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (WalletApiBoolean * _Nullable)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
 - (WalletApiAccount *)doCopyId:(NSString *)id assets:(NSArray<NSString *> * _Nullable)assets type:(NSString *)type status:(NSString * _Nullable)status info:(WalletApiAccountInfo * _Nullable)info instrument:(NSString * _Nullable)instrument trusted:(WalletApiBoolean * _Nullable)trusted isVirtual:(WalletApiBoolean * _Nullable)isVirtual blockchainType:(NSString * _Nullable)blockchainType name:(NSString * _Nullable)name updatedAt:(int64_t)updatedAt __attribute__((swift_name("doCopy(id:assets:type:status:info:instrument:trusted:isVirtual:blockchainType:name:updatedAt:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -791,21 +817,6 @@ __attribute__((swift_name("AccountInfo")))
 @interface WalletApiAccountInfo : WalletApiBase
 - (instancetype)initWithBalance:(NSString * _Nullable)balance name:(NSString * _Nullable)name expires:(NSString * _Nullable)expires brand:(NSString * _Nullable)brand lastDigits:(NSString * _Nullable)lastDigits address:(NSString * _Nullable)address memo:(NSString * _Nullable)memo blockchain:(NSString * _Nullable)blockchain operationTypes:(NSArray<NSString *> * _Nullable)operationTypes icon:(NSString * _Nullable)icon last4:(NSString * _Nullable)last4 outputMethods:(WalletApiOutputMethodsResponse * _Nullable)outputMethods inputMethods:(WalletApiInputMethodsResponse * _Nullable)inputMethods accountNumber:(NSString * _Nullable)accountNumber type:(NSString * _Nullable)type __attribute__((swift_name("init(balance:name:expires:brand:lastDigits:address:memo:blockchain:operationTypes:icon:last4:outputMethods:inputMethods:accountNumber:type:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) WalletApiAccountInfoCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component11 __attribute__((swift_name("component11()"))) __attribute__((deprecated("use corresponding property instead")));
-- (WalletApiOutputMethodsResponse * _Nullable)component12 __attribute__((swift_name("component12()"))) __attribute__((deprecated("use corresponding property instead")));
-- (WalletApiInputMethodsResponse * _Nullable)component13 __attribute__((swift_name("component13()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component14 __attribute__((swift_name("component14()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component15 __attribute__((swift_name("component15()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<NSString *> * _Nullable)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
 - (WalletApiAccountInfo *)doCopyBalance:(NSString * _Nullable)balance name:(NSString * _Nullable)name expires:(NSString * _Nullable)expires brand:(NSString * _Nullable)brand lastDigits:(NSString * _Nullable)lastDigits address:(NSString * _Nullable)address memo:(NSString * _Nullable)memo blockchain:(NSString * _Nullable)blockchain operationTypes:(NSArray<NSString *> * _Nullable)operationTypes icon:(NSString * _Nullable)icon last4:(NSString * _Nullable)last4 outputMethods:(WalletApiOutputMethodsResponse * _Nullable)outputMethods inputMethods:(WalletApiInputMethodsResponse * _Nullable)inputMethods accountNumber:(NSString * _Nullable)accountNumber type:(NSString * _Nullable)type __attribute__((swift_name("doCopy(balance:name:expires:brand:lastDigits:address:memo:blockchain:operationTypes:icon:last4:outputMethods:inputMethods:accountNumber:type:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -920,10 +931,6 @@ __attribute__((swift_name("ConfirmCode")))
 @interface WalletApiConfirmCode : WalletApiBase
 - (instancetype)initWithId:(NSString * _Nullable)id code:(NSString *)code method:(NSString *)method action:(NSString * _Nullable)action __attribute__((swift_name("init(id:code:method:action:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) WalletApiConfirmCodeCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
 - (WalletApiConfirmCode *)doCopyId:(NSString * _Nullable)id code:(NSString *)code method:(NSString *)method action:(NSString * _Nullable)action __attribute__((swift_name("doCopy(id:code:method:action:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1059,9 +1066,6 @@ __attribute__((swift_name("InputMethodsResponse")))
 @interface WalletApiInputMethodsResponse : WalletApiBase
 - (instancetype)initWithExchange:(NSArray<NSString *> * _Nullable)exchange buy:(NSArray<NSString *> * _Nullable)buy deposit:(NSArray<NSString *> * _Nullable)deposit __attribute__((swift_name("init(exchange:buy:deposit:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) WalletApiInputMethodsResponseCompanion *companion __attribute__((swift_name("companion")));
-- (NSArray<NSString *> * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<NSString *> * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<NSString *> * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
 - (WalletApiInputMethodsResponse *)doCopyExchange:(NSArray<NSString *> * _Nullable)exchange buy:(NSArray<NSString *> * _Nullable)buy deposit:(NSArray<NSString *> * _Nullable)deposit __attribute__((swift_name("doCopy(exchange:buy:deposit:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1117,11 +1121,6 @@ __attribute__((swift_name("LinkPaymentMethodRequest")))
 @interface WalletApiLinkPaymentMethodRequest : WalletApiBase
 - (instancetype)initWithAssets:(NSArray<NSString *> *)assets trusted:(BOOL)trusted code:(NSString * _Nullable)code name:(NSString * _Nullable)name email:(NSString * _Nullable)email __attribute__((swift_name("init(assets:trusted:code:name:email:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) WalletApiLinkPaymentMethodRequestCompanion *companion __attribute__((swift_name("companion")));
-- (NSArray<NSString *> *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BOOL)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
 - (WalletApiLinkPaymentMethodRequest *)doCopyAssets:(NSArray<NSString *> *)assets trusted:(BOOL)trusted code:(NSString * _Nullable)code name:(NSString * _Nullable)name email:(NSString * _Nullable)email __attribute__((swift_name("doCopy(assets:trusted:code:name:email:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1153,7 +1152,6 @@ __attribute__((swift_name("LinkPaymentResponse")))
 @interface WalletApiLinkPaymentResponse : WalletApiBase
 - (instancetype)initWithId:(NSString * _Nullable)id __attribute__((swift_name("init(id:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) WalletApiLinkPaymentResponseCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
 - (WalletApiLinkPaymentResponse *)doCopyId:(NSString * _Nullable)id __attribute__((swift_name("doCopy(id:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1315,9 +1313,6 @@ __attribute__((swift_name("OutputMethodsResponse")))
 @interface WalletApiOutputMethodsResponse : WalletApiBase
 - (instancetype)initWithExchange:(NSArray<NSString *> * _Nullable)exchange sell:(NSArray<NSString *> * _Nullable)sell withdrawal:(NSArray<NSString *> * _Nullable)withdrawal __attribute__((swift_name("init(exchange:sell:withdrawal:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) WalletApiOutputMethodsResponseCompanion *companion __attribute__((swift_name("companion")));
-- (NSArray<NSString *> * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<NSString *> * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<NSString *> * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
 - (WalletApiOutputMethodsResponse *)doCopyExchange:(NSArray<NSString *> * _Nullable)exchange sell:(NSArray<NSString *> * _Nullable)sell withdrawal:(NSArray<NSString *> * _Nullable)withdrawal __attribute__((swift_name("doCopy(exchange:sell:withdrawal:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1372,8 +1367,6 @@ __attribute__((swift_name("Portfolio")))
 @interface WalletApiPortfolio : WalletApiBase
 - (instancetype)initWithDate:(NSString *)date stringValue:(NSString *)stringValue __attribute__((swift_name("init(date:stringValue:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) WalletApiPortfolioCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (WalletApiPortfolio *)doCopyDate:(NSString *)date stringValue:(NSString *)stringValue __attribute__((swift_name("doCopy(date:stringValue:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -2044,6 +2037,10 @@ __attribute__((swift_name("Ktor_client_coreHttpClientCall")))
 */
 - (void)getResponseContentWithCompletionHandler:(void (^)(id<WalletApiKtor_ioByteReadChannel> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getResponseContent(completionHandler:)")));
 - (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property (readonly) BOOL allowDoubleReceive __attribute__((swift_name("allowDoubleReceive")));
 @property (readonly) id<WalletApiKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
 @property (readonly) WalletApiKtor_client_coreHttpClient *client __attribute__((swift_name("client")));
@@ -2291,9 +2288,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Ktor_utilsTypeInfo")))
 @interface WalletApiKtor_utilsTypeInfo : WalletApiBase
 - (instancetype)initWithType:(id<WalletApiKotlinKClass>)type reifiedType:(id<WalletApiKotlinKType>)reifiedType kotlinType:(id<WalletApiKotlinKType> _Nullable)kotlinType __attribute__((swift_name("init(type:reifiedType:kotlinType:)"))) __attribute__((objc_designated_initializer));
-- (id<WalletApiKotlinKClass>)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (id<WalletApiKotlinKType>)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (id<WalletApiKotlinKType> _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
 - (WalletApiKtor_utilsTypeInfo *)doCopyType:(id<WalletApiKotlinKClass>)type reifiedType:(id<WalletApiKotlinKType>)reifiedType kotlinType:(id<WalletApiKotlinKType> _Nullable)kotlinType __attribute__((swift_name("doCopy(type:reifiedType:kotlinType:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -2937,8 +2931,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Ktor_client_coreHttpResponseContainer")))
 @interface WalletApiKtor_client_coreHttpResponseContainer : WalletApiBase
 - (instancetype)initWithExpectedType:(WalletApiKtor_utilsTypeInfo *)expectedType response:(id)response __attribute__((swift_name("init(expectedType:response:)"))) __attribute__((objc_designated_initializer));
-- (WalletApiKtor_utilsTypeInfo *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (id)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (WalletApiKtor_client_coreHttpResponseContainer *)doCopyExpectedType:(WalletApiKtor_utilsTypeInfo *)expectedType response:(id)response __attribute__((swift_name("doCopy(expectedType:response:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -3098,7 +3090,6 @@ __attribute__((swift_name("Ktor_httpHttpMethod")))
 @interface WalletApiKtor_httpHttpMethod : WalletApiBase
 - (instancetype)initWithValue:(NSString *)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) WalletApiKtor_httpHttpMethodCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
 - (WalletApiKtor_httpHttpMethod *)doCopyValue:(NSString *)value __attribute__((swift_name("doCopy(value:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -3141,8 +3132,6 @@ __attribute__((swift_name("Ktor_httpHttpStatusCode")))
 @interface WalletApiKtor_httpHttpStatusCode : WalletApiBase
 - (instancetype)initWithValue:(int32_t)value description:(NSString *)description __attribute__((swift_name("init(value:description:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) WalletApiKtor_httpHttpStatusCodeCompanion *companion __attribute__((swift_name("companion")));
-- (int32_t)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (WalletApiKtor_httpHttpStatusCode *)doCopyValue:(int32_t)value description:(NSString *)description __attribute__((swift_name("doCopy(value:description:)")));
 - (WalletApiKtor_httpHttpStatusCode *)descriptionValue:(NSString *)value __attribute__((swift_name("description(value:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
@@ -3157,15 +3146,6 @@ __attribute__((swift_name("Ktor_utilsGMTDate")))
 @interface WalletApiKtor_utilsGMTDate : WalletApiBase <WalletApiKotlinComparable>
 @property (class, readonly, getter=companion) WalletApiKtor_utilsGMTDateCompanion *companion __attribute__((swift_name("companion")));
 - (int32_t)compareToOther:(WalletApiKtor_utilsGMTDate *)other __attribute__((swift_name("compareTo(other:)")));
-- (int32_t)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (WalletApiKtor_utilsWeekDay *)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (WalletApiKtor_utilsMonth *)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int64_t)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
 - (WalletApiKtor_utilsGMTDate *)doCopySeconds:(int32_t)seconds minutes:(int32_t)minutes hours:(int32_t)hours dayOfWeek:(WalletApiKtor_utilsWeekDay *)dayOfWeek dayOfMonth:(int32_t)dayOfMonth dayOfYear:(int32_t)dayOfYear month:(WalletApiKtor_utilsMonth *)month year:(int32_t)year timestamp:(int64_t)timestamp __attribute__((swift_name("doCopy(seconds:minutes:hours:dayOfWeek:dayOfMonth:dayOfYear:month:year:timestamp:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -3186,9 +3166,6 @@ __attribute__((swift_name("Ktor_httpHttpProtocolVersion")))
 @interface WalletApiKtor_httpHttpProtocolVersion : WalletApiBase
 - (instancetype)initWithName:(NSString *)name major:(int32_t)major minor:(int32_t)minor __attribute__((swift_name("init(name:major:minor:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) WalletApiKtor_httpHttpProtocolVersionCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
 - (WalletApiKtor_httpHttpProtocolVersion *)doCopyName:(NSString *)name major:(int32_t)major minor:(int32_t)minor __attribute__((swift_name("doCopy(name:major:minor:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -3476,6 +3453,10 @@ __attribute__((swift_name("Ktor_utilsStringValuesBuilderImpl")))
 */
 - (void)validateValueValue:(NSString *)value __attribute__((swift_name("validateValue(value:)")));
 @property (readonly) BOOL caseInsensitiveName __attribute__((swift_name("caseInsensitiveName")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property (readonly) WalletApiMutableDictionary<NSString *, NSMutableArray<NSString *> *> *values __attribute__((swift_name("values")));
 @end
 
@@ -3539,8 +3520,6 @@ __attribute__((swift_name("KotlinKTypeProjection")))
 @interface WalletApiKotlinKTypeProjection : WalletApiBase
 - (instancetype)initWithVariance:(WalletApiKotlinKVariance * _Nullable)variance type:(id<WalletApiKotlinKType> _Nullable)type __attribute__((swift_name("init(variance:type:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) WalletApiKotlinKTypeProjectionCompanion *companion __attribute__((swift_name("companion")));
-- (WalletApiKotlinKVariance * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (id<WalletApiKotlinKType> _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (WalletApiKotlinKTypeProjection *)doCopyVariance:(WalletApiKotlinKVariance * _Nullable)variance type:(id<WalletApiKotlinKType> _Nullable)type __attribute__((swift_name("doCopy(variance:type:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -3602,8 +3581,6 @@ __attribute__((swift_name("Ktor_httpURLProtocol")))
 @interface WalletApiKtor_httpURLProtocol : WalletApiBase
 - (instancetype)initWithName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("init(name:defaultPort:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) WalletApiKtor_httpURLProtocolCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (WalletApiKtor_httpURLProtocol *)doCopyName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("doCopy(name:defaultPort:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -3643,6 +3620,10 @@ __attribute__((swift_name("Ktor_httpHeaderValueWithParameters")))
 @property (class, readonly, getter=companion) WalletApiKtor_httpHeaderValueWithParametersCompanion *companion __attribute__((swift_name("companion")));
 - (NSString * _Nullable)parameterName:(NSString *)name __attribute__((swift_name("parameter(name:)")));
 - (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property (readonly) NSString *content __attribute__((swift_name("content")));
 @property (readonly) NSArray<WalletApiKtor_httpHeaderValueParam *> *parameters __attribute__((swift_name("parameters")));
 @end
@@ -3984,7 +3965,15 @@ __attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.Abstrac
 */
 - (WalletApiKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(WalletApiKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
 - (id)updatedNextAffected:(WalletApiKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(WalletApiKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property (readonly) WalletApiKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property (readonly) WalletApiKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
 @end
 
@@ -4009,9 +3998,6 @@ __attribute__((swift_name("Ktor_httpHeaderValueParam")))
 @interface WalletApiKtor_httpHeaderValueParam : WalletApiBase
 - (instancetype)initWithName:(NSString *)name value:(NSString *)value __attribute__((swift_name("init(name:value:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithName:(NSString *)name value:(NSString *)value escapeValue:(BOOL)escapeValue __attribute__((swift_name("init(name:value:escapeValue:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BOOL)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
 - (WalletApiKtor_httpHeaderValueParam *)doCopyName:(NSString *)name value:(NSString *)value escapeValue:(BOOL)escapeValue __attribute__((swift_name("doCopy(name:value:escapeValue:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -4086,8 +4072,16 @@ __attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNodeAddLastD
 */
 - (WalletApiKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(WalletApiKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
 - (id)updatedNextAffected:(WalletApiKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(WalletApiKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property (readonly) WalletApiKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
 @property (readonly) T node __attribute__((swift_name("node")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property (readonly) WalletApiKotlinx_coroutines_coreLockFreeLinkedListNode *originalNext __attribute__((swift_name("originalNext")));
 @property (readonly) WalletApiKotlinx_coroutines_coreLockFreeLinkedListNode *queue __attribute__((swift_name("queue")));
 @end
@@ -4119,7 +4113,15 @@ __attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFi
 */
 - (WalletApiKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(WalletApiKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
 - (id)updatedNextAffected:(WalletApiKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(WalletApiKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property (readonly) WalletApiKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property (readonly) WalletApiKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
 @property (readonly) WalletApiKotlinx_coroutines_coreLockFreeLinkedListNode *queue __attribute__((swift_name("queue")));
 @property (readonly) T _Nullable result __attribute__((swift_name("result")));
